@@ -1,0 +1,389 @@
+[
+    {
+        "name": "5 Scrap",
+        "type": "consumable",
+        "img": "/images/items/Scrap.png",
+        "img_mods": "overlay|images/items/5 Scrap.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "5_scrap"
+    },
+    {
+        "name": "Altar of Rattosh Portal",
+        "type": "toggle",
+        "img": "/images/items/Altar of Rattosh Portal.png",
+        "codes": "altar_of_rattosh_portal"
+    },
+    {
+        "name": "Arkovia Bridge Repair",
+        "type": "toggle",
+        "img": "/images/items/Arkovia Bridge Repair.png",
+        "codes": "arkovia_bridge_repair"
+    },
+    {
+        "name": "Arkovian Foothills Destroy Barricade",
+        "type": "toggle",
+        "img": "/images/items/Arkovian Foothills Destroy Barricade1.png",
+        "codes": "arkovian_foothills_destroy_barricade"
+    },
+    {
+        "name": "Candle District Door Unlock",
+        "type": "toggle",
+        "img": "/images/items/Candle District Door Unlock.png",
+        "codes": "candle_district_door_unlock"
+    },
+    {
+        "name": "Conflagration Destroy Barricade",
+        "type": "toggle",
+        "img": "/images/items/Conflagration Destroy Barricade1.png",
+        "codes": "conflagration_destroy_barricade"
+    },
+    {
+        "name": "Crown Hill Destroy Gates",
+        "type": "toggle",
+        "img": "/images/items/Crown Hill Destroy Gates1.png",
+        "codes": "crown_hill_destroy_gates"
+    },
+    {
+        "name": "Crown Hill Open Flesh Barrier",
+        "type": "toggle",
+        "img": "/images/items/Crown Hill Open Flesh Barrier.png",
+        "codes": "crown_hill_open_flesh_barrier"
+    },
+    {
+        "name": "East Marsh Bridge Repair",
+        "type": "toggle",
+        "img": "/images/items/East Marsh Bridge Repair.png",
+        "codes": "east_marsh_bridge_repair"
+    },
+    {
+        "name": "Fleshworks Open Flesh Barrier",
+        "type": "toggle",
+        "img": "/images/items/Fleshworks Open Flesh Barrier.png",
+        "codes": "fleshworks_open_flesh_barrier"
+    },
+    {
+        "name": "Flooded Passage Destroy Blockade",
+        "type": "toggle",
+        "img": "/images/items/Flooded Passage Destroy Blockade1.png",
+        "codes": "flooded_passage_destroy_blockade"
+    },
+    {
+        "name": "Forbidden Door Unlock",
+        "type": "toggle",
+        "img": "/images/items/Forbidden Door Unlock1.png",
+        "codes": "forbidden_door_unlock"
+    },
+    {
+        "name": "Forlorn Cellar Unlock",
+        "type": "toggle",
+        "img": "/images/items/Forlorn Cellar Unlock.png",
+        "codes": "forlorn_cellar_unlock"
+    },
+    {
+        "name": "Fort Ikon Destroy Blockade",
+        "type": "toggle",
+        "img": "/images/items/Fort Ikon Destroy Blockade1.png",
+        "codes": "fort_ikon_destroy_blockade"
+    },
+    {
+        "name": "Fort Ikon Gate Unlock",
+        "type": "toggle",
+        "img": "/images/items/Fort Ikon Gate Unlock.png",
+        "codes": "fort_ikon_gate_unlock"
+    },
+    {
+        "name": "Gloomwald Destroy Blockade",
+        "type": "toggle",
+        "img": "/images/items/Gloomwald Destroy Blockade1.png",
+        "codes": "gloomwald_destroy_blockade"
+    },
+    {
+        "name": "Homestead Main Doors Unlock",
+        "type": "toggle",
+        "img": "/images/items/Homestead Main Doors Unlock2.png",
+        "codes": "homestead_main_doors_unlock"
+    },
+    {
+        "name": "Homestead Side Doors Unlock",
+        "type": "toggle",
+        "img": "/images/items/Homestead Side Doors Unlock.png",
+        "codes": "homestead_side_doors_unlock"
+    },
+    {
+        "name": "Loghorrean Seal Unlock",
+        "type": "toggle",
+        "img": "/images/items/Loghorrean Seal Unlock.png",
+        "codes": "loghorrean_seal_unlock"
+    },
+    {
+        "name": "Lower Crossing Destroy Blockade",
+        "type": "toggle",
+        "img": "/images/items/Lower Crossing Destroy Blockade1.png",
+        "codes": "lower_crossing_destroy_blockade"
+    },
+    {
+        "name": "Malmouth Bridge Lowered",
+        "type": "toggle",
+        "img": "/images/items/Malmouth Bridge Lowered.png",
+        "codes": "malmouth_bridge_lowered"
+    },
+    {
+        "name": "Malmouth Harbor Destroy Barricade",
+        "type": "toggle",
+        "img": "/images/items/Malmouth Harbor Destroy Barricade2.png",
+        "codes": "malmouth_harbor_destroy_barricade"
+    },
+    {
+        "name": "Nane's Hideout Destroy Barricade",
+        "type": "toggle",
+        "img": "/images/items/Nane's Hideout Destroy Barricade1.png",
+        "codes": "nanes_hideout_destroy_barricade"
+    },
+    {
+        "name": "Necropolis Bridge Repair",
+        "type": "toggle",
+        "img": "/images/items/Necropolis Bridge Repair.png",
+        "codes": "necropolis_bridge_repair"
+    },
+    {
+        "name": "New Harbor Destroy Barricade",
+        "type": "toggle",
+        "img": "/images/items/New Harbor Destroy Barricade3.png",
+        "codes": "new_harbor_destroy_barricade"
+    },
+    {
+        "name": "Old Grove Bridge Repair",
+        "type": "toggle",
+        "img": "/images/items/Old Grove Bridge Repair.png",
+        "codes": "old_grove_bridge_repair"
+    },
+    {
+        "name": "Prospector's Trail Destroy Barricade",
+        "type": "toggle",
+        "img": "/images/items/Prospector's Trail Destroy Barricade1.png",
+        "codes": "prospectors_trail_destroy_barricade"
+    },
+    {
+        "name": "Rotting Croplands Destroy North Blockade",
+        "type": "toggle",
+        "img": "/images/items/Rotting Croplands Destroy North Blockade2.png",
+        "codes": "rotting_croplands_destroy_north_blockade"
+    },
+    {
+        "name": "Rotting Croplands Destroy South Blockade",
+        "type": "toggle",
+        "img": "/images/items/Rotting Croplands Destroy South Blockade1.png",
+        "codes": "rotting_croplands_destroy_south_blockade"
+    },
+    {
+        "name": "Royal Hive Queen Door Unlock",
+        "type": "toggle",
+        "img": "/images/items/Royal Hive Queen Door Unlock1.png",
+        "codes": "royal_hive_queen_door_unlock"
+    },
+    {
+        "name": "Steelcap District Door Unlock",
+        "type": "toggle",
+        "img": "/images/items/Steelcap District Door Unlock.png",
+        "codes": "steelcap_district_door_unlock"
+    },
+    {
+        "name": "Strange Key",
+        "type": "toggle",
+        "img": "/images/items/Strange Key.png",
+        "codes": "strange_key"
+    },
+    {
+        "name": "Tomb of the Watchers Door Unlock",
+        "type": "toggle",
+        "img": "/images/items/Tomb of the Watchers Door Unlock.png",
+        "codes": "tomb_of_the_watchers_door_unlock"
+    },
+    {
+        "name": "Twin Falls Bridge Repair",
+        "type": "toggle",
+        "img": "/images/items/Twin Falls Bridge Repair.png",
+        "codes": "twin_falls_bridge_repair"
+    },
+    {
+        "name": "Ugdenbog Destroy Barricade",
+        "type": "toggle",
+        "img": "/images/items/Ugdenbog Destroy Barricade1.png",
+        "codes": "ugdenbog_destroy_barricade"
+    },
+    {
+        "name": "Warden Boss Door Unlock",
+        "type": "toggle",
+        "img": "/images/items/Warden Boss Door Unlock.png",
+        "codes": "warden_boss_door_unlock"
+    },
+    {
+        "name": "Witch Gods Temple Unlock",
+        "type": "toggle",
+        "img": "/images/items/Witch Gods Temple Unlock.png",
+        "codes": "witch_gods_temple_unlock"
+    },
+    {
+        "name": "Setting: Devotion Shrines",
+        "type": "toggle",
+        "img": "/images/settings/devotion_shrine.png",
+        "disabled_img": "images/settings/devotion_shrine_disabled.png",
+        "codes": "setting_devotion_shrine"
+    },
+    {
+        "name": "Setting: Forbidden Dungeons",
+        "type": "toggle",
+        "img": "/images/settings/forbidden_dungeons.png",
+        "disabled_img": "images/settings/forbidden_dungeons_disabled.png",
+        "codes": "setting_forbidden_dungeons"
+    },
+    {
+        "name": "Setting: Secret Chests",
+        "type": "toggle",
+        "img": "/images/settings/secret_chest.png",
+        "disabled_img": "images/settings/secret_chest_disabled.png",
+        "codes": "setting_secret_chest"
+    },
+    {
+        "name": "Setting: One Shot Chests",
+        "type": "toggle",
+        "img": "/images/settings/one_shot_chest.png",
+        "disabled_img": "images/settings/one_shot_chest_disabled.png",
+        "codes": "setting_one_shot_chest"
+    },
+    {
+        "name": "Setting: Lore Notes",
+        "type": "toggle",
+        "img": "/images/settings/lore_note.png",
+        "disabled_img": "images/settings/lore_note_disabled.png",
+        "codes": "setting_lore_note"
+    },
+    {
+        "name": "Setting: Deathlink",
+        "type": "toggle",
+        "img": "/images/settings/Deathlink.png",
+        "codes": "setting_deathlink"
+    },
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Goal: Warden Krieg",
+                "img": "/images/settings/Goal Warden Krieg.png",
+                "codes": "goal_warden_krieg",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Swarm Queen Ravna",
+                "img": "/images/settings/Goal Swarm Queen Ravna.png",
+                "codes": "goal_swarm_queen_ravna",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Loghorrean",
+                "img": "/images/settings/Goal Loghorrean.png",
+                "codes": "goal_loghorrean",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Master of Flesh",
+                "img": "/images/settings/Goal Master of Flesh.png",
+                "codes": "goal_master_of_flesh",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "goal_option"
+    },
+    {
+        "name": "UI: Secret Chest",
+        "type": "toggle",
+        "img": "/images/ui/icon_chest.png",
+        "codes": "ui_secret"
+    },
+    {
+        "name": "UI: Secret Chest Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_chest_checked.png",
+        "codes": "ui_secret_checked"
+    },
+    {
+        "name": "UI: One Shot Chest",
+        "type": "toggle",
+        "img": "/images/ui/icon_chest_one_shot.png",
+        "codes": "ui_one_shot"
+    },
+    {
+        "name": "UI: One Shot Chest Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_chest_one_shot_checked.png",
+        "codes": "ui_one_shot_checked"
+    },
+    {
+        "name": "UI: Lore Note",
+        "type": "toggle",
+        "img": "/images/ui/icon_lore_note.png",
+        "codes": "ui_lore"
+    },
+    {
+        "name": "UI: Lore Note Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_lore_note_checked.png",
+        "codes": "ui_lore_checked"
+    },
+    {
+        "name": "UI: Blue Marker",
+        "type": "toggle",
+        "img": "/images/ui/icon_marker_blue.png",
+        "codes": "ui_blue"
+    },
+    {
+        "name": "UI: Blue Marker Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_marker_blue_checked.png",
+        "codes": "ui_blue_checked"
+    },
+    {
+        "name": "UI: Red Marker",
+        "type": "toggle",
+        "img": "/images/ui/icon_marker_red.png",
+        "codes": "ui_red"
+    },
+    {
+        "name": "UI: Red Marker Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_marker_red_checked.png",
+        "codes": "ui_red_checked"
+    },
+    {
+        "name": "UI: Riftgate",
+        "type": "toggle",
+        "img": "/images/ui/icon_riftgatedown_world.png",
+        "codes": "ui_riftgate"
+    },
+    {
+        "name": "UI: Riftgate Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_riftgatedown_world_checked.png",
+        "codes": "ui_riftgate_checked"
+    },
+    {
+        "name": "UI: Shrine",
+        "type": "toggle",
+        "img": "/images/ui/icon_shrine_corrupted_world.png",
+        "codes": "ui_shrine"
+    },
+    {
+        "name": "UI: Shrine Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_shrine_corrupted_world_checked.png",
+        "codes": "ui_shrine_checked"
+    }
+]

@@ -1,0 +1,86 @@
+{
+    "items_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "5_scrap",
+                                "strange_key",
+                                "east_marsh_bridge_repair",
+                                "arkovia_bridge_repair",
+                                "old_grove_bridge_repair",
+                                "twin_falls_bridge_repair",
+                                "necropolis_bridge_repair",
+                                "altar_of_rattosh_portal",
+                                "malmouth_bridge_lowered",
+                                "crown_hill_open_flesh_barrier",
+                                "fleshworks_open_flesh_barrier"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "warden_boss_door_unlock",
+                                "forbidden_door_unlock",
+                                "homestead_side_doors_unlock",
+                                "royal_hive_queen_door_unlock",
+                                "homestead_main_doors_unlock",
+                                "witch_gods_temple_unlock",
+                                "fort_ikon_gate_unlock",
+                                "tomb_of_the_watchers_door_unlock",
+                                "loghorrean_seal_unlock",
+                                "forlorn_cellar_unlock",
+                                "candle_district_door_unlock",
+                                "steelcap_district_door_unlock"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "3, 4",
+                        "item_margin": "3, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "lower_crossing_destroy_blockade",
+                                "flooded_passage_destroy_blockade",
+                                "arkovian_foothills_destroy_barricade",
+                                "new_harbor_destroy_barricade",
+                                "prospectors_trail_destroy_barricade",
+                                "conflagration_destroy_barricade",
+                                "rotting_croplands_destroy_south_blockade",
+                                "rotting_croplands_destroy_north_blockade",
+                                "fort_ikon_destroy_blockade",
+                                "gloomwald_destroy_blockade",
+                                "nanes_hideout_destroy_barricade",
+                                "ugdenbog_destroy_barricade",
+                                "malmouth_harbor_destroy_barricade",
+                                "crown_hill_destroy_gates"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

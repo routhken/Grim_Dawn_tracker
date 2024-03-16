@@ -1,0 +1,14 @@
+{
+    "name": "Grim Dawn",
+    "game_name": "Grim Dawn",
+    "package_version": "1.0.0",
+    "package_uid": "ap_grim_dawn",
+    "author": "DaKennyMan22",
+    "variants": {
+      "map": {
+        "display_name": "Tracker",
+        "flags": ["ap"]
+      }
+    },
+    "versions_url": ""
+}

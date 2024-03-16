@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Full Map",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Full Map.png"
+    },
+    {
+        "name": "Act 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Act 1.png"
+    },
+    {
+        "name": "Act 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Act 2.png"
+    },
+    {
+        "name": "Act 3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Act 3.png"
+    },
+    {
+        "name": "Act 4",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Act 4.png"
+    },
+    {
+        "name": "Act 5",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Act 5.png"
+    },
+    {
+        "name": "Act 6",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Act 6.png"
+    }
+]

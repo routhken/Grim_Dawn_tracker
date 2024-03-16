@@ -1,0 +1,38 @@
+{
+    "settings_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_devotion_shrine",
+                                "setting_forbidden_dungeons",
+                                "goal_option"
+                            ],
+                            [
+                                "setting_secret_chest",
+                                "setting_one_shot_chest"
+                            ],
+                            [
+                                "setting_lore_note",
+                                "setting_deathlink"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
