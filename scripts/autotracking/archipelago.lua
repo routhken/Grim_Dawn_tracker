@@ -59,6 +59,7 @@ function onClear(slotData)
 
     -- Reset Settings
     Tracker:FindObjectForCode("goal_option").Active = true
+    Tracker:FindObjectForCode("goal_korvaak").Active = false
     Tracker:FindObjectForCode("goal_swarm_queen_ravna").Active = false
     Tracker:FindObjectForCode("goal_loghorrean").Active = false
     Tracker:FindObjectForCode("goal_master_of_flesh").Active = false
@@ -74,10 +75,12 @@ function onClear(slotData)
         if      goalValue == 0 then
             goalTrackerKey = "goal_warden_krieg"
         elseif  goalValue == 1 then
-            goalTrackerKey = "goal_swarm_queen_ravna"
+            goalTrackerKey = "goal_korvaak"
         elseif  goalValue == 2 then
-            goalTrackerKey = "goal_loghorrean"
+            goalTrackerKey = "goal_swarm_queen_ravna"
         elseif  goalValue == 3 then
+            goalTrackerKey = "goal_loghorrean"
+        elseif  goalValue == 4 then
             goalTrackerKey = "goal_master_of_flesh"
         end
 
@@ -95,6 +98,8 @@ function onClear(slotData)
     Tracker:FindObjectForCode("setting_one_shot_chest").Active = false
     Tracker:FindObjectForCode("setting_lore_note").Active = false
     Tracker:FindObjectForCode("setting_deathlink").Active = false
+    Tracker:FindObjectForCode("setting_faction").Active = false
+    Tracker:FindObjectForCode("setting_fgdlc").Active = false
 
     if slotData['deathlink'] == 1 then
         Tracker:FindObjectForCode("setting_deathlink").Active = true
@@ -114,8 +119,11 @@ function onClear(slotData)
     if slotData['lore'] == 1 then
         Tracker:FindObjectForCode("setting_lore_note").Active = true
     end
-    if slotData['dlc_aom'] == 1 then
-        --Tracker:FindObjectForCode("setting_deathlink").Active = true
+    if slotData['faction'] == 1 then
+        Tracker:FindObjectForCode("setting_faction").Active = true
+    end
+    if slotData['dlc_fg'] == 1 then
+        Tracker:FindObjectForCode("setting_fgdlc").Active = true
     end
 end
 

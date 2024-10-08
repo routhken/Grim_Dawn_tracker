@@ -16,10 +16,6 @@ function hasHiddenPath()
     return has("lower_crossing_destroy_blockade")
 end
 
-function hasDevilsAquifer()
-    return has("5_scrap")
-end
-
 function hasSunkenReliquary()
     return has("flooded_passage_destroy_blockade")
 end
@@ -44,8 +40,12 @@ function hasAct3()
     return hasAct2() and has("arkovian_foothills_destroy_barricade")
 end
 
+function hasForbiddenDoorUnlock()
+    return has("forbidden_door_unlock")
+end
+
 function hasStepsOfTorment()
-    return hasAct3() and has("forbidden_door_unlock")
+    return hasAct3()
 end
 
 function hasFourHillsSecret()
@@ -57,7 +57,7 @@ function hasTyrantsHold()
 end
 
 function hasPortValbury()
-    return hasAct3() and has("conflagration_destroy_barricade") and has("forbidden_door_unlock")
+    return hasAct3() and has("conflagration_destroy_barricade")
 end
 
 function hasHomesteadSideDoors()
@@ -85,7 +85,7 @@ function hasAct6()
 end
 
 function hasBastionOfChaos()
-    return hasAct6() and has("necropolis_bridge_repair") and has("forbidden_door_unlock")
+    return hasAct6() and has("necropolis_bridge_repair")
 end
 
 function hasTombOfTheWatchers()
@@ -97,15 +97,11 @@ function hasEdgeOfMadness()
 end
 
 function hasAct7()
-    return has("gloomwald_destroy_blockade") --and hasAct5()
+    return has("gloomwald_destroy_blockade")
 end
 
 function hasNanesHideout()
     return hasAct7() and has("nanes_hideout_destroy_barricade")
-end
-
-function hasAncientGrove()
-    return hasAct7() and has("forbidden_door_unlock")
 end
 
 function hasDenOfTheAncient()
@@ -120,12 +116,16 @@ function hasAct8()
     return hasAct7() and has("altar_of_rattosh_portal")
 end
 
+function hasMalmouthSewer()
+    return hasAct8() and has("malmouth_sewer_destroy_blockade")
+end
+
 function hasAct9()
     return hasAct8() and has("steelcap_district_door_unlock")
 end
 
 function hasCandleDistrict()
-    return hasAct9() or (hasAct8() and (has("candle_district_door_unlock") or has("malmouth_bridge_lowered")))
+    return hasAct9() or (hasAct8() and has("candle_district_door_unlock"))
 end
 
 function hasHarborStash()
@@ -144,9 +144,77 @@ function hasSanctumOfFlesh()
     return hasFleshworks() and has("fleshworks_open_flesh_barrier")
 end
 
+function hasAct10()
+    return hasWardensCellar()
+end
+
+function hasAoMLeveling()
+    return hasAct10() or hasAct3()
+end
+
+function hasAct11()
+    return hasAct10() and has("vanguard_of_the_three_door_unlock")
+end
+
+function hasDevilsAquifer()
+    return has("5_scrap") or hasAct3() or hasAct11()
+end
+
+function hasLostOasis()
+    return hasAct11() and has("valley_of_the_chosen_destroy_barrier")
+end
+
+function hasTombOfTheEldritchSun()
+    return hasAct11() and has("path_of_ascension_destroy_barrier")
+end
+
+function hasTheEldritchGate()
+    return hasTombOfTheEldritchSun() and has("eldritch_gate_destroy_barrier")
+end
+
+function hasDevilsCrossingRevered()
+    return has("devils_crossing_revered")
+end
+
+function hasRoversRevered()
+    return has("rovers_revered")
+end
+
+function hasHomesteadRevered()
+    return has("homestead_revered")
+end
+
+function hasDeathsVigilKymonsChosenRevered()
+    return has("deaths_vigil_kymons_chosen_revered")
+end
+
+function hasBlackLegionRevered()
+    return has("black_legion_revered")
+end
+
+function hasCovenRevered()
+    return has("coven_of_ugdenbog_revered")
+end
+
+function hasMalmouthResistanceRevered()
+    return has("malmouth_resistance_revered")
+end
+
+function hasWitchGodCultsRevered()
+    return has("witch_god_cults_revered")
+end
+
 -- Visibility Rules
 function hasGoalOfAtLeastKrieg()
     return true
+end
+
+function hasFGDLC()
+    return has("setting_fgdlc")
+end
+
+function hasGoalOfAtLeastKorvaak()
+    return hasFGDLC() and (has("goal_korvaak") or has("goal_swarm_queen_ravna") or has("goal_loghorrean") or has("goal_master_of_flesh"))
 end
 
 function hasGoalOfAtLeastRavna()
@@ -179,4 +247,8 @@ end
 
 function hasLoreNotes()
     return has("setting_lore_note")
+end
+
+function hasFactions()
+    return has("setting_faction")
 end

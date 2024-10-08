@@ -14,7 +14,7 @@
     {
         "name": "Altar of Rattosh Portal",
         "type": "toggle",
-        "img": "/images/items/Altar of Rattosh Portal.png",
+        "img": "/images/items/Ulgrims Keepsake2.png",
         "codes": "altar_of_rattosh_portal"
     },
     {
@@ -32,7 +32,7 @@
     {
         "name": "Candle District Door Unlock",
         "type": "toggle",
-        "img": "/images/items/Candle District Door Unlock.png",
+        "img": "/images/items/Aetherial Sigil.png",
         "codes": "candle_district_door_unlock"
     },
     {
@@ -44,13 +44,13 @@
     {
         "name": "Crown Hill Destroy Gates",
         "type": "toggle",
-        "img": "/images/items/Crown Hill Destroy Gates1.png",
+        "img": "/images/items/Arcane Powder.png",
         "codes": "crown_hill_destroy_gates"
     },
     {
         "name": "Crown Hill Open Flesh Barrier",
         "type": "toggle",
-        "img": "/images/items/Crown Hill Open Flesh Barrier.png",
+        "img": "/images/items/Aetherial Heart.png",
         "codes": "crown_hill_open_flesh_barrier"
     },
     {
@@ -62,7 +62,7 @@
     {
         "name": "Fleshworks Open Flesh Barrier",
         "type": "toggle",
-        "img": "/images/items/Fleshworks Open Flesh Barrier.png",
+        "img": "/images/items/Aetherial Heart2.png",
         "codes": "fleshworks_open_flesh_barrier"
     },
     {
@@ -74,31 +74,31 @@
     {
         "name": "Forbidden Door Unlock",
         "type": "toggle",
-        "img": "/images/items/Forbidden Door Unlock1.png",
+        "img": "/images/items/Skeleton Key.png",
         "codes": "forbidden_door_unlock"
     },
     {
         "name": "Forlorn Cellar Unlock",
         "type": "toggle",
-        "img": "/images/items/Forlorn Cellar Unlock.png",
+        "img": "/images/items/Forlorn Cellar Key.png",
         "codes": "forlorn_cellar_unlock"
     },
     {
         "name": "Fort Ikon Destroy Blockade",
         "type": "toggle",
-        "img": "/images/items/Fort Ikon Destroy Blockade1.png",
+        "img": "/images/items/Explosives.png",
         "codes": "fort_ikon_destroy_blockade"
     },
     {
         "name": "Fort Ikon Gate Unlock",
         "type": "toggle",
-        "img": "/images/items/Fort Ikon Gate Unlock.png",
+        "img": "/images/items/Karrozs Tome.png",
         "codes": "fort_ikon_gate_unlock"
     },
     {
         "name": "Gloomwald Destroy Blockade",
         "type": "toggle",
-        "img": "/images/items/Gloomwald Destroy Blockade1.png",
+        "img": "/images/items/Creeds Pendant.png",
         "codes": "gloomwald_destroy_blockade"
     },
     {
@@ -116,7 +116,7 @@
     {
         "name": "Loghorrean Seal Unlock",
         "type": "toggle",
-        "img": "/images/items/Loghorrean Seal Unlock.png",
+        "img": "/images/items/Chthonic Sigil2.png",
         "codes": "loghorrean_seal_unlock"
     },
     {
@@ -126,10 +126,10 @@
         "codes": "lower_crossing_destroy_blockade"
     },
     {
-        "name": "Malmouth Bridge Lowered",
+        "name": "Malmouth Sewer Destroy Blockade",
         "type": "toggle",
-        "img": "/images/items/Malmouth Bridge Lowered.png",
-        "codes": "malmouth_bridge_lowered"
+        "img": "/images/items/Malmouth Sewer Destroy Blockade.png",
+        "codes": "malmouth_sewer_destroy_blockade"
     },
     {
         "name": "Malmouth Harbor Destroy Barricade",
@@ -182,13 +182,13 @@
     {
         "name": "Royal Hive Queen Door Unlock",
         "type": "toggle",
-        "img": "/images/items/Royal Hive Queen Door Unlock1.png",
+        "img": "/images/items/Pheromone Glands1.png",
         "codes": "royal_hive_queen_door_unlock"
     },
     {
         "name": "Steelcap District Door Unlock",
         "type": "toggle",
-        "img": "/images/items/Steelcap District Door Unlock.png",
+        "img": "/images/items/Aetherial Sigil2.png",
         "codes": "steelcap_district_door_unlock"
     },
     {
@@ -200,7 +200,7 @@
     {
         "name": "Tomb of the Watchers Door Unlock",
         "type": "toggle",
-        "img": "/images/items/Tomb of the Watchers Door Unlock.png",
+        "img": "/images/items/Chthonic Sigil1.png",
         "codes": "tomb_of_the_watchers_door_unlock"
     },
     {
@@ -218,14 +218,86 @@
     {
         "name": "Warden Boss Door Unlock",
         "type": "toggle",
-        "img": "/images/items/Warden Boss Door Unlock.png",
+        "img": "/images/items/Warden Sigil.png",
         "codes": "warden_boss_door_unlock"
     },
     {
         "name": "Witch Gods Temple Unlock",
         "type": "toggle",
-        "img": "/images/items/Witch Gods Temple Unlock.png",
+        "img": "/images/items/Rune of Bysmiel.png",
         "codes": "witch_gods_temple_unlock"
+    },
+    {
+        "name": "Vanguard of the Three Door Unlock",
+        "type": "toggle",
+        "img": "/images/items/Eye of Erkur.png",
+        "codes": "vanguard_of_the_three_door_unlock"
+    },
+    {
+        "name": "Valley of the Chosen Destroy Barrier",
+        "type": "toggle",
+        "img": "/images/items/Morgeneth Shard.png",
+        "codes": "valley_of_the_chosen_destroy_barrier"
+    },
+    {
+        "name": "Path of Ascension Destroy Barrier",
+        "type": "toggle",
+        "img": "/images/items/Dravis Flower.png",
+        "codes": "path_of_ascension_destroy_barrier"
+    },
+    {
+        "name": "Eldritch Gate Destroy Barrier",
+        "type": "toggle",
+        "img": "/images/items/Eldritch Gate Destroy Barrier.png",
+        "codes": "eldritch_gate_destroy_barrier"
+    },
+    {
+        "name": "Devil's Crossing Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Devils_Crossing_Icon1.png",
+        "codes": "devils_crossing_revered"
+    },
+    {
+        "name": "Rovers Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Rovers_Icon1.png",
+        "codes": "rovers_revered"
+    },
+    {
+        "name": "Homestead Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Homestead_Icon1.png",
+        "codes": "homestead_revered"
+    },
+    {
+        "name": "Death's Vigil - Kymon's Chosen Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Vigil_Chosen_Icon1.png",
+        "codes": "deaths_vigil_kymons_chosen_revered"
+    },
+    {
+        "name": "Black Legion Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Black_Legion_Icon1.png",
+        "codes": "black_legion_revered"
+    },
+    {
+        "name": "Coven of Ugdenbog Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Coven_Icon1.png",
+        "codes": "coven_of_ugdenbog_revered"
+    },
+    {
+        "name": "Malmouth Resistance Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Malmouth_Icon1.png",
+        "codes": "malmouth_resistance_revered"
+    },
+    {
+        "name": "Witch God Cults Revered",
+        "type": "toggle",
+        "img": "/images/items/Faction_Witch_Gods_Icon1.png",
+        "codes": "witch_god_cults_revered"
     },
     {
         "name": "Setting: Devotion Shrines",
@@ -256,6 +328,13 @@
         "codes": "setting_one_shot_chest"
     },
     {
+        "name": "Setting: Factions",
+        "type": "toggle",
+        "img": "/images/settings/factions.png",
+        "disabled_img": "images/settings/factions_disabled.png",
+        "codes": "setting_faction"
+    },
+    {
         "name": "Setting: Lore Notes",
         "type": "toggle",
         "img": "/images/settings/lore_note.png",
@@ -269,6 +348,13 @@
         "codes": "setting_deathlink"
     },
     {
+        "name": "Setting: FG DLC",
+        "type": "toggle",
+        "img": "/images/settings/fgdlc.png",
+        "disabled_img": "images/settings/fgdlc_disabled.png",
+        "codes": "setting_fgdlc"
+    },
+    {
         "name": "Goal",
         "type": "progressive",
         "allow_disabled": false,
@@ -279,6 +365,12 @@
                 "name": "Goal: Warden Krieg",
                 "img": "/images/settings/Goal Warden Krieg.png",
                 "codes": "goal_warden_krieg",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Korvaak",
+                "img": "/images/settings/Goal Korvaak.png",
+                "codes": "goal_korvaak",
                 "inherit_codes": false
             },
             {
@@ -385,5 +477,17 @@
         "type": "toggle",
         "img": "/images/ui/icon_shrine_corrupted_world_checked.png",
         "codes": "ui_shrine_checked"
+    },
+    {
+        "name": "UI: Boss",
+        "type": "toggle",
+        "img": "/images/ui/icon_boss.png",
+        "codes": "ui_boss"
+    },
+    {
+        "name": "UI: Boss Checked",
+        "type": "toggle",
+        "img": "/images/ui/icon_boss_checked.png",
+        "codes": "ui_boss_checked"
     }
 ]

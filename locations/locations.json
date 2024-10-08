@@ -18,9 +18,24 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "Dangerous Curiosity",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna"]
+            },{
+                "name": "A Sister's Gift",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
                 "name": "Repair Waterpump",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$hasDevilsAquifer]"]
+            },{
+                "name": "Viloth, the Corruptor",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
                 "access_rules": ["[$hasDevilsAquifer]"]
             },{
                 "name": "Cleanse Slith Infestation",
@@ -57,6 +72,51 @@
             }
         ]
     },{
+        "name": "Hargate's Isle",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1220,
+                "y": 1520
+            },{
+                "map": "Act 1",
+                "x": 30,
+                "y": 605
+            }
+        ],
+        "sections": [
+            {
+                "name": "Ellena, the First Slith",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna"]
+            },{
+                "name": "Hargate's Journal 1",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Hargate's Journal - Page 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]
+            },{
+                "name": "Hargate's Journal - Page 3",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]
+            },{
+                "name": "Hargate's Journal - Page 4",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]
+            }
+        ]
+    },{
         "name": "Lower Crossing",
         "map_locations": [
             {
@@ -75,17 +135,21 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "Barrog, the Bloodied",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Guardian of Dreeg",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasHiddenPath"]
+            },{
                 "name": "Francis' Note",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
             },{
                 "name": "Harbormaster's Log - Lower Crossing",
-                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
-                "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
-            },{
-                "name": "Hargate's Journal 1",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
@@ -108,7 +172,7 @@
             }
         ]
     },{
-        "name": "Burial Hill",
+        "name": "Burial Hill - Old Dump",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -122,7 +186,15 @@
         ],
         "sections": [
             {
-                "name": "Reanimator",
+                "name": "Kyzogg the Reanimator",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Farros, the Rotted",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Pusquill the Hoarder",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
@@ -150,6 +222,22 @@
                 "name": "Free the Rovers",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "That Good Old Slith Charm",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Jillius, the Decayed",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Milton Hart",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Neegan, the Withered",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Secure Wightmire Portal",
                 "chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png",
@@ -190,6 +278,10 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "Primordian, the Forgotten One",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Foggy Banks Cave Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
@@ -216,6 +308,15 @@
         ],
         "sections": [
             {
+                "name": "Ancient Shambler",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "High Priest Rolderathis",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasSunkenReliquary"]
+            },{
                 "name": "Sunken Reliquary Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
@@ -257,6 +358,23 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "Salazar, Blade of Ch'thon",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasDepravedSanctuary]"]
+            },{
+                "name": "Balros, the Malformed",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Hagra, the Tormented",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Gutworm, the Maneater",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Depraved Sanctuary Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
@@ -297,6 +415,10 @@
                 "name": "Secure Burrwitch Portal",
                 "chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_riftgatedown_world.png"
+            },{
+                "name": "Grundleplith the Hoarder",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Rescue Darlet",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
@@ -377,6 +499,27 @@
         "access_rules": ["$hasEastMarsh"],
         "sections": [
             {
+                "name": "Father Abaddoth, Betrayer of Menhir",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Galeslice the Ruthless",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Balegor, the Swamp King",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Kalis Ka, the Bonehunter",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Uroboruuk's Guardian",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"]
+            },{
                 "name": "Burrwitch Cathedral Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
@@ -397,10 +540,15 @@
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
                 "visibility_rules": ["$hasDevotionShrines"]
             },{
-                "name": "Oboruuk's Journal 1",
+                "name": "Uroboruuk's Journal - Page 1",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Uroboruuk's Journal - Page 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasFactions, $hasLoreNotes"]
             },{
                 "name": "The Gift of Ch'thon",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
@@ -428,14 +576,9 @@
         ],
         "sections": [
             {
-                "name": "Ominous Lair Exalted Stash",
-                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
-                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
-                "visibility_rules": ["$hasOneShotChests"]
-            },{
                 "name": "Warden Krieg",
-                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "chest_opened_img": "images/ui/icon_boss_checked.png",
+                "chest_unopened_img": "images/ui/icon_boss.png",
                 "access_rules": ["$hasWardensCellar"]
             },{
                 "name": "Warden Krieg Exalted Stash",
@@ -443,6 +586,11 @@
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
                 "visibility_rules": ["$hasOneShotChests"],
                 "access_rules": ["$hasWardensCellar"]
+            },{
+                "name": "Ominous Lair Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
             },{
                 "name": "Warden's Cellar Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -535,6 +683,18 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "Baros Wradlith, Lord of the Lost Souls",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Nicholas Balthazar",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "The Lost Elder",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
                 "name": "Spined Cove Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
@@ -588,6 +748,22 @@
         "visibility_rules": ["$hasGoalOfAtLeastRavna"],
         "sections": [
             {
+                "name": "Ronaprax, the Grand Queen",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Royal Remedy",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Gulgoth, the Rampaging",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Halion, The Rat",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Paying Tribute",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
@@ -599,6 +775,10 @@
                 "name": "Destroy the Forges",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Ulraprax, the Hive Matriarch",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Four Hills South Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -664,7 +844,7 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
-                "name": "Darius Cronely",
+                "name": "Darius Cronley",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
@@ -729,10 +909,20 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "Karnath Chillblood, Coliseum Amalgam",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Swarming Hive Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
                 "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Arkovia Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"],
+                "access_rules": ["[$hasTyrantsHold]"]
             },{
                 "name": "Arkovian Coliseum Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -767,6 +957,18 @@
         "visibility_rules": ["$hasGoalOfAtLeastRavna"],
         "sections": [
             {
+                "name": "Nomos Dred",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Laudos Vagra",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Rhovena Kur",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Old Scars",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
@@ -813,20 +1015,23 @@
         "visibility_rules": ["$hasGoalOfAtLeastRavna"],
         "sections": [
             {
-                "name": "Find Elsa",
-                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_blue.png",
-                "access_rules": ["$hasWardensCellar, [$hasDevilsAquifer]"]
+                "name": "Naren Kur the Ostracized",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Guardian of Solael",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasHiddenPath"]
             },{
                 "name": "Lutra the Abandoned",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
-                "name": "Arkovia Exalted Stash",
-                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
-                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
-                "visibility_rules": ["$hasOneShotChests"],
-                "access_rules": ["[$hasTyrantsHold]"]
+                "name": "Find Elsa",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["$hasWardensCellar"]
             },{
                 "name": "Corrupted Tomb Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -873,7 +1078,7 @@
                 "y": 300
             }
         ],
-        "access_rules": ["$hasStepsOfTorment"],
+        "access_rules": ["$hasStepsOfTorment, [$hasForbiddenDoorUnlock]"],
         "visibility_rules": ["{$hasGoalOfAtLeastRavna, $hasForbiddenDungeons}"],
         "sections": [
             {
@@ -881,13 +1086,20 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
+                "name": "Ilgorr, the Eternal",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
+            },{
                 "name": "Chamber of Souls",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
             },{
                 "name": "Alkamos, Lord Executioner",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
             },{
                 "name": "Misery Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -912,16 +1124,19 @@
                 "name": "Suffering Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Suffering Secret Chest #2",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Anguish Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Misery Devotion Shrine",
@@ -977,6 +1192,10 @@
                 "name": "Too Late For Rescue",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Ikrix, the Ravener",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Mountain Deeps Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
@@ -1047,6 +1266,10 @@
         "sections": [
             {
                 "name": "Bloodfeast the Ruthless",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Rutnick the Cruel",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
@@ -1122,6 +1345,18 @@
                 "chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_riftgatedown_world.png"
             },{
+                "name": "A Final Salute",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["$hasHomesteadSideDoors, $hasAct4"],
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastLoghorrean"]
+            },{
+                "name": "Making a Deal",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$hasHomesteadRevered], $hasRoyalHive, $hasWardensCellar"],
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastLoghorrean"]
+            },{
                 "name": "Black Legion Scouting Report",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
@@ -1187,7 +1422,7 @@
                 "y": 140
             }
         ],
-        "access_rules": ["$hasPortValbury"],
+        "access_rules": ["$hasPortValbury, [$hasForbiddenDoorUnlock]"],
         "visibility_rules": ["{$hasGoalOfAtLeastRavna, $hasForbiddenDungeons}"],
         "sections": [
             {
@@ -1229,11 +1464,15 @@
                 "y": 100
             }
         ],
-        "access_rules": ["$hasPortValbury"],
+        "access_rules": ["$hasPortValbury, $hasForbiddenDoorUnlock"],
         "visibility_rules": ["{$hasGoalOfAtLeastRavna, $hasForbiddenDungeons}"],
         "sections": [
             {
                 "name": "Flames of Valbury",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Watcher Ordas",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
@@ -1305,10 +1544,18 @@
                 "y": 50
             }
         ],
-        "access_rules": ["$hasPortValbury"],
+        "access_rules": ["$hasPortValbury, $hasForbiddenDoorUnlock"],
         "visibility_rules": ["{$hasGoalOfAtLeastRavna, $hasForbiddenDungeons}"],
         "sections": [
             {
+                "name": "Watcher Ygraad",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Watcher Brandis",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Van Aldritch",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
@@ -1324,11 +1571,6 @@
                 "visibility_rules": ["$hasLoreNotes"]
             },{
                 "name": "Port Valbury Mayor's Journal - Part 2",
-                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
-                "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
-            },{
-                "name": "Notice of Curfew",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
@@ -1361,6 +1603,11 @@
         "visibility_rules": ["$hasGoalOfAtLeastRavna"],
         "sections": [
             {
+                "name": "Swarm Queen Ravna",
+                "chest_opened_img": "images/ui/icon_boss_checked.png",
+                "chest_unopened_img": "images/ui/icon_boss.png",
+                "access_rules": ["$hasRoyalHive"]
+            },{
                 "name": "Trapped and Alone",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png",
@@ -1370,10 +1617,17 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
-                "name": "Swarm Queen Ravna",
+                "name": "Grand Vizier Lozakal",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png",
-                "access_rules": ["$hasRoyalHive"]
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Grand Vizier Inixil",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Gollus, the Deepdweller",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Rotting Croplands Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -1385,7 +1639,7 @@
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
                 "visibility_rules": ["$hasOneShotChests"],
-                "access_rules": ["$hasRoyalHive"]
+                "access_rules": ["[$hasRoyalHive]"]
             },{
                 "name": "Rotting Croplands Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -1422,6 +1676,11 @@
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
             },{
+                "name": "The Last Will of Marthos Everbrook",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
                 "name": "Elara's Journal",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
@@ -1441,6 +1700,50 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Sorrow's Bastion",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 655,
+                "y": 1015
+            },{
+                "map": "Act 3",
+                "x": 290,
+                "y": 315
+            }
+        ],
+        "access_rules": ["$hasAct4, $hasHomesteadSideDoors"],
+        "visibility_rules": ["$hasGoalOfAtLeastLoghorrean, $hasFactions"],
+        "sections": [
+            {
+                "name": "Death's Vigil - Kymon's Chosen Faction Quest 1",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Death's Vigil - Kymon's Chosen Faction Quest 2",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Death's Vigil - Kymon's Chosen Faction Quest 3",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Death's Vigil - Kymon's Chosen Faction Quest 4",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Death's Vigil - Kymon's Chosen Faction Quest 5",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$hasDeathsVigilKymonsChosenRevered]"]
+            },{
+                "name": "Death's Vigil - Kymon's Chosen Faction Quest 6",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$hasDeathsVigilKymonsChosenRevered]"]
             }
         ]
     },{
@@ -1472,9 +1775,33 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
+                "name": "Wraith of Sorrows",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "A Stranger in Need",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Rag'Nadar, the Great Maw",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Venarius, the Backbreaker",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Noveria Stormfire - Master Ravok",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasHomesteadSideDoors"],
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Clear the Lumber Mill",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasHomesteadSideDoors"],
+                "visibility_rules": ["$hasFactions"]
             },{
                 "name": "Shrine of the Forgotten God Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -1638,6 +1965,11 @@
         "visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],
         "sections": [
             {
+                "name": "Guardian of Bysmiel",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasHiddenPath"]
+            },{
                 "name": "Rashalga, the Mad Queen",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png",
@@ -1682,6 +2014,19 @@
         "visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],
         "sections": [
             {
+                "name": "Ragrathar Rageblood",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Harvoul, the Earthshaker",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Sharanatu, Harbinger of the Void",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"]
+            },{
                 "name": "Asterkarn Valley Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
@@ -1702,7 +2047,64 @@
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
                 "visibility_rules": ["$hasDevotionShrines"]
             },{
+                "name": "Rhowari Legacy",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "access_rules": ["[$hasRoversRevered], $hasAct6"],
+                "visibility_rules": ["$hasDevotionShrines, $hasFactions"]
+            },{
                 "name": "The Hidden Path - Desecrated",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Tomb of the Archon Barthollem",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 110,
+                "y": 500
+            },{
+                "map": "Act 4",
+                "x": 88,
+                "y": 475
+            }
+        ],
+        "access_rules": ["$hasAct4, $hasHomesteadSideDoors"],
+        "visibility_rules": ["$hasGoalOfAtLeastLoghorrean, $hasFactions"],
+        "sections": [
+            {
+                "name": "Nacrathan, the Timeless",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Archon Barthollem - Malkadarr",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Tomb of the Archon Barthollem Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Lost Tomb of the Damned Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Lost Tomb of the Damned Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Loose Ends",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "A Terrible Discovery",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
@@ -1733,6 +2135,11 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png",
                 "access_rules": ["$hasAct5"]
+            },{
+                "name": "Precious Resources",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["$hasAct5, $hasHomesteadSideDoors"]
             },{
                 "name": "Fort Ikon Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -1783,6 +2190,34 @@
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"],
                 "access_rules": ["$hasAct5"]
+            },{
+                "name": "Journal of Inquisitor Creed - 9th Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasWardensCellar"],
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "The Immolation",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 655,
+                "y": 1367
+            },{
+                "map": "Act 3",
+                "x": 290,
+                "y": 650
+            }
+        ],
+        "access_rules": ["$hasAct4, $hasHomesteadSideDoors, [$hasBlackLegionRevered]"],
+        "visibility_rules": ["$hasGoalOfAtLeastLoghorrean, $hasFactions"],
+        "sections": [
+            {
+                "name": "Herald of Destruction",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             }
         ]
     },{
@@ -1894,6 +2329,10 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "Plagius, the Decrepit",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Necropolis Interior Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
@@ -1962,15 +2401,18 @@
         "visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],
         "sections": [
             {
+                "name": "The Loghorrean",
+                "chest_opened_img": "images/ui/icon_boss_checked.png",
+                "chest_unopened_img": "images/ui/icon_boss.png",
+                "access_rules": ["$hasEdgeOfMadness"]
+            },{
+                "name": "Bane'Galgalor, Guardian of the Gates",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Bloodlord Thalonis",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png",
-                "access_rules": ["$hasTombOfTheWatchers"]
-            },{
-                "name": "The Loghorrean",
-                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png",
-                "access_rules": ["$hasEdgeOfMadness"]
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Edge of Madness Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -2017,12 +2459,6 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
-            },{
-                "name": "Journal of Inquisitor Creed - 9th Entry",
-                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
-                "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"],
-                "access_rules": ["$hasEdgeOfMadness"]
             }
         ]
     },{
@@ -2038,7 +2474,7 @@
                 "y": 60
             }
         ],
-        "access_rules": ["$hasBastionOfChaos"],
+        "access_rules": ["$hasBastionOfChaos, [$hasForbiddenDoorUnlock]"],
         "visibility_rules": ["{$hasGoalOfAtLeastLoghorrean, $hasForbiddenDungeons}"],
         "sections": [
             {
@@ -2048,15 +2484,18 @@
             },{
                 "name": "Discord Guardian",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
             },{
                 "name": "Fields of Despair Guardian",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
             },{
                 "name": "Shar'Zul, Harbinger of Chaos",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
             },{
                 "name": "Bastion of Chaos Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -2066,16 +2505,19 @@
                 "name": "Discord Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Anarchy Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Entropy Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Bastion of Chaos Devotion Shrine",
@@ -2097,14 +2539,30 @@
                 "y": 310
             }
         ],
-        "access_rules": ["$hasAct7, [$hasAct5]"],
+        "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
+                "name": "Dralgar, the Keeper of Burrwitch",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Rescue Garett Torvan",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
-                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors"]
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
+            },{
+                "name": "Packla, the Turning",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Avris Marrowill",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Carraxus Foul",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Gloomwald Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -2166,10 +2624,64 @@
                 "y": 285
             }
         ],
-        "access_rules": ["$hasAct7, [$hasAct5]"],
+        "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
+                "name": "The Coven's Walls",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
+            },{
+                "name": "Pruning The Weeds",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
+            },{
+                "name": "Allure of the Wendigo",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
+            },{
+                "name": "Trapped Wraith 1",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
+            },{
+                "name": "Trapped Wraith 2",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
+            },{
+                "name": "Trapped Wraith 3",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
+            },{
+                "name": "Power in the Circles",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
+            },{
+                "name": "Stone Basilisk",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
+            },{
+                "name": "Final Seal",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "visibility_rules": ["$hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
+            },{
                 "name": "Coven's Refuge Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
@@ -2199,7 +2711,7 @@
                 "y": 230
             }
         ],
-        "access_rules": ["$hasAct7, [$hasAct5]"],
+        "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
@@ -2211,6 +2723,10 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png",
                 "access_rules": ["$hasDenOfTheAncient"]
+            },{
+                "name": "Bargoll, the Mouldering Mound",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Sylvarria, Queen of the Undergrowth",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
@@ -2239,6 +2755,11 @@
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
                 "visibility_rules": ["$hasOneShotChests"]
             },{
+                "name": "Janaxia's Den Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
                 "name": "The Undergrowth Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
@@ -2249,7 +2770,12 @@
                 "chest_unopened_img": "images/ui/icon_chest.png",
                 "visibility_rules": ["$hasSecretChests"]
             },{
-                "name": "Ugdenbog Secret Chest",
+                "name": "Ugdenbog Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Ugdenbog Secret Chest #2",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
                 "visibility_rules": ["$hasSecretChests"]
@@ -2270,18 +2796,6 @@
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
             },{
-                "name": "Through Flesh We Become His Chosen",
-                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
-                "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"],
-                "access_rules": ["$hasForlornCellar"]
-            },{
-                "name": "The Ravager",
-                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
-                "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"],
-                "access_rules": ["$hasForlornCellar"]
-            },{
                 "name": "Gifts of the Gods",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
@@ -2301,13 +2815,29 @@
                 "y": 255
             }
         ],
-        "access_rules": ["$hasAct7, [$hasAct5]"],
+        "access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],
         "visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],
         "sections": [
             {
                 "name": "Ancient Grove Gauntlet",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
+            },{
+                "name": "Gulgazor",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
+            },{
+                "name": "Slathsarr Aethergaze",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
+            },{
+                "name": "Vilgazor",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
             },{
                 "name": "Ragarroth the Tormented",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
@@ -2315,11 +2845,13 @@
             },{
                 "name": "Gargabol, Heart of the Wild",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
             },{
                 "name": "Tainted Wood Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasOneShotChests"]
             },{
                 "name": "Ancient Grove Secret Chest #1",
@@ -2340,26 +2872,31 @@
                 "name": "Feral Thicket Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Feral Thicket Secret Chest #2",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Tainted Wood Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Tainted Wood Secret Chest #2",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Tainted Wood Secret Chest #3",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Ancient Grove Devotion Shrine",
@@ -2370,6 +2907,7 @@
                 "name": "Mogdrogen's Ruminations",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
                 "visibility_rules": ["$hasLoreNotes"]
             }
         ]
@@ -2386,7 +2924,7 @@
                 "y": 145
             }
         ],
-        "access_rules": ["$hasAct7, [$hasAct5]"],
+        "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
@@ -2421,6 +2959,18 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Through Flesh We Become His Chosen",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"],
+                "access_rules": ["$hasForlornCellar"]
+            },{
+                "name": "The Ravager",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"],
+                "access_rules": ["$hasForlornCellar"]
             }
         ]
     },{
@@ -2436,14 +2986,23 @@
                 "y": 20
             }
         ],
-        "access_rules": ["$hasAct8, [$hasAct5]"],
+        "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
                 "name": "Convince Ulgrim",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
-                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors"]
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
+            },{
+                "name": "Ekket'Zul, Progenitor of Darkness",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Desolate Wastes Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
             },{
                 "name": "Desolate Wastes Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -2479,7 +3038,7 @@
                 "y": 365
             }
         ],
-        "access_rules": ["$hasAct8, [$hasAct5]"],
+        "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
@@ -2502,7 +3061,7 @@
                 "y": 300
             }
         ],
-        "access_rules": ["$hasAct8, [$hasAct5]"],
+        "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
@@ -2535,7 +3094,7 @@
                 "y": 300
             }
         ],
-        "access_rules": ["$hasAct8, [$hasAct5]"],
+        "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
@@ -2543,14 +3102,22 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
+                "name": "Gabal'Thunn, the Visage of Madness",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Lunal'Valgoth, Steward of Darkness",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
                 "name": "Bloodsworn",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
-                "name": "Desolate Wastes Exalted Stash",
-                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
-                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
-                "visibility_rules": ["$hasOneShotChests"]
+                "name": "Cinder Wastes Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
             },{
                 "name": "Fringes of Sanity Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -2571,10 +3138,19 @@
                 "y": 180
             }
         ],
-        "access_rules": ["$hasAct8, [$hasAct5]"],
+        "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
+                "name": "Terrnox",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Galakros, the Mountain",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasMalmouthSewer"]
+            },{
                 "name": "Malmouth Outskirts Riftgate Secured",
                 "chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_riftgatedown_world.png"
@@ -2608,6 +3184,12 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Journal of Inquisitor Creed - 10th Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
             }
         ]
     },{
@@ -2623,7 +3205,7 @@
                 "y": 140
             }
         ],
-        "access_rules": ["$hasCandleDistrict, [$hasAct5]"],
+        "access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
@@ -2634,6 +3216,18 @@
                 "name": "Ballog, Keeper of the Gates",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Someone on the Inside",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"],
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Bring out Your Dead",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"],
+                "visibility_rules": ["$hasFactions"]
             },{
                 "name": "Candle District Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -2684,14 +3278,14 @@
                 "y": 185
             }
         ],
-        "access_rules": ["$hasAct9, [$hasAct5]"],
+        "access_rules": ["$hasAct9, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
                 "name": "Steelcap District Riftgate Secured",
                 "chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_riftgatedown_world.png",
-                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors"]
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
             },{
                 "name": "Reclaim Arcane Supplies",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
@@ -2700,6 +3294,14 @@
                 "name": "Rescue Vivian Neven",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Fleshshaper Hinissius",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Blugrug the Living Plague",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Swelling Depths Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -2760,13 +3362,17 @@
                 "y": 80
             }
         ],
-        "access_rules": ["$hasAct9, [$hasAct5]"],
+        "access_rules": ["$hasAct9, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
                 "name": "Claim Resistance Weapons",
                 "chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_riftgatedown_world.png"
+            },{
+                "name": "Fleshweaver Haraxis",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Rescue Nadia",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
@@ -2775,6 +3381,12 @@
                 "name": "Rescue Hyram",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Secure the Blackiron Docks",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],
+                "visibility_rules": ["$hasFactions"]
             },{
                 "name": "Malmouth Harbor Exalted Stash #1",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -2821,7 +3433,13 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"],
-                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors"]
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
+            },{
+                "name": "Nearan's Work Log",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes, $hasFactions"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"]
             }
         ]
     },{
@@ -2837,7 +3455,7 @@
                 "y": 93
             }
         ],
-        "access_rules": ["$hasCrownHill, [$hasAct5]"],
+        "access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
@@ -2845,10 +3463,44 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
+                "name": "Valaxteria",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Alberran Rein",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Dreven Cole",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Cyrian Marcan",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Rise of the Insurgence",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],
+                "visibility_rules": ["$hasFactions"]
+            },{
                 "name": "Crown Hill Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
                 "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Chamber of the High Council Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],
+                "visibility_rules": ["$hasFactions, $hasSecretChests"]
             },{
                 "name": "Crown Hill Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
@@ -2869,6 +3521,12 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Council Report to Theodin Marcell",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],
+                "visibility_rules": ["$hasLoreNotes, $hasFactions"]
             }
         ]
     },{
@@ -2884,10 +3542,15 @@
                 "y": 90
             }
         ],
-        "access_rules": ["$hasFleshworks, [$hasAct5]"],
+        "access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],
         "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
         "sections": [
             {
+                "name": "Master of Flesh",
+                "chest_opened_img": "images/ui/icon_boss_checked.png",
+                "chest_unopened_img": "images/ui/icon_boss.png",
+                "access_rules": ["$hasSanctumOfFlesh"]
+            },{
                 "name": "Fleshweaver Krieg",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
@@ -2907,11 +3570,6 @@
                 "name": "Atherial Traitor",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
-            },{
-                "name": "Master of Flesh",
-                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png",
-                "access_rules": ["$hasSanctumOfFlesh"]
             },{
                 "name": "The Infestation Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -2959,6 +3617,1141 @@
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"],
                 "access_rules": ["$hasSanctumOfFlesh"]
+            }
+        ]
+    },{
+        "name": "Conclave of the Three",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1710,
+                "y": 2180
+            },{
+                "map": "Act 7",
+                "x": 244,
+                "y": 948
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "The Eldritch Trials",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Galfang, Night Terror",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "The Test",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Forgotten Gods Story Quest 1",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Forgotten Gods Story Quest 2",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "The Tome of Eanatum",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Witch Gods Faction Quest",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["$hasAct11, [$hasWitchGodCultsRevered]"],
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Shrine of Horran Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Shrine of Horran Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Forgotten Cellar Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Shattered Realm Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Worthy Purpose",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Convergence of the Covenant",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Visions of Terror",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Death of the Usurper",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Harnessing the Forgotten",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Web is Spun",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Terrors of the Eldritch Realm",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Korvan Plateau",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1710,
+                "y": 2110
+            },{
+                "map": "Act 7",
+                "x": 250,
+                "y": 893
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Margul the Rotting",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Crawling Nest Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Korvan Expedition - 1st Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Korvan Expedition - 2nd Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Temple City of Osyr",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1720,
+                "y": 2020
+            },{
+                "map": "Act 7",
+                "x": 260,
+                "y": 790
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Rescue the Aspirants",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Hidden Refuge Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Hidden Refuge Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Hidden Refuge Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "The Sting",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Temple of Osyr",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1810,
+                "y": 1970
+            },{
+                "map": "Act 7",
+                "x": 345,
+                "y": 745
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Ramzul, High Priest of Osyr",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Temple of Osyr Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Temple of Osyr Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "My Hands Are Not My Own",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Korvan Plateau - Forlorn Bastion",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1610,
+                "y": 1940
+            },{
+                "map": "Act 7",
+                "x": 150,
+                "y": 730
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Jarinthor the Sandstorm",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Korvan Plateau Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Forlorn Bastion Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "The Desert Calls",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Journal of Captain Fhaud - Page 1",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Journal of Captain Fhaud - Page 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Journal of Captain Fhaud - Page 3",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Korvan Sands",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1640,
+                "y": 1880
+            },{
+                "map": "Act 7",
+                "x": 175,
+                "y": 658
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Korvan Titanovore",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Gurblix the Digested",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Korvan Sands Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Maw of Enaht Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Last Words of Harod - Page 1",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Last Words of Harod - Page 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Last Words of Harod - Page 3",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Carmac's Notes",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Cairan Docks",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1645,
+                "y": 1780
+            },{
+                "map": "Act 7",
+                "x": 180,
+                "y": 570
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Rescue Aaral",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Find Anderan",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
+                "name": "Tirgan, the Mad Priest",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Sandblown Ruins Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Cairan Docks Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Sandblown Ruins Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Yhania's Diary",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Captain Freinhaul's Log",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Writings of Rion the Scholar - 1st Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Writings of Rion the Scholar - Final Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Korvan Expedition - 3rd Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Sunbane Oasis",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1730,
+                "y": 1725
+            },{
+                "map": "Act 7",
+                "x": 265,
+                "y": 500
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Durg the Stormborn",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Navan, the Usurper",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Gannar'vakkar, King of the Sands",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Sunbane Oasis Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Sanctuary of Horran Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Shrine of Azaleon Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Sanctuary of Horran Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "The Burning Shores",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "The Trials of Horran",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Naiema's Letter to Yorhun",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Howling Chasm",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1900,
+                "y": 1635
+            },{
+                "map": "Act 7",
+                "x": 425,
+                "y": 415
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Hallanx the Forgotten",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Howling Depths Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Howling Chasm Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Howling Chasm Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Howling Depths Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tuha's Travel Log - Page 1",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Tuha's Travel Log - Page 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Tuha's Letter",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Basalt Crags - Vanguard of the Three",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1840,
+                "y": 1550
+            },{
+                "map": "Act 7",
+                "x": 375,
+                "y": 330
+            }
+        ],
+        "access_rules": ["$hasAct10"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Ishtal, the Mind Reaper",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Grimmaw, Packhound Alpha",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasAct11]"]
+            },{
+                "name": "Forgotten Gods Stroy Quest 3",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["$hasAct11"]
+            },{
+                "name": "Basalt Crags Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Basalt Crags Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasAct11"],
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Jeren's Travel Log - 1st Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Vanguard Must Hold",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Ruins of Abyd",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1880,
+                "y": 1480
+            },{
+                "map": "Act 7",
+                "x": 420,
+                "y": 252
+            }
+        ],
+        "access_rules": ["$hasAct11"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Onarix, the Razorhide",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Risen Stone, Temple Guardian #1",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Risen Stone, Temple Guardian #2",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Inashkor, Temple Guardian",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Ruins of Abyd Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Ruins of Abyd Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Ruins of Abyd Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Bloodied Wastes Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests, $hasFactions"]
+            },{
+                "name": "Temple of Ateph Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Ruins of Abyd Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Missive to Elders of Ulzuin's Temple",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Infernal Wastes",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1760,
+                "y": 1490
+            },{
+                "map": "Act 7",
+                "x": 302,
+                "y": 265
+            }
+        ],
+        "access_rules": ["$hasAct11"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Sister Crimson, Vengeance of Kymon",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Temple Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Tomb of Sethan Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Vizier Erhaman's Note",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Valley of the Chosen",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1700,
+                "y": 1480
+            },{
+                "map": "Act 7",
+                "x": 240,
+                "y": 252
+            }
+        ],
+        "access_rules": ["$hasAct11"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "The Duskreaper",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Inarah, the Afflicted",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Tomb of Nephos Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tomb of Nephos Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Valley of the Chosen Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tomb of Nephos Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Jeren's Travel Log - 2nd Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Rhenet the Rat God",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Scorched Note",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Writings of Rion the Scholar - 2nd Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Remnants of Korvan City",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1625,
+                "y": 1455
+            },{
+                "map": "Act 7",
+                "x": 170,
+                "y": 233
+            }
+        ],
+        "access_rules": ["$hasAct11"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Okaloth the Messenger",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Bell'oq, Guardian of Rahn",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Map Room Protector 1",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Map Room Protector 2",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions"]
+            },{
+                "name": "Dravis, Son of Uroboruuk",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "The Steward",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasTombOfTheEldritchSun"]
+            },{
+                "name": "Remnants of Korvan City Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Korvan Expedition - 4th Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Writings of Rion the Scholar - 3rd Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Missing Shipments",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Writings of Rion the Scholar - 6th entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Yorvok's Letter to Bahan",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Korvan Expedition - Final Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Writings of Rion the Scholar - 4th Entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Sunward Spire",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1530,
+                "y": 1380
+            },{
+                "map": "Act 7",
+                "x": 75,
+                "y": 150
+            }
+        ],
+        "access_rules": ["$hasAct11"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Azaleon, Gryphon Sovereign",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Astros the Sunherald",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Sunward Spire Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Sunward Spire Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Security Concerns",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Writings of Rion the Scholar - 5th entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Tomb of the Eldritch Sun",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1675,
+                "y": 1385
+            },{
+                "map": "Act 7",
+                "x": 213,
+                "y": 160
+            }
+        ],
+        "access_rules": ["$hasTombOfTheEldritchSun"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Brother Segarius, Vengeance of Kymon",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Father Kymon, Avatar of Korvaak",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Tomb of the Eldritch Sun Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tomb of the Eldritch Sun Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tomb of the Eldritch Sun Secret Chest #3",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tomb of the Eldritch Sun Secret Chest #4",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tomb of the Eldritch Sun Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "The Korvan Elegy - Part 1",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "The Korvan Elegy - Part 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "The Korvan Elegy - Part 3",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "The Korvan Elegy - Part 4",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "The Eldritch Gate",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1675,
+                "y": 1340
+            },{
+                "map": "Act 7",
+                "x": 213,
+                "y": 125
+            }
+        ],
+        "access_rules": ["$hasTheEldritchGate"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak"],
+        "sections": [
+            {
+                "name": "Manifestation of Korvaak, the Eldritch Sun",
+                "chest_opened_img": "images/ui/icon_boss_checked.png",
+                "chest_unopened_img": "images/ui/icon_boss.png"
+            },{
+                "name": "Korvaak's Essence",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Astral Fields Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Splendors of the Eldritch Realm",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Ruminations of the Primordial One",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Lost Oasis",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1790,
+                "y": 1395
+            },{
+                "map": "Act 7",
+                "x": 330,
+                "y": 170
+            }
+        ],
+        "access_rules": ["$hasLostOasis, [$hasForbiddenDoorUnlock]"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak, $hasForbiddenDungeons"],
+        "sections": [
+            {
+                "name": "Tuha's Report - Page 1",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Tuha's Report - Page 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            }
+        ]
+    },{
+        "name": "Tomb of the Heretic",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1765,
+                "y": 1350
+            },{
+                "map": "Act 7",
+                "x": 295,
+                "y": 120
+            }
+        ],
+        "access_rules": ["$hasLostOasis, [$hasForbiddenDoorUnlock]"],
+        "visibility_rules": ["$hasGoalOfAtLeastKorvaak, $hasForbiddenDungeons"],
+        "sections": [
+            {
+                "name": "Keeper of the Seal",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{
+                "name": "Court Magi",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
+            },{
+                "name": "Hundering Darkness",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
+            },{
+                "name": "Grand Magus Morgoneth",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"]
+            },{
+                "name": "Tomb of the Heretic Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{
+                "name": "Tomb of the Heretic Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Court of the Magi Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Morgoneth's Folly Secret Chest",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasSecretChests"]
+            },{
+                "name": "Tomb of the Heretic Devotion Shrine",
+                "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
+                "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]
+            },{
+                "name": "Morgoneth's Invitation",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Morgoneth's Lessons - Page 1",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Morgoneth's Lessons - Page 2",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Confluence of the Magi",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Tuha's Report - Page 3",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "The Darkness Writhes",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Tuha's Report - Page 4",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Scion of the Sands",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "Morgoneth's Lessons - Page 3",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["$hasForbiddenDoorUnlock"],
+                "visibility_rules": ["$hasLoreNotes"]
             }
         ]
     }

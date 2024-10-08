@@ -13,8 +13,8 @@
     },
     {
         "name": "Act 2",
-        "location_size": 15,
-        "location_border_thickness": 3,
+        "location_size": 12,
+        "location_border_thickness": 2,
         "img": "images/maps/Act 2.png"
     },
     {
@@ -40,5 +40,11 @@
         "location_size": 15,
         "location_border_thickness": 3,
         "img": "images/maps/Act 6.png"
+    },
+    {
+        "name": "Act 7",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/maps/Act 7.png"
     }
 ]

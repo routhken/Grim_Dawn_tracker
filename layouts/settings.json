@@ -23,11 +23,13 @@
                             ],
                             [
                                 "setting_secret_chest",
-                                "setting_one_shot_chest"
+                                "setting_one_shot_chest",
+                                "setting_faction"
                             ],
                             [
                                 "setting_lore_note",
-                                "setting_deathlink"
+                                "setting_deathlink",
+                                "setting_fgdlc"
                             ]
                         ]
                     }

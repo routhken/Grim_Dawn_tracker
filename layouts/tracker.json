@@ -101,6 +101,15 @@
                                     "Act 6"
                                 ]
                             }
+                        },
+                        {
+                            "title": "Act 7",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Act 7"
+                                ]
+                            }
                         }
                     ]
                 }
