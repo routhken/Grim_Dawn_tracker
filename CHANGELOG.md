@@ -10,3 +10,14 @@ Initial release
 * Logic: Location visibility logic based on Archipelago settings
 * Logic: Location accessibility logic based on game state
 * Autotracking: Support for automatic tracking of items, locations and settings when connected to an Archipelago server
+
+## 1.4.0
+
+Forgotten Gods Update
+
+* Added support for Forgotten Gods DLC and apworld v0.1.4
+* Fixed some typos
+* Fixed some yellow logic bugs
+* Added yellow logic to all forbidden dungeons
+* Added new notable enemies
+* Added new visuals from game assets
