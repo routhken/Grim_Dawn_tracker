@@ -1,6 +1,13 @@
 {
     "versions": [
         {
+            "package_version": "1.4.2",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4b/Grim_Dawn_aptracker.zip",
+            "sha256": "a5b0d8ecf0afb3b11b15276fe3aff7750390cd3dadb759308dd8543302fd50ed",
+            "changelog": [
+                "Auto-update test"
+            ]
+        },{
             "package_version": "1.4.1",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4a/Grim_Dawn_aptracker.zip",
             "sha256": "7a1de8e0aa5d6e60f13db01768314af3e269eaeca31bbc339fc00d344dfd18da",
