@@ -4010,6 +4010,11 @@
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
             },{
+                "name": "Anorak's Journal",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
                 "name": "Korvan Expedition - 3rd Entry",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
@@ -4492,6 +4497,11 @@
                 "visibility_rules": ["$hasLoreNotes"]
             },{
                 "name": "Writings of Rion the Scholar - 5th entry",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "I Stand Before the Eldritch Sun",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]

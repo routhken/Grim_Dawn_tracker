@@ -1,7 +1,7 @@
 {
     "name": "Grim Dawn",
     "game_name": "Grim Dawn",
-    "package_version": "1.4.0",
+    "package_version": "1.4.1",
     "package_uid": "ap_grim_dawn",
     "author": "DaKennyMan22",
     "variants": {
@@ -10,5 +10,7 @@
         "flags": ["ap"]
       }
     },
-    "versions_url": ""
+    "min_poptracker_version": "0.18.0",
+    "target_poptracker_version": "0.18.0",
+    "versions_url": "https://raw.githubusercontent.com/routhken/Grim_Dawn_tracker/refs/heads/master/versions.json"
 }

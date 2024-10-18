@@ -1,0 +1,40 @@
+{
+    "versions": [
+        {
+            "package_version": "1.4.1",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4a/Grim_Dawn_aptracker.zip",
+            "sha256": "7a1de8e0aa5d6e60f13db01768314af3e269eaeca31bbc339fc00d344dfd18da",
+            "changelog": [
+                "Minor Update",
+                " - Added 'Anorak's Journal' and 'I Stand Before the Eldritch Sun' to the tracker",
+                " - Added support for auto-updating tracker pack"
+            ]
+        },
+        {
+            "package_version": "1.4.0",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4/Grim_Dawn_aptracker.zip",
+            "changelog": [
+                "Forgotten Gods Update",
+                " - Added support for Forgotten Gods DLC and apworld v0.1.4",
+                " - Fixed some typos",
+                " - Fixed some yellow logic bugs",
+                " - Added yellow logic to all forbidden dungeons",
+                " - Added new notable enemies",
+                " - Added new visuals from game assets"
+            ]
+        },
+        {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.3/Grim_Dawn_aptracker.zip",
+            "changelog": [
+                "Initial release",
+                " - Items: Tracking support for progression items",
+                " - Locations: Tracking support for notable enemies, quests, secret chests, on-shot chests, devotion shrines, and lore note locations",
+                " - Archipelago Settings: Tracking support for Archipelago goals and settings",
+                " - Logic: Location visibility logic based on Archipelago settings",
+                " - Logic: Location accessibility logic based on game state",
+                " - Autotracking: Support for automatic tracking of items, locations and settings when connected to an Archipelago server"
+            ]
+        }
+    ]
+}
