@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.4.3",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4c/Grim_Dawn_aptracker.zip",
+            "sha256": "2b41dec31baa2e5ed4cf7d94af8c512fc46699d4bc872fd7acd9a491063d51b2",
+            "changelog": [
+                "Minor Update",
+                " - Fixed 2 lore notes not being tracked"
+            ]
+        },{
             "package_version": "1.4.2",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4b/Grim_Dawn_aptracker.zip",
             "sha256": "a5b0d8ecf0afb3b11b15276fe3aff7750390cd3dadb759308dd8543302fd50ed",
@@ -16,8 +24,7 @@
                 " - Added 'Anorak's Journal' and 'I Stand Before the Eldritch Sun' to the tracker",
                 " - Added support for auto-updating tracker pack"
             ]
-        },
-        {
+        },{
             "package_version": "1.4.0",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4/Grim_Dawn_aptracker.zip",
             "sha256": "0f151714bca903c9ea3ed63078d4a07d2a38003d04f6bb664411eb58c1ebd989",
@@ -30,8 +37,7 @@
                 " - Added new notable enemies",
                 " - Added new visuals from game assets"
             ]
-        },
-        {
+        },{
             "package_version": "1.0.0",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.3/Grim_Dawn_aptracker.zip",
             "sha256": "415afb41eac5934ccfcbe0e6116650fe51ff0be79d13b5928df4a97b1f3b6355",
