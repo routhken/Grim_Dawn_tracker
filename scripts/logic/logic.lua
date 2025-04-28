@@ -1,10 +1,14 @@
 -- Core Functions
+function has_not(item)
+    return Tracker:ProviderCountForCode(item) == 0
+end
+
 function has(item)
     return Tracker:ProviderCountForCode(item) > 0
 end
 
-function has_not(item)
-    return Tracker:ProviderCountForCode(item) == 0
+function has_at_least(item, amount)
+    return Tracker:ProviderCountForCode(item) >= amount
 end
 
 -- Accessibilty Rules
@@ -29,15 +33,15 @@ function hasEastMarsh()
 end
 
 function hasWardensCellar()
-    return has("warden_boss_door_unlock")
+    return has("warden_boss_door_unlock") or has("progressive_fg")
 end
 
 function hasAct2()
-    return has("arkovia_bridge_repair")
+    return has("arkovia_bridge_repair") or has("progressive_main")
 end
 
 function hasAct3()
-    return hasAct2() and has("arkovian_foothills_destroy_barricade")
+    return (hasAct2() and has("arkovian_foothills_destroy_barricade")) or has_at_least("progressive_main",2)
 end
 
 function hasForbiddenDoorUnlock()
@@ -69,7 +73,7 @@ function hasRoyalHive()
 end
 
 function hasAct4()
-    return hasAct3() and has("homestead_main_doors_unlock")
+    return (hasAct3() and has("homestead_main_doors_unlock")) or has_at_least("progressive_main",3)
 end
 
 function hasTempleOfTheThree()
@@ -77,11 +81,11 @@ function hasTempleOfTheThree()
 end
 
 function hasAct5()
-    return hasAct4() and has("fort_ikon_gate_unlock")
+    return (hasAct4() and has("fort_ikon_gate_unlock")) or has_at_least("progressive_main",4)
 end
 
 function hasAct6()
-    return hasAct5() and has("fort_ikon_destroy_blockade")
+    return (hasAct5() and has("fort_ikon_destroy_blockade")) or has_at_least("progressive_main",5)
 end
 
 function hasBastionOfChaos()
@@ -89,15 +93,15 @@ function hasBastionOfChaos()
 end
 
 function hasTombOfTheWatchers()
-    return hasAct6() and has("tomb_of_the_watchers_door_unlock")
+    return (hasAct6() and has("tomb_of_the_watchers_door_unlock")) or has_at_least("progressive_main",6)
 end
 
 function hasEdgeOfMadness()
-    return hasTombOfTheWatchers() and has("loghorrean_seal_unlock")
+    return (hasTombOfTheWatchers() and has("loghorrean_seal_unlock")) or has_at_least("progressive_main",7)
 end
 
 function hasAct7()
-    return has("gloomwald_destroy_blockade")
+    return has("gloomwald_destroy_blockade") or has("progressive_aom")
 end
 
 function hasNanesHideout()
@@ -113,7 +117,7 @@ function hasForlornCellar()
 end
 
 function hasAct8()
-    return hasAct7() and has("altar_of_rattosh_portal")
+    return (hasAct7() and has("altar_of_rattosh_portal")) or has_at_least("progressive_aom",2)
 end
 
 function hasMalmouthSewer()
@@ -121,7 +125,7 @@ function hasMalmouthSewer()
 end
 
 function hasAct9()
-    return hasAct8() and has("steelcap_district_door_unlock")
+    return (hasAct8() and has("steelcap_district_door_unlock")) or has_at_least("progressive_aom",3)
 end
 
 function hasCandleDistrict()
@@ -133,19 +137,19 @@ function hasHarborStash()
 end
 
 function hasCrownHill()
-    return hasAct9() and has("crown_hill_destroy_gates")
+    return (hasAct9() and has("crown_hill_destroy_gates")) or has_at_least("progressive_aom",4)
 end
 
 function hasFleshworks()
-    return hasCrownHill() and has("crown_hill_open_flesh_barrier")
+    return (hasCrownHill() and has("crown_hill_open_flesh_barrier")) or has_at_least("progressive_aom",5)
 end
 
 function hasSanctumOfFlesh()
-    return hasFleshworks() and has("fleshworks_open_flesh_barrier")
+    return (hasFleshworks() and has("fleshworks_open_flesh_barrier")) or has_at_least("progressive_aom",6)
 end
 
 function hasAct10()
-    return hasWardensCellar()
+    return hasWardensCellar() or has("progressive_fg")
 end
 
 function hasAoMLeveling()
@@ -153,7 +157,7 @@ function hasAoMLeveling()
 end
 
 function hasAct11()
-    return hasAct10() and has("vanguard_of_the_three_door_unlock")
+    return (hasAct10() and has("vanguard_of_the_three_door_unlock")) or has_at_least("progressive_fg",2)
 end
 
 function hasDevilsAquifer()
@@ -165,11 +169,11 @@ function hasLostOasis()
 end
 
 function hasTombOfTheEldritchSun()
-    return hasAct11() and has("path_of_ascension_destroy_barrier")
+    return (hasAct11() and has("path_of_ascension_destroy_barrier")) or has_at_least("progressive_fg",3)
 end
 
 function hasTheEldritchGate()
-    return hasTombOfTheEldritchSun() and has("eldritch_gate_destroy_barrier")
+    return (hasTombOfTheEldritchSun() and has("eldritch_gate_destroy_barrier")) or has_at_least("progressive_fg",4)
 end
 
 function hasDevilsCrossingRevered()
@@ -214,19 +218,19 @@ function hasFGDLC()
 end
 
 function hasGoalOfAtLeastKorvaak()
-    return hasFGDLC() and (has("goal_korvaak") or has("goal_swarm_queen_ravna") or has("goal_loghorrean") or has("goal_master_of_flesh"))
+    return hasFGDLC() and (has("goal_korvaak") or has("goal_swarm_queen_ravna") or has("goal_loghorrean") or has("goal_master_of_flesh") or has("goal_all_bosses") or has("goal_emblem_hunt"))
 end
 
 function hasGoalOfAtLeastRavna()
-    return has("goal_swarm_queen_ravna") or has("goal_loghorrean") or has("goal_master_of_flesh")
+    return has("goal_swarm_queen_ravna") or has("goal_loghorrean") or has("goal_master_of_flesh") or has("goal_all_bosses") or has("goal_emblem_hunt")
 end
 
 function hasGoalOfAtLeastLoghorrean()
-    return has("goal_loghorrean") or has("goal_master_of_flesh")
+    return has("goal_loghorrean") or has("goal_master_of_flesh") or has("goal_all_bosses") or has("goal_emblem_hunt")
 end
 
 function hasGoalOfAtLeastMasterOfFlesh()
-    return has("goal_master_of_flesh")
+    return has("goal_master_of_flesh") or has("goal_all_bosses") or has("goal_emblem_hunt")
 end
 
 function hasDevotionShrines()

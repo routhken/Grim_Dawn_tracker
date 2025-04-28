@@ -1743,7 +1743,7 @@
                 "name": "Death's Vigil - Kymon's Chosen Faction Quest 6",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
-                "access_rules": ["[$hasDeathsVigilKymonsChosenRevered]"]
+                "access_rules": ["$hasEastMarsh, [$hasDeathsVigilKymonsChosenRevered]"]
             }
         ]
     },{
@@ -2195,7 +2195,7 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "access_rules": ["$hasEdgeOfMadness, $hasWardensCellar"],
-                "visibility_rules": ["$hasLoreNotes"]
+                "visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh"]
             }
         ]
     },{
@@ -4169,10 +4169,10 @@
                 "chest_unopened_img": "images/ui/icon_marker_red.png",
                 "access_rules": ["[$hasAct11]"]
             },{
-                "name": "Forgotten Gods Stroy Quest 3",
+                "name": "Forgotten Gods Story Quest 3",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
-                "access_rules": ["$hasAct11"]
+                "access_rules": ["[$hasAct11]"]
             },{
                 "name": "Basalt Crags Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",

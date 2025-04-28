@@ -12,6 +12,50 @@
         "codes": "5_scrap"
     },
     {
+        "name": "Progressive Main Campaign",
+        "type": "consumable",
+        "img": "/images/items/Scrap.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "progressive_main"
+    },
+    {
+        "name": "Progressive Forgotten Gods",
+        "type": "consumable",
+        "img": "/images/items/Scrap.png",
+        "max_quantity": 4,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "progressive_fg"
+    },
+    {
+        "name": "Progressive Ashes of Malmouth",
+        "type": "consumable",
+        "img": "/images/items/Scrap.png",
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "progressive_aom"
+    },
+    {
+        "name": "Aetherial Emblem",
+        "type": "consumable",
+        "img": "/images/items/Aetherial Emblem.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "aetherial_emblem"
+    },
+    {
         "name": "Altar of Rattosh Portal",
         "type": "toggle",
         "img": "/images/items/Ulgrims Keepsake2.png",
@@ -389,6 +433,18 @@
                 "name": "Goal: Master of Flesh",
                 "img": "/images/settings/Goal Master of Flesh.png",
                 "codes": "goal_master_of_flesh",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: All Bosses",
+                "img": "/images/settings/Goal All Bosses.png",
+                "codes": "goal_all_bosses",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Aetherial Emblem Hunt",
+                "img": "/images/settings/Goal Emblem Hunt.png",
+                "codes": "goal_emblem_hunt",
                 "inherit_codes": false
             }
         ],

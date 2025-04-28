@@ -27,7 +27,8 @@
                                 "altar_of_rattosh_portal",
                                 "crown_hill_destroy_gates",
                                 "crown_hill_open_flesh_barrier",
-                                "fleshworks_open_flesh_barrier"
+                                "fleshworks_open_flesh_barrier",
+                                "progressive_main"
                             ]
                         ]
                     },
@@ -49,7 +50,8 @@
                                 "tomb_of_the_watchers_door_unlock",
                                 "loghorrean_seal_unlock",
                                 "candle_district_door_unlock",
-                                "steelcap_district_door_unlock"
+                                "steelcap_district_door_unlock",
+                                "progressive_fg"
                             ]
                         ]
                     },
@@ -75,7 +77,8 @@
                                 "malmouth_harbor_destroy_barricade",
                                 "forlorn_cellar_unlock",
                                 "path_of_ascension_destroy_barrier",
-                                "forbidden_door_unlock"
+                                "forbidden_door_unlock",
+                                "aetherial_emblem"
                             ]
                         ]
                     },
@@ -98,7 +101,8 @@
                                 "black_legion_revered",
                                 "coven_of_ugdenbog_revered",
                                 "malmouth_resistance_revered",
-                                "witch_god_cults_revered"
+                                "witch_god_cults_revered",
+                                "progressive_aom"
                             ]
                         ]
                     }

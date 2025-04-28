@@ -63,6 +63,8 @@ function onClear(slotData)
     Tracker:FindObjectForCode("goal_swarm_queen_ravna").Active = false
     Tracker:FindObjectForCode("goal_loghorrean").Active = false
     Tracker:FindObjectForCode("goal_master_of_flesh").Active = false
+    Tracker:FindObjectForCode("goal_all_bosses").Active = false
+    Tracker:FindObjectForCode("goal_emblem_hunt").Active = false
 
     --print("Slotdata: ") --debug
     --print(dump(slotData)) --debug
@@ -82,6 +84,10 @@ function onClear(slotData)
             goalTrackerKey = "goal_loghorrean"
         elseif  goalValue == 4 then
             goalTrackerKey = "goal_master_of_flesh"
+        elseif  goalValue == 50 then
+            goalTrackerKey = "goal_all_bosses"
+        elseif  goalValue == 51 then
+            goalTrackerKey = "goal_emblem_hunt"
         end
 
         --print("goalTrackerKey: " .. goalTrackerKey) --debug

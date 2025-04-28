@@ -47,5 +47,9 @@ ITEM_MAPPING = {
     [220071] = {"black_legion_revered", "toggle"},
     [220072] = {"coven_of_ugdenbog_revered", "toggle"},
     [220073] = {"malmouth_resistance_revered", "toggle"},
-    [220074] = {"witch_god_cults_revered", "toggle"}
+    [220074] = {"witch_god_cults_revered", "toggle"},
+    [220075] = {"aetherial_emblem", "consumable"},
+    [220076] = {"progressive_main", "consumable"},
+    [220077] = {"progressive_fg", "consumable"},
+    [220078] = {"progressive_aom", "consumable"},
 }
