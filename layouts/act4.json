@@ -1,0 +1,270 @@
+{
+    "act4": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Act 4"
+                    ]
+                }
+            },
+            {
+                "title": "Asterkarn Road",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Asterkarn Road",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Asterkarn Road"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hidden Path",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hidden Path"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Asterkarn Valley",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Asterkarn Valley",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Asterkarn Valley"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of Korvaak",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of Korvaak"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Fort Ikon",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Fort Ikon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fort Ikon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Archon Barthollem 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Archon Barthollem 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Archon Barthollem 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Archon Barthollem 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lost Tomb of the Damned",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lost Tomb of the Damned"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Fort Ikon Armory",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fort Ikon Armory"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Plains of Strife",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Plains of Strife",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Plains of Strife"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Forsaken Wastes",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forsaken Wastes"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Obsidian Throne",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Obsidian Throne"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Gates of Necropolis",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Gates of Necropolis",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Gates of Necropolis"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Black Sepulcher",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Black Sepulcher"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Necropolis Interior",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Necropolis Interior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Necropolis Interior"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Watchers",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Watchers"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Seal of the Loghorrean",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Seal of the Loghorrean"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Edge of Madness",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Edge of Madness"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Bastion of Chaos",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Bastion of Chaos",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Bastion of Chaos"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Discord",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Discord"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anarchy",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anarchy"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Entropy",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Entropy"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

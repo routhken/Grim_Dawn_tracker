@@ -28,6 +28,10 @@
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
+                "name": "The Seamstress",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{
                 "name": "Repair Waterpump",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
@@ -72,6 +76,72 @@
             }
         ]
     },{
+        "name": "Devil's Aquifer",
+        "map_locations": [{"map": "Devil's Crossing","x": 196,"y": 212}],
+        "access_rules": ["[$hasDevilsAquifer]"],
+        "sections": [
+            {   "name": "Viloth, the Corruptor","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "Prison Dungeons Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{ "name": "Devil's Aquifer Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]}]
+    },{
+        "name": "Kasparov",
+        "map_locations": [{"map": "Devil's Crossing","x": 245,"y": 162}],
+        "sections": [
+            {   "name": "Kasparov's Device","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{ "name": "Dangerous Curiosity","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],"visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna"]}]
+    },{
+        "name": "Barnabas",
+        "map_locations": [{"map": "Devil's Crossing","x": 176,"y": 234}],
+        "sections": [
+            {   "name": "Repair Waterpump","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$hasDevilsAquifer]"]
+            },{ "name": "Cleanse Slith Infestation","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasDevilsAquifer]"]}]
+    },{
+        "name": "Devil's Crossing - Various NPCs",
+        "map_locations": [{"map": "Devil's Crossing","x": 127,"y": 117}],
+        "sections": [
+            {   "name": "A Sister's Gift","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{ "name": "Cultist in the Midst","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{
+        "name": "The Seamstress",
+        "map_locations": [{"map": "Devil's Crossing","x": 109,"y": 63}],
+        "sections": [
+            {   "name": "The Seamstress","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{
+        "name": "Crudely Scrawled Note",
+        "map_locations": [{"map": "Devil's Crossing","x": 204,"y": 105}],
+        "sections": [
+            {   "name": "Crudely Scrawled Note","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "Old Grove",
+        "map_locations": [{"map": "Devil's Crossing","x": 85,"y": 334}],
+        "sections": [
+            {   "name": "Old Grove Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasGoalOfAtLeastRavna, $hasSecretChests"],"access_rules": ["$has|old_grove_bridge_repair"]}]
+    },{
+        "name": "Prison Dungeons Secret Chest",
+        "map_locations": [{"map": "Devil's Aquifer","x": 259,"y": 198}],
+        "sections": [
+            {   "name": "Prison Dungeons Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"],"access_rules": ["[$hasDevilsAquifer]"]}]
+    },{
+        "name": "Viloth, the Corruptor",
+        "map_locations": [{"map": "Devil's Aquifer","x": 705,"y": 116}],
+        "sections": [
+            {   "name": "Viloth, the Corruptor","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasDevilsAquifer]"]}]
+    },{
+        "name": "Devil's Aquifer Devotion Shrine",
+        "map_locations": [{"map": "Devil's Aquifer","x": 728,"y": 89}],
+        "sections": [
+            {   "name": "Devil's Aquifer Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"],"access_rules": ["[$hasDevilsAquifer]"]}]
+    },{
         "name": "Hargate's Isle",
         "map_locations": [
             {
@@ -82,6 +152,10 @@
                 "map": "Act 1",
                 "x": 30,
                 "y": 605
+            },{
+                "map": "Lower Crossing",
+                "x": 45,
+                "y": 513
             }
         ],
         "sections": [
@@ -116,6 +190,49 @@
                 "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]
             }
         ]
+    },{
+        "name": "Hargate's Journal 1",
+        "map_locations": [{"map": "Hargate's Isle","x": 160,"y": 52}],
+        "sections": [
+            {   "name": "Hargate's Journal 1","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "Hargate's Laboratory",
+        "map_locations": [{"map": "Hargate's Isle","x": 130,"y": 42}],
+        "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],
+        "sections": [
+            {   "name": "Ellena, the First Slith","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna"]
+            },{ "name": "Hargate's Journal - Page 2","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]
+            },{ "name": "Hargate's Journal - Page 3","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]
+            },{ "name": "Hargate's Journal - Page 4","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]}]
+    },{
+        "name": "Ellena, the First Slith",
+        "map_locations": [{"map": "Hargate's Laboratory","x": 666,"y": 127}],
+        "sections": [
+            {   "name": "Ellena, the First Slith","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],"visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna"]}]
+    },{
+        "name": "Hargate's Journal - Page 2",
+        "map_locations": [{"map": "Hargate's Laboratory","x": 139,"y": 430}],
+        "sections": [
+            {   "name": "Hargate's Journal - Page 2","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],"visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]}]
+    },{
+        "name": "Hargate's Journal - Page 3",
+        "map_locations": [{"map": "Hargate's Laboratory","x": 410,"y": 341}],
+        "sections": [
+            {   "name": "Hargate's Journal - Page 3","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],"visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]}]
+    },{
+        "name": "Hargate's Journal - Page 4",
+        "map_locations": [{"map": "Hargate's Laboratory","x": 752,"y": 203}],
+        "sections": [
+            {   "name": "Hargate's Journal - Page 4","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "access_rules": ["[$hasDevilsCrossingRevered], $hasAct2"],"visibility_rules": ["$hasFactions, $hasGoalOfAtLeastRavna, $hasLoreNotes"]}]
     },{
         "name": "Lower Crossing",
         "map_locations": [
@@ -172,6 +289,43 @@
             }
         ]
     },{
+        "name": "Rescue Faldis",
+        "map_locations": [{"map": "Lower Crossing","x": 120,"y": 87}],
+        "sections": [
+            {   "name": "Rescue Faldis","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{
+        "name": "Barrog, the Bloodied",
+        "map_locations": [{"map": "Lower Crossing","x": 207,"y": 256}],
+        "sections": [
+            {   "name": "Barrog, the Bloodied","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{
+        "name": "Lower Crossing - Hidden Path",
+        "map_locations": [{"map": "Lower Crossing","x": 570,"y": 77}],
+        "access_rules": ["$hasHiddenPath"],
+        "sections": [
+            {   "name": "Guardian of Dreeg","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "The Hidden Path - Dreeg","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "Francis' Note",
+        "map_locations": [{"map": "Lower Crossing","x": 136,"y": 431}],
+        "sections": [
+            {   "name": "Francis' Note","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "Lower Crossing - Harbormaster's Log",
+        "map_locations": [{"map": "Lower Crossing","x": 177,"y": 325}],
+        "sections": [
+            {   "name": "Harbormaster's Log - Lower Crossing","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "Lower Crossing - Journal",
+        "map_locations": [{"map": "Lower Crossing","x": 218,"y": 202}],
+        "visibility_rules": ["$hasLoreNotes"],
+        "sections": [
+            {   "name": "Journal of Inquisitor Creed - 1st Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png"
+            },{ "name": "Journal of Inquisitor Creed - 2nd Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png", "chest_unopened_img": "images/ui/icon_lore_note.png"}]
+    },{
         "name": "Burial Hill - Old Dump",
         "map_locations": [
             {
@@ -204,6 +358,34 @@
                 "visibility_rules": ["$hasDevotionShrines"]
             }
         ]
+    },{
+        "name": "Burial Cave",
+        "map_locations": [{"map": "Burial Hill","x": 101,"y": 238},{"map": "Burial Hill","x": 232,"y": 329}],
+        "sections": [
+            {   "name": "Kyzogg the Reanimator","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "Burial Hill Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]}]
+    },{
+        "name": "Kyzogg the Reanimator",
+        "map_locations": [{"map": "Burial Cave","x": 174,"y": 167}],
+        "sections": [
+            {   "name": "Kyzogg the Reanimator","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{
+        "name": "Burial Hill Devotion Shrine",
+        "map_locations": [{"map": "Burial Cave","x": 134,"y": 43}],
+        "sections": [
+            { "name": "Burial Hill Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]}]
+    },{
+        "name": "Farros, the Rotted",
+        "map_locations": [{"map": "Burial Hill","x": 368,"y": 210}],
+        "sections": [
+            {   "name": "Farros, the Rotted","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{
+        "name": "Putrid Den",
+        "map_locations": [{"map": "Burial Hill","x": 232,"y": 43},{"map": "Burial Hill","x": 309,"y": 324},{"map": "Burial Hill","x": 436,"y": 191},{"map": "Putrid Den","x": 61,"y": 131}],
+        "sections": [
+            {   "name": "Pusquill the Hoarder","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{
         "name": "Wightmire - Sodden Hollow",
         "map_locations": [
@@ -260,6 +442,63 @@
             }
         ]
     },{
+        "name": "Cavern 1",
+        "map_locations": [{"map": "Wightmire","x": 103,"y": 359},{"map": "Wightmire","x": 565,"y": 627},{"map": "Wightmire","x": 571,"y": 485}],
+        "sections": [
+            {   "name": "Free the Rovers","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{ "name": "Dirt-Covered Note","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "Free the Rovers",
+        "map_locations": [{"map": "Cavern1","x": 145,"y": 124}],
+        "sections": [
+            {   "name": "Free the Rovers","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{
+        "name": "Dirt-Covered Note",
+        "map_locations": [{"map": "Cavern1","x": 62,"y": 98}],
+        "sections": [
+            {   "name": "Dirt-Covered Note","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "That Good Old Slith Charm",
+        "map_locations": [{"map": "Wightmire","x": 172,"y": 229}],
+        "sections": [
+            {   "name": "That Good Old Slith Charm","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{
+        "name": "Jillius, the Decayed",
+        "map_locations": [{"map": "Wightmire","x": 555,"y": 405}],
+        "sections": [
+            {   "name": "Jillius, the Decayed","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{
+        "name": "Milton Hart",
+        "map_locations": [{"map": "Wightmire","x": 397,"y": 278},{"map": "Wightmire","x": 470,"y": 383},{"map": "Wightmire","x": 527,"y": 318}],
+        "sections": [
+            {   "name": "Milton Hart","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "Milton Hart's Note","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{
+        "name": "Neegan, the Withered",
+        "map_locations": [{"map": "Wightmire","x": 647,"y": 124}],
+        "sections": [
+            {   "name": "Neegan, the Withered","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{
+        "name": "Secure Wightmire Portal",
+        "map_locations": [{"map": "Wightmire","x": 341,"y": 455}],
+        "sections": [
+            {   "name": "Secure Wightmire Portal","chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png","chest_unopened_img": "images/ui/icon_riftgatedown_world.png"}]
+    },{
+        "name": "Isaac's Stash",
+        "map_locations": [{"map": "Wightmire","x": 124,"y": 143}],
+        "sections": [
+            {   "name": "Isaac's Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]}]
+    },{
+        "name": "Cavern 2",
+        "map_locations": [{"map": "Wightmire","x": 292,"y": 178},{"map": "Cavern2","x": 194,"y": 184},{"map": "Foggy Bank","x": 249,"y": 426}],
+        "sections": [
+            {   "name": "Foggy Banks Cave Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]}]
+    },{
         "name": "Foggy Bank",
         "map_locations": [
             {
@@ -293,6 +532,22 @@
                 "visibility_rules": ["$hasLoreNotes"]
             }
         ]
+    },{
+        "name": "Rescue Luther Graves",
+        "map_locations": [{"map": "Foggy Bank","x": 608,"y": 441},{"map": "Foggy Bank","x": 291,"y": 183},{"map": "Foggy Bank","x": 602,"y": 256}],
+        "sections": [
+            {   "name": "Rescue Luther Graves","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{
+        "name": "Cavern 3",
+        "map_locations": [{"map": "Foggy Bank","x": 276,"y": 207},{"map": "Foggy Bank","x": 516,"y": 281},{"map": "Cavern3","x": 170,"y": 154}],
+        "sections": [
+            { "name": "Primordian, the Forgotten One","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{
+        "name": "Cultist's Lair",
+        "map_locations": [{"map": "Foggy Bank","x": 413,"y": 602},{"map": "Cultist's Lair","x": 115,"y": 153}],
+        "sections": [
+            { "name": "Missive to Wightmire Bloodbound","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Flooded Passage",
         "map_locations": [
@@ -335,6 +590,25 @@
                 "access_rules": ["$hasSunkenReliquary"]
             }
         ]
+    },{ "name": "Ancient Shambler",
+        "map_locations": [{"map": "Flooded Passage","x": 387,"y": 119}],"sections": [
+            {   "name": "Ancient Shambler","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "High Priest Rolderathis",
+        "map_locations": [{"map": "Flooded Passage","x": 87,"y": 176}],"sections": [
+            {   "name": "High Priest Rolderathis","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["$hasSunkenReliquary"]}]
+    },{ "name": "Writings of Rolderathis 1",
+        "map_locations": [{"map": "Flooded Passage","x": 166,"y": 207}],"sections": [
+            {   "name": "Writings of Rolderathis 1","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasSunkenReliquary"]}]
+    },{ "name": "Sunken Reliquary Exalted Stash",
+        "map_locations": [{"map": "Flooded Passage","x": 71,"y": 103}],"sections": [
+            {   "name": "Sunken Reliquary Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"],"access_rules": ["$hasSunkenReliquary"]}]
+    },{ "name": "Flooded Passage Devotion Shrine",
+        "map_locations": [{"map": "Flooded Passage","x": 507,"y": 113}],"sections": [
+            {   "name": "Flooded Passage Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]}]
     },{
         "name": "Burrwitch Outskirts - Moldering Fields",
         "map_locations": [
@@ -397,6 +671,47 @@
                 "visibility_rules": ["$hasLoreNotes"]
             }
         ]
+    },{ "name": "Rescue Ulgrim",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 387,"y": 321}],"sections": [
+            {   "name": "Rescue Ulgrim","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{ "name": "A Tale of Two Blacksmiths",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 822,"y": 682}],"sections": [
+            {   "name": "A Tale of Two Blacksmiths","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{ "name": "Balros, the Malformed",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 83,"y": 436}],"sections": [
+            {   "name": "Balros, the Malformed","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Hagra, the Tormented",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 90,"y": 451}],"sections": [
+            {   "name": "Hagra, the Tormented","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Smuggler's Basin",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 143,"y": 192},{"map": "Burrwitch Outskirts","x": 727,"y": 502},{"map": "Burrwitch Outskirts","x": 491,"y": 243},{"map": "Smuggler's Basin","x": 96,"y": 94}],"sections": [
+            {   "name": "Gutworm, the Maneater","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Depraved Sanctuary",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 991,"y": 840}],"sections": [
+            {   "name": "Salazar, Blade of Ch'thon","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasDepravedSanctuary]"]
+            },{ "name": "Depraved Sanctuary Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"],"access_rules": ["[$hasDepravedSanctuary]"]}]
+    },{ "name": "Salazar, Blade of Ch'thon",
+        "map_locations": [{"map": "Depraved Sanctuary","x": 141,"y": 47}],"sections": [
+            {   "name": "Salazar, Blade of Ch'thon","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png",
+                "access_rules": ["[$hasDepravedSanctuary]"]}]
+    },{ "name": "Depraved Sanctuary Exalted Stash",
+        "map_locations": [{"map": "Depraved Sanctuary","x": 90,"y": 148}],"sections": [
+            {   "name": "Depraved Sanctuary Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"],"access_rules": ["[$hasDepravedSanctuary]"]}]
+    },{ "name": "Burrwitch Cave",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 389,"y": 596},{"map": "Burrwitch Outskirts","x": 489,"y": 544},{"map": "Burrwitch Cave","x": 191,"y": 121}],"sections": [
+            {   "name": "Burrwitch Outskirts Cave Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
+                "visibility_rules": ["$hasDevotionShrines"]}]
+    },{ "name": "Burrwitch Recon Report",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 368,"y": 829}],"sections": [
+            {   "name": "Burrwitch Recon Report","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Alister's Diary",
+        "map_locations": [{"map": "Burrwitch Outskirts","x": 236,"y": 352}],"sections": [
+            {   "name": "Alister's Diary","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Burrwitch",
         "map_locations": [
@@ -421,10 +736,6 @@
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
                 "name": "Rescue Darlet",
-                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_blue.png"
-            },{
-                "name": "The Seamstress",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{
@@ -483,6 +794,48 @@
                 "visibility_rules": ["$hasLoreNotes"]
             }
         ]
+    },{ "name": "Secure Burrwitch Portal",
+        "map_locations": [{"map": "Burrwitch","x": 403,"y": 776}],"sections": [
+            {   "name": "Secure Burrwitch Portal","chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png","chest_unopened_img": "images/ui/icon_riftgatedown_world.png"}]
+    },{ "name": "Festering Lair",
+        "map_locations": [{"map": "Burrwitch","x": 139,"y": 531},{"map": "Festering Lair","x": 50,"y": 173},{"map": "Festering Lair","x": 140,"y": 180},{"map": "Festering Lair","x": 141,"y": 114},{"map": "Festering Lair","x": 118,"y": 57},{"map": "Festering Lair","x": 108,"y": 42}],"sections": [
+            {   "name": "Grundleplith the Hoarder","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "Monster's Hoard","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
+    },{ "name": "Dank Cellar",
+        "map_locations": [{"map": "Burrwitch","x": 426,"y": 233},{"map": "Burrwitch","x": 494,"y": 222},{"map": "Burrwitch","x": 607,"y": 247}],"sections": [
+            {   "name": "Rescue Darlet","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{ "name": "Dank Cellar Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Rescue Darlet",
+        "map_locations": [{"map": "Dank Cellar","x": 177,"y": 226}],"sections": [
+            {   "name": "Rescue Darlet","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
+    },{ "name": "Dank Cellar Secret Chest",
+        "map_locations": [{"map": "Dank Cellar","x": 246,"y": 93}],"sections": [
+            {   "name": "Dank Cellar Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Deal with the Hermit",
+        "map_locations": [{"map": "Burrwitch","x": 600,"y": 371}],"sections": [
+            {   "name": "Deal with the Hermit","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Hallowed Hill",
+        "map_locations": [{"map": "Burrwitch","x": 676,"y": 480},{"map": "Hallowed Hill","x": 454,"y": 216},{"map": "Hallowed Hill","x": 526,"y": 307},{"map": "Hallowed Hill","x": 620,"y": 223}],"sections": [
+            {   "name": "Hallowed Hill Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
+    },{ "name": "Infested Cellar",
+        "map_locations": [{"map": "Burrwitch","x": 378,"y": 601},{"map": "Burrwitch","x": 535,"y": 664},{"map": "Infested Cellar","x": 62,"y": 66}],"sections": [
+            {   "name": "Infested Cellar Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Musty Cellar",
+        "map_locations": [{"map": "Burrwitch","x": 373,"y": 118},{"map": "Burrwitch","x": 479,"y": 66},{"map": "Musty Cellar","x": 101,"y": 84}],"sections": [
+            {   "name": "Musty Cellar Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Burrwitch Devotion Shrine",
+        "map_locations": [{"map": "Burrwitch","x": 440,"y": 225}],"sections": [
+            {   "name": "Burrwitch Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+    },{ "name": "Harbormaster's Log - Burrwitch",
+        "map_locations": [{"map": "Burrwitch","x": 119,"y": 278}],"sections": [
+            {   "name": "Harbormaster's Log - Burrwitch","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Warden Krieg's Journal",
+        "map_locations": [{"map": "Burrwitch","x": 549,"y": 73}],"sections": [
+            {   "name": "Warden Krieg's Journal","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Journal of Inquisitor Creed - 3rd and 4th entry",
+        "map_locations": [{"map": "Burrwitch","x": 574,"y": 106}],"sections": [
+            {   "name": "Journal of Inquisitor Creed - 3rd Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]
+            },{ "name": "Journal of Inquisitor Creed - 4th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "East Marsh",
         "map_locations": [
@@ -561,6 +914,39 @@
                 "visibility_rules": ["$hasLoreNotes"]
             }
         ]
+    },{ "name": "Burrwitch Cathedral",
+        "map_locations": [{"map": "East Marsh","x": 202,"y": 86}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Father Abaddoth, Betrayer of Menhir","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "The Gift of Ch'thon","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Galeslice the Ruthless",
+        "map_locations": [{"map": "East Marsh","x": 166,"y": 768}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Galeslice the Ruthless","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Balegor, the Swamp King",
+        "map_locations": [{"map": "East Marsh","x": 594,"y": 876}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Balegor, the Swamp King","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Kalis Ka, the Bonehunter",
+        "map_locations": [{"map": "East Marsh","x": 1166,"y": 475}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Kalis Ka, the Bonehunter","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Uroboruuk's Guardian",
+        "map_locations": [{"map": "East Marsh","x": 935,"y": 382}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Uroboruuk's Guardian","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFactions"]
+            },{ "name": "Uroboruuk's Journal - Page 1","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]
+            },{ "name": "Uroboruuk's Journal - Page 2","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasFactions, $hasLoreNotes"]}]
+    },{ "name": "Burrwitch Cathedral Secret Chest",
+        "map_locations": [{"map": "East Marsh","x": 114,"y": 100}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Burrwitch Cathedral Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "East Marsh Secret Chest",
+        "map_locations": [{"map": "East Marsh","x": 729,"y": 323}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "East Marsh Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Craig's Crags Secret Chest",
+        "map_locations": [{"map": "East Marsh","x": 832,"y": 582}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Craig's Crags Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "East Marsh Devotion Shrine",
+        "map_locations": [{"map": "East Marsh","x": 1163,"y": 448}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "East Marsh Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+    },{ "name": "Muddy Note",
+    "map_locations": [{"map": "East Marsh","x": 453,"y": 656}],"access_rules": ["$hasEastMarsh"],"sections": [
+            {   "name": "Muddy Note","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Warden's Cellar",
         "map_locations": [
@@ -654,6 +1040,45 @@
                 "access_rules": ["$hasWardensCellar"]
             }
         ]
+    },{ "name": "Warden's Cellar Secret Chest #1",
+        "map_locations": [{"map": "Warden's Cellar","x": 422,"y": 393}],"sections": [
+            {   "name": "Warden's Cellar Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Warden's Cellar Secret Chest #2",
+        "map_locations": [{"map": "Warden's Cellar","x": 433,"y": 232}],"sections": [
+            {   "name": "Warden's Cellar Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Underground Transit Secret Chest",
+        "map_locations": [{"map": "Underground Transit","x": 579,"y": 332}],"sections": [
+            {   "name": "Underground Transit Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Warden's Lab Devotion Shrine",
+        "map_locations": [{"map": "Underground Transit","x": 580,"y": 205}],"sections": [
+            {   "name": "Warden's Lab Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+    },{ "name": "Abandoned Storerooms Secret Chest",
+        "map_locations": [{"map": "Underground Transit","x": 365,"y": 100}],"sections": [
+            {   "name": "Abandoned Storerooms Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+    },{ "name": "Ominous Lair Exalted Stash",
+        "map_locations": [{"map": "Underground Transit","x": 383,"y": 87},{"map": "Warden's Laboratory","x": 425,"y": 702},{"map": "Warden's Laboratory","x": 531,"y": 547}],"sections": [
+            {   "name": "Ominous Lair Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
+    },{ "name": "Journal of Inquisitor Creed - 5th and 6th Entry",
+        "map_locations": [{"map": "Warden's Laboratory","x": 797,"y": 533}],"sections": [
+            {   "name": "Journal of Inquisitor Creed - 5th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]
+            },{ "name": "Journal of Inquisitor Creed - 6th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Gethrand's Notes 1st Entry",
+        "map_locations": [{"map": "Warden's Laboratory","x": 689,"y": 531}],"sections": [
+            {   "name": "Gethrand's Notes 1st Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Gethrand's Notes 2nd Entry",
+        "map_locations": [{"map": "Warden's Laboratory","x": 650,"y": 456}],"sections": [
+            {   "name": "Gethrand's Notes 2nd Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Gethrand's Notes Final Entry",
+        "map_locations": [{"map": "Warden's Laboratory","x": 685,"y": 403}],"sections": [
+            {   "name": "Gethrand's Notes Final Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Zanbrandt's Notes",
+        "map_locations": [{"map": "Warden's Laboratory","x": 138,"y": 225}],"sections": [
+            {   "name": "Zanbrandt's Notes","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "Warden Krieg",
+        "map_locations": [{"map": "Warden's Laboratory","x": 63,"y": 65}],"sections": [
+            {   "name": "Warden Krieg","chest_opened_img": "images/ui/icon_boss_checked.png","chest_unopened_img": "images/ui/icon_boss.png","access_rules": ["$hasWardensCellar"]
+            },{ "name": "Warden Krieg Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"],"access_rules": ["$hasWardensCellar"]
+            },{ "name": "Missive to Warden Krieg","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasWardensCellar"]}]
     },{
         "name": "Arkovian Foothills",
         "map_locations": [
@@ -731,6 +1156,45 @@
                 "visibility_rules": ["$hasLoreNotes"]
             }
         ]
+    },{ "name": "Arkovian Foothills",
+        "map_locations": [{"map": "Warden's Laboratory","x": 650,"y": 456}],"access_rules": ["$hasAct2"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
+            {   "name": "Edmund Shanks",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "Family Crisis",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{ "name": "Quest for Vengeance",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{ "name": "Baros Wradlith, Lord of the Lost Souls",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "Nicholas Balthazar",
+                "chest_opened_img": "images/ui/icon_marker_red_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_red.png"
+            },{ "name": "The Lost Elder",
+                "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
+                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+            },{ "name": "Spined Cove Exalted Stash",
+                "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
+                "visibility_rules": ["$hasOneShotChests"]
+            },{ "name": "Arkovian Foothills Secret Chest #1",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{ "name": "Arkovian Foothills Secret Chest #2",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{ "name": "Arkovian Foothills Secret Chest #3",
+                "chest_opened_img": "images/ui/icon_chest_checked.png",
+                "chest_unopened_img": "images/ui/icon_chest.png",
+                "visibility_rules": ["$hasSecretChests"]
+            },{ "name": "Spined Cove Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]
+            },{ "name": "Kymon's Scripture: First Passage","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]
+            },{ "name": "Dust Covered Journal","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Old Arkovia - Four Hills",
         "map_locations": [
@@ -2231,6 +2695,10 @@
                 "map": "Act 1",
                 "x": 247,
                 "y": 95
+            },{
+                "map": "East Marsh",
+                "x": 904,
+                "y": 99
             }
         ],
         "access_rules": ["$hasTempleOfTheThree"],

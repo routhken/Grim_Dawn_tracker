@@ -1,0 +1,236 @@
+{
+    "act6": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Act 6"
+                    ]
+                }
+            },
+            {
+                "title": "Lone Watch",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Lone Watch"
+                    ]
+                }
+            },
+            {
+                "title": "Mourndale",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Mourndale",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mourndale"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cinder Wastes",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cinder Wastes"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Fringes of Sanity",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fringes of Sanity"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Malmouth Outskirts",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Malmouth Outskirts",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Malmouth Outskirts"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Burning Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Burning Cellar"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Malmouth Sewers",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Malmouth Sewers"
+                    ]
+                }
+            },
+            {
+                "title": "Candle District",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Candle District"
+                    ]
+                }
+            },
+            {
+                "title": "Steelcap District",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Steelcap District",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Steelcap District"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of Herald Mathis",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of Herald Mathis"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ransacked Lighthouse",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ransacked Lighthouse"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Swelling Depths",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Swelling Depths"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Malmouth Harbor",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Malmouth Harbor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Malmouth Harbor"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ransacked Lighthouse",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ransacked Lighthouse"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Swelling Depths",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Swelling Depths"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Crown Hill",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Crown Hill",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Crown Hill"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chamber of the High Council",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chamber of the High Council"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Infestation",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Infestation"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Fleshworks",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fleshworks"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sanctum of Flesh",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sanctum of Flesh"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

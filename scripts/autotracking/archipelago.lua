@@ -22,14 +22,18 @@ function onClear(slotData)
 
     -- Reset Locations
     for _, layoutLocationPath in pairs(LOCATION_MAPPING) do
-        if layoutLocationPath[1] then
-            local layoutLocationObject = Tracker:FindObjectForCode(layoutLocationPath[1])
 
-            if layoutLocationObject then
-                if layoutLocationPath[1]:sub(1, 1) == "@" then
-                    layoutLocationObject.AvailableChestCount = layoutLocationObject.ChestCount
-                else
-                    layoutLocationObject.Active = false
+        if  layoutLocationPath and layoutLocationPath[1] then
+            
+            for _,layoutLocationElement in pairs(layoutLocationPath) do
+                local layoutLocationObject = Tracker:FindObjectForCode(layoutLocationElement)
+
+                if layoutLocationObject then
+                    if layoutLocationElement:sub(1, 1) == "@" then
+                        layoutLocationObject.AvailableChestCount = layoutLocationObject.ChestCount
+                    else
+                        layoutLocationObject.Active = false
+                    end
                 end
             end
         end
@@ -176,16 +180,19 @@ function onLocation(locationId, locationName)
         return
     end
 
-    local trackerLocationObject = Tracker:FindObjectForCode(locationObject[1])
+    for _,layoutLocationElement in pairs(locationObject) do
 
-    if trackerLocationObject then
-        if locationObject[1]:sub(1, 1) == "@" then
-            trackerLocationObject.AvailableChestCount = trackerLocationObject.AvailableChestCount - 1
+        local trackerLocationObject = Tracker:FindObjectForCode(layoutLocationElement)
+
+        if trackerLocationObject then
+            if layoutLocationElement:sub(1, 1) == "@" then
+                trackerLocationObject.AvailableChestCount = trackerLocationObject.AvailableChestCount - 1
+            else
+                trackerLocationObject.Active = false
+            end
         else
-            trackerLocationObject.Active = false
+            print(string.format("onLocation: Could not find object for code %s", layoutLocationElement))
         end
-    else
-        print(string.format("onLocation: Could not find object for code %s", locationObject[1]))
     end
 end
 

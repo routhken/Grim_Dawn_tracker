@@ -12,10 +12,340 @@
         "img": "images/maps/Act 1.png"
     },
     {
+        "name": "Devil's Crossing",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Devil's Crossing.png"
+    },
+    {
+        "name": "Devil's Aquifer",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Devil's Aquifer.png"
+    },
+    {
+        "name": "Lower Crossing",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Lower Crossing.png"
+    },
+    {
+        "name": "Hargate's Isle",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Hargate's Isle.png"
+    },
+    {
+        "name": "Hargate's Laboratory",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Hargate's Laboratory.png"
+    },
+    {
+        "name": "Burial Hill",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Burial Hill Old Dump.png"
+    },
+    {
+        "name": "Burial Cave",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Burial Cave.png"
+    },
+    {
+        "name": "Putrid Den",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Putrid Den.png"
+    },
+    {
+        "name": "Wightmire",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Wightmire Sodden Hollow.png"
+    },
+    {
+        "name": "Cavern1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Cavern1.png"
+    },
+    {
+        "name": "Cavern2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Cavern2.png"
+    },
+    {
+        "name": "Foggy Bank",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Foggy Bank.png"
+    },
+    {
+        "name": "Cultist's Lair",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Cultist Lair.png"
+    },
+    {
+        "name": "Cavern3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Cavern3.png"
+    },
+    {
+        "name": "Flooded Passage",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Flooded Passage.png"
+    },
+    {
+        "name": "Burrwitch Outskirts",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Burrwitch Outskirts Moldering Fields.png"
+    },
+    {
+        "name": "Depraved Sanctuary",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Depraved Sanctuary.png"
+    },
+    {
+        "name": "Burrwitch Cave",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Burrwitch Cave.png"
+    },
+    {
+        "name": "Smuggler's Basin",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Smuggler's Basin.png"
+    },
+    {
+        "name": "Burrwitch",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Burrwitch.png"
+    },
+    {
+        "name": "Flooded Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Flooded Cellar.png"
+    },
+    {
+        "name": "Infested Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Infested Cellar.png"
+    },
+    {
+        "name": "Festering Lair",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Festering Lair.png"
+    },
+    {
+        "name": "Musty Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Musty Cellar.png"
+    },
+    {
+        "name": "Dank Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Dank Cellar.png"
+    },
+    {
+        "name": "Hallowed Hill",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Hallowed Hill.png"
+    },
+    {
+        "name": "East Marsh",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_East Marsh.png"
+    },
+    {
+        "name": "Temple of the Three",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Temple of the Three.png"
+    },
+    {
+        "name": "Warden's Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Warden's Cellar.png"
+    },
+    {
+        "name": "Underground Transit",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Underground Transit.png"
+    },
+    {
+        "name": "Warden's Laboratory",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map1_Warden's Laboratory.png"
+    },
+    {
         "name": "Act 2",
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/Act 2.png"
+    },
+    {
+        "name": "Arkovian Foothills",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Arkovian Foothills.png"
+    },
+    {
+        "name": "Spined Cove",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Spined Cove.png"
+    },
+    {
+        "name": "Staunton Mine",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Staunton Mine.png"
+    },
+    {
+        "name": "Rocky Coast",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Rocky Coast.png"
+    },
+    {
+        "name": "Stirring Hive",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Stirring Hive.png"
+    },
+    {
+        "name": "New Harbor",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_New Harbor.png"
+    },
+    {
+        "name": "Hanneffy Mine",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Hanneffy Mine.png"
+    },
+    {
+        "name": "Four Hills",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Four Hills.png"
+    },
+    {
+        "name": "Cronley's Hideout",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Cronley's Hideout.png"
+    },
+    {
+        "name": "Twin Falls",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Twin Falls.png"
+    },
+    {
+        "name": "Swarming Hive",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Swarming Hive.png"
+    },
+    {
+        "name": "Coliseum",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Coliseum.png"
+    },
+    {
+        "name": "Arkovian Undercity 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Arkovian Undercity 1.png"
+    },
+    {
+        "name": "Arkovian Undercity 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Arkovian Undercity 2.png"
+    },
+    {
+        "name": "Arkovian Undercity 3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Arkovian Undercity 3.png"
+    },
+    {
+        "name": "Broken Hills",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Broken Hills.png"
+    },
+    {
+        "name": "Corrupted Tomb 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Corrupted Tomb 1.png"
+    },
+    {
+        "name": "Corrupted Tomb 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Corrupted Tomb 2.png"
+    },
+    {
+        "name": "Steps of Torment",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Steps of Torment.png"
+    },
+    {
+        "name": "Pain",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Pain.png"
+    },
+    {
+        "name": "Misery",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Misery.png"
+    },
+    {
+        "name": "Suffering",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Suffering.png"
+    },
+    {
+        "name": "Anguish",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Anguish.png"
+    },
+    {
+        "name": "Barren Highlands",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map2_Barren Highlands.png"
     },
     {
         "name": "Act 3",
@@ -24,10 +354,376 @@
         "img": "images/maps/Act 3.png"
     },
     {
+        "name": "Smuggler's Pass",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Smuggler's Pass.png"
+    },
+    {
+        "name": "Deadman's Gultch",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Deadman's Gultch.png"
+    },
+    {
+        "name": "The Immolation",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Immolation.png"
+    },
+    {
+        "name": "Mountain Deeps",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Mountain Deeps.png"
+    },
+    {
+        "name": "Prospector's Trail",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Prospector's Trail.png"
+    },
+    {
+        "name": "Shaded Basin",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Shaded Basin.png"
+    },
+    {
+        "name": "Bloodbriar's Lair",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Bloodbriar's Lair.png"
+    },
+    {
+        "name": "Forgotten Depths",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Forgotten Depths.png"
+    },
+    {
+        "name": "Tyrant's Hold",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Tyrant's Hold.png"
+    },
+    {
+        "name": "Tyrant's Hold Outside",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Tyrant's Hold Outside.png"
+    },
+    {
+        "name": "Withering Fields",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Withering Fields.png"
+    },
+    {
+        "name": "Homestead",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Homestead.png"
+    },
+    {
+        "name": "Infested Farms",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Infested Farms.png"
+    },
+    {
+        "name": "Rotting Croplands",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Rotting Croplands.png"
+    },
+    {
+        "name": "Buried Crypt",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Buried Crypt.png"
+    },
+    {
+        "name": "Royal Hive",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Royal Hive.png"
+    },
+    {
+        "name": "Swarming Hatchery",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Swarming Hatchery.png"
+    },
+    {
+        "name": "Skittering Den",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Skittering Den.png"
+    },
+    {
+        "name": "Den of the Lost",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Den of the Lost.png"
+    },
+    {
+        "name": "Hive Queen's Lair",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Hive Queen's Lair.png"
+    },
+    {
+        "name": "Gruesome Harvest",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Gruesome Harvest.png"
+    },
+    {
+        "name": "Conflagration",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Conflagration.png"
+    },
+    {
+        "name": "PV Outskirts",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_PV Outskirts.png"
+    },
+    {
+        "name": "PV Foundation",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_PV Foundation.png"
+    },
+    {
+        "name": "PV Old Town",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_PV Old Town.png"
+    },
+    {
+        "name": "PV High Town",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_PV High Town.png"
+    },
+    {
+        "name": "Fallow Fields",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Fallow Fields.png"
+    },
+    {
+        "name": "Bastion of the Order",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Bastion of the Order.png"
+    },
+    {
+        "name": "Kymon's Sanctuary",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Kymon's Sanctuary.png"
+    },
+    {
+        "name": "Blood Grove",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Blood Grove.png"
+    },
+    {
+        "name": "Bone Pit",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Bone Pit.png"
+    },
+    {
+        "name": "Ashen Waste",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Ashen Waste.png"
+    },
+    {
+        "name": "Stonerend Quarry",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Stonerend Quarry.png"
+    },
+    {
+        "name": "Gryver's Mill",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Gryver's Mill.png"
+    },
+    {
+        "name": "Fort Haron Outside",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Fort Haron.png"
+    },
+    {
+        "name": "Fort Haron Inside",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Fort Haron Inside.png"
+    },
+    {
+        "name": "Village of Darkvale",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Village of Darkvale.png"
+    },
+    {
+        "name": "Darkvale Gate 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Darkvale Gate 1.png"
+    },
+    {
+        "name": "Darkvale Gate 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map3_Darkvale Gate 2.png"
+    },
+    {
         "name": "Act 4",
         "location_size": 15,
         "location_border_thickness": 3,
         "img": "images/maps/Act 4.png"
+    },
+    {
+        "name": "Asterkarn Road",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Asterkarn Road.png"
+    },
+    {
+        "name": "Hidden Path",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Hidden Path.png"
+    },
+    {
+        "name": "Asterkarn Valley",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Asterkarn Valley.png"
+    },
+    {
+        "name": "Tomb of Korvaak",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Tomb of Korvaak.png"
+    },
+    {
+        "name": "Fort Ikon",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Fort Ikon.png"
+    },
+    {
+        "name": "Tomb of the Archon Barthollem 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Tomb of the Archon Barthollem 1.png"
+    },
+    {
+        "name": "Tomb of the Archon Barthollem 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Tomb of the Archon Barthollem 2.png"
+    },
+    {
+        "name": "Lost Tomb of the Damned",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Lost Tomb of the Damned.png"
+    },
+    {
+        "name": "Fort Ikon Armory",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Fort Ikon Armory.png"
+    },
+    {
+        "name": "Plains of Strife",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Plains of Strife.png"
+    },
+    {
+        "name": "Forsaken Wastes",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Forsaken Wastes.png"
+    },
+    {
+        "name": "Obsidian Throne",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Obsidian Throne.png"
+    },
+    {
+        "name": "Gates of Necropolis",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Gates of Necropolis.png"
+    },
+    {
+        "name": "Black Sepulcher",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Black Sepulcher.png"
+    },
+    {
+        "name": "Necropolis Interior",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Necropolis Interior.png"
+    },
+    {
+        "name": "Tomb of the Watchers",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Tomb of the Watchers.png"
+    },
+    {
+        "name": "Seal of the Loghorrean",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Seal of the Loghorrean.png"
+    },
+    {
+        "name": "Edge of Madness",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Edge of Madness.png"
+    },
+    {
+        "name": "Bastion of Chaos",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Bastion of Chaos.png"
+    },
+    {
+        "name": "Discord",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Discord.png"
+    },
+    {
+        "name": "Anarchy",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Anarchy.png"
+    },
+    {
+        "name": "Entropy",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map4_Entropy.png"
     },
     {
         "name": "Act 5",
@@ -36,15 +732,603 @@
         "img": "images/maps/Act 5.png"
     },
     {
+        "name": "Gloomwald Entrance",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Gloomwald Entrance.png"
+    },
+    {
+        "name": "Gloomwald South",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Gloomwald South.png"
+    },
+    {
+        "name": "Gloomwald North",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Gloomwald North.png"
+    },
+    {
+        "name": "Coven's Refuge",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Coven's Refuge.png"
+    },
+    {
+        "name": "Ugdenbog South",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Ugdenbog South.png"
+    },
+    {
+        "name": "Ugdenbog Center",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Ugdenbog Center.png"
+    },
+    {
+        "name": "Ugdenbog North",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Ugdenbog North.png"
+    },
+    {
+        "name": "Ugdenbog Far North",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Ugdenbog Far North.png"
+    },
+    {
+        "name": "Altar of Rattosh",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Altar of Rattosh.png"
+    },
+    {
+        "name": "Desolate Wastes",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Desolate Wastes.png"
+    },
+    {
+        "name": "Void's Edge",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Void's Edge.png"
+    },
+    {
+        "name": "Decrepit Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Decrepit Cellar.png"
+    },
+    {
+        "name": "Overgrown Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Overgrown Cellar.png"
+    },
+    {
+        "name": "Den of Carraxus",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Den of Carraxus.png"
+    },
+    {
+        "name": "Janaxia's Den",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Janaxia's Den.png"
+    },
+    {
+        "name": "Larria's Den",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Larria's Den.png"
+    },
+    {
+        "name": "Undergrowth",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Undergrowth.png"
+    },
+    {
+        "name": "Tomb of Ugdall",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Tomb of Ugdall.png"
+    },
+    {
+        "name": "Barrowholm Mine",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Barrowholm Mine.png"
+    },
+    {
+        "name": "Barrowholm",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Barrowholm.png"
+    },
+    {
+        "name": "Forlorn Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Forlorn Cellar.png"
+    },
+    {
+        "name": "Den of the Wendigo",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Den of the Wendigo.png"
+    },
+    {
+        "name": "Ancient Grove",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Ancient Grove.png"
+    },
+    {
+        "name": "Feral Thicket",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Feral Thicket.png"
+    },
+    {
+        "name": "Tainted Wood",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map5_Tainted Wood.png"
+    },
+    {
         "name": "Act 6",
         "location_size": 15,
         "location_border_thickness": 3,
         "img": "images/maps/Act 6.png"
     },
     {
+        "name": "Lone Watch",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Lone Watch.png"
+    },
+    {
+        "name": "Mourndale",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Mourndale.png"
+    },
+    {
+        "name": "Cinder Wastes",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Cinder Wastes.png"
+    },
+    {
+        "name": "Fringes of Sanity",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Fringes of Sanity.png"
+    },
+    {
+        "name": "Malmouth Outskirts",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Malmouth Outskirts.png"
+    },
+    {
+        "name": "Burning Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Burning Cellar.png"
+    },
+    {
+        "name": "Malmouth Sewers",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Malmouth Sewers.png"
+    },
+    {
+        "name": "Candle District",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Candle District.png"
+    },
+    {
+        "name": "Steelcap District",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Steelcap District.png"
+    },
+    {
+        "name": "Tomb of Herald Mathis",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Tomb of Herald Mathis.png"
+    },
+    {
+        "name": "Ransacked Lighthouse",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Ransacked Lighthouse.png"
+    },
+    {
+        "name": "Swelling Depths",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Swelling Depths.png"
+    },
+    {
+        "name": "Malmouth Harbor",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Malmouth Harbor.png"
+    },
+    {
+        "name": "Crown Hill",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Crown Hill.png"
+    },
+    {
+        "name": "Chamber of the High Council",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Chamber of the High Council.png"
+    },
+    {
+        "name": "Infestation",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Infestation.png"
+    },
+    {
+        "name": "Fleshworks",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Fleshworks.png"
+    },
+    {
+        "name": "Sanctum of Flesh",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map6_Sanctum of Flesh.png"
+    },
+    {
         "name": "Act 7",
         "location_size": 20,
         "location_border_thickness": 4,
         "img": "images/maps/Act 7.png"
+    },
+    {
+        "name": "Conclave of the Three",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Conclave of the Three.png"
+    },
+    {
+        "name": "Forgotten Cellar",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Forgotten Cellar.png"
+    },
+    {
+        "name": "Veiled Den",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Veiled Den.png"
+    },
+    {
+        "name": "Shattered Realm",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Shattered Realm.png"
+    },
+    {
+        "name": "Korvan Plateau 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Korvan Plateau 1.png"
+    },
+    {
+        "name": "Korvan Plateau 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Korvan Plateau 2.png"
+    },
+    {
+        "name": "Crawling Nest",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Crawling Nest.png"
+    },
+    {
+        "name": "Temple City of Osyr",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Temple City of Osyr.png"
+    },
+    {
+        "name": "Temple of Osyr 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Temple of Osyr 1.png"
+    },
+    {
+        "name": "Temple of Osyr 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Temple of Osyr 2.png"
+    },
+    {
+        "name": "Forlorn Bastion 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Forlorn Bastion 1.png"
+    },
+    {
+        "name": "Forlorn Bastion 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Forlorn Bastion 2.png"
+    },
+    {
+        "name": "Forlorn Bastion 3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Forlorn Bastion 3.png"
+    },
+    {
+        "name": "Korvan Sands",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Korvan Sands.png"
+    },
+    {
+        "name": "Maw of Enaht 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Maw of Enaht 1.png"
+    },
+    {
+        "name": "Maw of Enaht 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Maw of Enaht 2.png"
+    },
+    {
+        "name": "Maw of Enaht 3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Maw of Enaht 3.png"
+    },
+    {
+        "name": "Cairan Docks",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Cairan Docks.png"
+    },
+    {
+        "name": "Sunblown Ruins 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sunblown Ruins 1.png"
+    },
+    {
+        "name": "Sunblown Ruins 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sunblown Ruins 2.png"
+    },
+    {
+        "name": "Sunbane Oasis",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sunbane Oasis.png"
+    },
+    {
+        "name": "Sanctuary of Horran",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sanctuary of Horran.png"
+    },
+    {
+        "name": "Howling Chasm",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Howling Chasm.png"
+    },
+    {
+        "name": "Howling Depths 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Howling Depths 1.png"
+    },
+    {
+        "name": "Howling Depths 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Howling Depths 2.png"
+    },
+    {
+        "name": "Howling Depths 3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Howling Depths 3.png"
+    },
+    {
+        "name": "Basalt Crags 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Basalt Crags 1.png"
+    },
+    {
+        "name": "Basalt Crags 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Basalt Crags 2.png"
+    },
+    {
+        "name": "Vanguard of the Three",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Vanguard of the Three.png"
+    },
+    {
+        "name": "Edge of Reality",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Edge of Reality.png"
+    },
+    {
+        "name": "Ruins of Abyd",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Ruins of Abyd.png"
+    },
+    {
+        "name": "Bloodied Wastes",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Bloodied Wastes.png"
+    },
+    {
+        "name": "Temple of Ateph 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Temple of Ateph 1.png"
+    },
+    {
+        "name": "Temple of Ateph 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Temple of Ateph 2.png"
+    },
+    {
+        "name": "Infernal Wastes",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Infernal Wastes.png"
+    },
+    {
+        "name": "Tomb of Sethan",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Tomb of Sethan.png"
+    },
+    {
+        "name": "Valley of the Chosen",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Valley of the Chosen.png"
+    },
+    {
+        "name": "Tomb of Ariath",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Tomb of Ariath.png"
+    },
+    {
+        "name": "Tomb of Nephos",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Tomb of Nephos.png"
+    },
+    {
+        "name": "Remnants of Korvan City",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Remnants of Korvan City.png"
+    },
+    {
+        "name": "Map Room of Rahn",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Map Room of Rahn.png"
+    },
+    {
+        "name": "Sunward Spire 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sunward Spire 1.png"
+    },
+    {
+        "name": "Sunward Spire 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sunward Spire 2.png"
+    },
+    {
+        "name": "Sunward Spire 3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sunward Spire 3.png"
+    },
+    {
+        "name": "Sunward Spire 4",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Sunward Spire 4.png"
+    },
+    {
+        "name": "Tomb of the Eldritch Sun 1",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Tomb of the Eldritch Sun 1.png"
+    },
+    {
+        "name": "Tomb of the Eldritch Sun 2",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Tomb of the Eldritch Sun 2.png"
+    },
+    {
+        "name": "Tomb of the Eldritch Sun 3",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Tomb of the Eldritch Sun 3.png"
+    },
+    {
+        "name": "Astral Fields",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Astral Fields.png"
+    },
+    {
+        "name": "Throne of the Three",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Throne of the Three.png"
+    },
+    {
+        "name": "Path of the Damned",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Path of the Damned.png"
+    },
+    {
+        "name": "Lost Oasis",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Lost Oasis.png"
+    },
+    {
+        "name": "Tomb of the Heretic",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Tomb of the Heretic.png"
+    },
+    {
+        "name": "Court of the Magi",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Court of the Magi.png"
+    },
+    {
+        "name": "Morgoneth's Folly",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Morgoneth's Folly.png"
     }
 ]

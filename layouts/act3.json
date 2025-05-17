@@ -1,0 +1,439 @@
+{
+    "act3": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Act 3"
+                    ]
+                }
+            },
+            {
+                "title": "Smuggler's Pass",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Smuggler's Pass"
+                    ]
+                }
+            },
+            {
+                "title": "Deadman's Gultch",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Deadman's Gultch",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Deadman's Gultch"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Immolation",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Immolation"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Mountain Deeps",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Mountain Deeps"
+                    ]
+                }
+            },
+            {
+                "title": "Prospector's Trail",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Prospector's Trail"
+                    ]
+                }
+            },
+            {
+                "title": "Shaded Basin",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Shaded Basin",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shaded Basin"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Bloodbriar's Lair",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Bloodbriar's Lair"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Forgotten Depths",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forgotten Depths"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Tyrant's Hold",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Tyrant's Hold Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tyrant's Hold Outside"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tyrant's Hold Inside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tyrant's Hold"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Withering Fields",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Withering Fields"
+                    ]
+                }
+            },
+            {
+                "title": "Homestead",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Homestead"
+                    ]
+                }
+            },
+            {
+                "title": "Infested Farms",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Infested Farms"
+                    ]
+                }
+            },
+            {
+                "title": "Rotting Croplands",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Rotting Croplands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Rotting Croplands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Buried Crypt",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Buried Crypt"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Royal Hive",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Royal Hive"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Swarming Hatchery",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Swarming Hatchery"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Skittering Den",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Skittering Den"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Den of the Lost",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Den of the Lost"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hive Queen's Lair",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hive Queen's Lair"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Gruesome Harvest",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Gruesome Harvest"
+                    ]
+                }
+            },
+            {
+                "title": "Conflagration",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Conflagration"
+                    ]
+                }
+            },
+            {
+                "title": "Port Valbury",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outskirts",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PV Outskirts"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Foundation",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PV Foundation"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Old Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PV Old Town"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "High Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PV High Town"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Fallow Fields",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Fallow Fields",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fallow Fields"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Bastion of the Order",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Bastion of the Order"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kymon's Sanctuary",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Kymon's Sanctuary"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Blood Grove",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Blood Grove",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Blood Grove"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Bone Pit",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Bone Pit"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ashen Waste",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ashen Waste"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Stonerend Quarry",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Stonerend Quarry"
+                    ]
+                }
+            },
+            {
+                "title": "Fort Haron",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Fort Haron Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fort Haron Outside"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Fort Haron Inside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fort Haron Inside"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Gryver's Mill",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Gryver's Mill"
+                    ]
+                }
+            },
+            {
+                "title": "Darkvale",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Village of Darkvale",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Village of Darkvale"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Darkvale Gate 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Darkvale Gate 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Darkvale Gate 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Darkvale Gate 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

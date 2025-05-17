@@ -7,6 +7,13 @@
             "dropshadow": true,
             "content": [
                 {
+                  "type": "dock",
+                  "content": {
+                    "type": "layout",
+                    "key": "map_layout"
+                  }
+                },
+                {
                     "type": "dock",
                     "dock": "bottom",
                     "content": [
@@ -32,83 +39,6 @@
                                 "h_alignment": "center",
                                 "v_alignment": "center",
                                 "key": "items_layout"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Full Map",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Full Map"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Act 1",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Act 1"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Act 2",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Act 2"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Act 3",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Act 3"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Act 4",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Act 4"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Act 5",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Act 5"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Act 6",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Act 6"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Act 7",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Act 7"
-                                ]
                             }
                         }
                     ]

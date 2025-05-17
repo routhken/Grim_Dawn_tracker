@@ -1,0 +1,376 @@
+{
+    "act1": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Act 1"
+                    ]
+                }
+            },
+            {
+                "title": "Devil's Crossing",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Devil's Crossing",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Devil's Crossing"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Devil's Aquifer",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Devil's Aquifer"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Lower Crossing",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Lower Crossing"
+                    ]
+                }
+            },
+            {
+                "title": "Hargate's Isle",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Hargate's Isle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hargate's Isle"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hargate's Laboratory",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hargate's Laboratory"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Burial Hill",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Burial Hill",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Burial Hill"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Burial Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Burial Cave"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Putrid Den",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Putrid Den"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Wightmire",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Wightmire",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Wightmire"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cavern 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cavern1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cavern 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cavern2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Foggy Bank",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Foggy Bank",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Foggy Bank"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cultist's Lair",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cultist's Lair"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cavern 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cavern2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cavern 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cavern3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Flooded Passage",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Flooded Passage"
+                    ]
+                }
+            },
+            {
+                "title": "Burrwitch Outskirts",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Burrwitch Outskirts",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Burrwitch Outskirts"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Depraved Sanctuary",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Depraved Sanctuary"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Burrwitch Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Burrwitch Cave"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Smuggler's Basin",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Smuggler's Basin"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Burrwitch",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Burrwitch",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Burrwitch"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Flooded Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Flooded Cellar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Infested Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Infested Cellar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Festering Lair",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Festering Lair"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Musty Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Musty Cellar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dank Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Dank Cellar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hallowed Hill",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hallowed Hill"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "East Marsh",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "East Marsh",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "East Marsh"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Temple of the Three",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temple of the Three"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "The Warden's Cellar",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "The Warden's Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warden's Cellar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underground Transit",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Underground Transit"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Warden's Laboratory",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warden's Laboratory"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

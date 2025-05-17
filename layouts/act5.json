@@ -1,0 +1,321 @@
+{
+    "act5": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Act 5"
+                    ]
+                }
+            },
+            {
+                "title": "Gloomwald",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Gloomwald Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Gloomwald Entrance"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gloomwald South",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Gloomwald South",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Gloomwald South"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Decrepit Cellar",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Decrepit Cellar"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Overgrown Cellar",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Overgrown Cellar"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gloomwald North",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Gloomwald North",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Gloomwald North"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Den of Carraxus",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Den of Carraxus"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Coven's Refuge",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Coven's Refuge"
+                    ]
+                }
+            },
+            {
+                "title": "Ugdenbog",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Ugdenbog South",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Ugdenbog South",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Ugdenbog South"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Janaxia's Den",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Janaxia's Den"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ugdenbog Center",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ugdenbog Center"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ugdenbog North",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Ugdenbog North",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Ugdenbog North"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Larria's Den",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Larria's Den"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Undergrowth",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Undergrowth"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Tomb of Ugdall",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Tomb of Ugdall"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ugdenbog Far North",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Ugdenbog Far North",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Ugdenbog Far North"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Barrowholm Mine",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Barrowholm Mine"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Ancient Grove",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Ancient Grove",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ancient Grove"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Feral Thicket",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Feral Thicket"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tainted Wood",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tainted Wood"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Barrowholm",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Barrowholm",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Barrowholm"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Forlorn Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forlorn Cellar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Den of the Wendigo",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Den of the Wendigo"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Altar of Rattosh",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Altar of Rattosh",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Altar of Rattosh"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Desolate Wastes",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Desolate Wastes"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Void's Edge",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Void's Edge"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

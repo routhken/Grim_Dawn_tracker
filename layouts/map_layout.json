@@ -1,0 +1,87 @@
+{
+  "map_layout": {
+    "type": "tabbed",
+    "dock": "top",
+    "tabs": [
+      {
+        "title": "Full Map",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Full Map"
+          ]
+        }
+      },
+      {
+        "title": "Act 1",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "act1"
+          }
+        }
+      },
+      {
+        "title": "Act 2",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "act2"
+          }
+        }
+      },
+      {
+        "title": "Act 3",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "act3"
+          }
+        }
+      },
+      {
+        "title": "Act 4",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "act4"
+          }
+        }
+      },
+      {
+        "title": "Act 5",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "act5"
+          }
+        }
+      },
+      {
+        "title": "Act 6",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "act6"
+          }
+        }
+      },
+      {
+        "title": "Act 7",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "act7"
+          }
+        }
+      }
+    ]
+  }
+}

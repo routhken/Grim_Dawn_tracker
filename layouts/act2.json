@@ -1,0 +1,305 @@
+{
+    "act2": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Act 2"
+                    ]
+                }
+            },
+            {
+                "title": "Arkovian Foothills",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Arkovian Foothills",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Arkovian Foothills"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Spined Cove",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Spined Cove"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Staunton Mine",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Staunton Mine"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Rocky Coast",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Rocky Coast",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Rocky Coast"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Stirring Hive",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Stirring Hive"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "New Harbor",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "New Harbor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "New Harbor"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hanneffy Mine",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hanneffy Mine"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Four Hills",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Four Hills",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Four Hills"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hanneffy Mine",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hanneffy Mine"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Cronley's Hideout",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Cronley's Hideout"
+                    ]
+                }
+            },
+            {
+                "title": "Twin Falls",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Twin Falls",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Twin Falls"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Swarming Hive",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Swarming Hive"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Coliseum",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Coliseum"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Arkovian Undercity",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Arkovian Undercity 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Arkovian Undercity 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Arkovian Undercity 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Arkovian Undercity 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Arkovian Undercity 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Arkovian Undercity 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Broken Hills",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Broken Hills",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Broken Hills"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Corrupted Tomb 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Corrupted Tomb 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Corrupted Tomb 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Corrupted Tomb 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Steps of Torment",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Steps of Torment",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Steps of Torment"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pain",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Pain"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Misery",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Misery"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Suffering",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Suffering"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anguish",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anguish"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Barren Highlands",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Barren Highlands"
+                    ]
+                }
+            }
+        ]
+    }
+}

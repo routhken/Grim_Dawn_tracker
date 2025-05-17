@@ -1,0 +1,647 @@
+{
+    "act7": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Act 7"
+                    ]
+                }
+            },
+            {
+                "title": "Conclave of the Three",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Conclave of the Three",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Conclave of the Three"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Forgotten Cellar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forgotten Cellar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Veiled Den",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Veiled Den"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shattered Realm",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shattered Realm"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Korvan Plateau",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Korvan Plateau 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Korvan Plateau 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Crawling Nest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Crawling Nest"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Korvan Plateau 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Korvan Plateau 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Temple City of Osyr",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Temple City of Osyr",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temple City of Osyr"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Temple of Osyr 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temple of Osyr 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Temple of Osyr 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temple of Osyr 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Forlorn Bastion",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Forlorn Bastion 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forlorn Bastion 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Forlorn Bastion 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forlorn Bastion 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Forlorn Bastion 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forlorn Bastion 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Korvan Sands",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Korvan Sands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Korvan Sands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Maw of Enaht 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Maw of Enaht 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Maw of Enaht 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Maw of Enaht 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Maw of Enaht 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Maw of Enaht 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Cairan Docks",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Cairan Docks",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cairan Docks"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sunblown Ruins 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sunblown Ruins 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sunblown Ruins 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sunblown Ruins 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Sunbane Oasis",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Sunbane Oasis",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sunbane Oasis"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sanctuary of Horran",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sanctuary of Horran"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Howling Chasm",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Howling Chasm",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Howling Chasm"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Howling Depths 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Howling Depths 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Howling Depths 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Howling Depths 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Howling Depths 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Howling Depths 3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Basalt Crags",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Basalt Crags 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Basalt Crags 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Basalt Crags 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Basalt Crags 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Vanguard of the Three",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Vanguard of the Three",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Vanguard of the Three"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Edge of Reality",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Edge of Reality"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Ruins of Abyd",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Ruins of Abyd",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ruins of Abyd"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Bloodied Wastes",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Bloodied Wastes"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Temple of Ateph 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temple of Ateph 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Temple of Ateph 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temple of Ateph 2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Infernal Wastes",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Infernal Wastes",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Infernal Wastes"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of Sethan",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of Sethan"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Valley of the Chosen",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Valley of the Chosen",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Valley of the Chosen"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of Ariath",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of Ariath"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of Nephos",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of Nephos"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Remnants of Korvan City",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Remnants of Korvan City",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Remnants of Korvan City"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Map Room of Rahn",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Map Room of Rahn"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Sunward Spire",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Sunward Spire 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sunward Spire 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sunward Spire 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sunward Spire 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sunward Spire 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sunward Spire 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sunward Spire 4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sunward Spire 4"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Tomb of the Eldritch Sun",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Tomb of the Eldritch Sun 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Eldritch Sun 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Eldritch Sun 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Eldritch Sun 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Eldritch Sun 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Eldritch Sun 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Astral Fields",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Astral Fields"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Throne of the Three",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Throne of the Three"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Tomb of the Heretic",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Path of the Damned",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Path of the Damned"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lost Oasis",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lost Oasis"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Heretic",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Heretic"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Court of the Magi",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Court of the Magi"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Morgoneth's Folly",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Morgoneth's Folly"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
