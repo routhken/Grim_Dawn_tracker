@@ -1110,22 +1110,28 @@
         "img": "images/maps/Map7_Cairan Docks.png"
     },
     {
-        "name": "Sunblown Ruins 1",
+        "name": "Sandblown Ruins 1",
         "location_size": 15,
         "location_border_thickness": 3,
-        "img": "images/maps/Map7_Sunblown Ruins 1.png"
+        "img": "images/maps/Map7_Sandblown Ruins 1.png"
     },
     {
-        "name": "Sunblown Ruins 2",
+        "name": "Sandblown Ruins 2",
         "location_size": 15,
         "location_border_thickness": 3,
-        "img": "images/maps/Map7_Sunblown Ruins 2.png"
+        "img": "images/maps/Map7_Sandblown Ruins 2.png"
     },
     {
         "name": "Sunbane Oasis",
         "location_size": 15,
         "location_border_thickness": 3,
         "img": "images/maps/Map7_Sunbane Oasis.png"
+    },
+    {
+        "name": "Durg's Den",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Durg's Den.png"
     },
     {
         "name": "Sanctuary of Horran",
@@ -1240,6 +1246,12 @@
         "location_size": 15,
         "location_border_thickness": 3,
         "img": "images/maps/Map7_Remnants of Korvan City.png"
+    },
+    {
+        "name": "Pit of Atonement",
+        "location_size": 15,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map7_Pit of Atonement.png"
     },
     {
         "name": "Map Room of Rahn",

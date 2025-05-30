@@ -219,20 +219,20 @@
                             }
                         },
                         {
-                            "title": "Sunblown Ruins 1",
+                            "title": "Sandblown Ruins 1",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Sunblown Ruins 1"
+                                    "Sandblown Ruins 1"
                                 ]
                             }
                         },
                         {
-                            "title": "Sunblown Ruins 2",
+                            "title": "Sandblown Ruins 2",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Sunblown Ruins 2"
+                                    "Sandblown Ruins 2"
                                 ]
                             }
                         }
@@ -250,6 +250,15 @@
                                 "type": "map",
                                 "maps": [
                                     "Sunbane Oasis"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Durg's Den",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Durg's Den"
                                 ]
                             }
                         },
@@ -477,6 +486,15 @@
                                 "type": "map",
                                 "maps": [
                                     "Remnants of Korvan City"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pit of Atonement",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Pit of Atonement"
                                 ]
                             }
                         },
