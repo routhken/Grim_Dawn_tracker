@@ -9,13 +9,6 @@
                 "content": [
                     {
                         "type": "dock",
-                        "content": {
-                            "type": "layout",
-                            "key": "map_layout"
-                        }
-                    },
-                    {
-                        "type": "dock",
                         "dock": "bottom",
                         "content": [
                             {

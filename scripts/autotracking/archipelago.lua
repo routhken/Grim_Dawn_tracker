@@ -76,7 +76,8 @@ function onClear(slotData)
     if slotData['goal'] then
         local goalValue = slotData['goal']
         local goalTrackerKey = nil
-        --print("goalValue: " .. goalValue) --debug
+        local goalValueIndex = 0
+        print("goalValue: " .. goalValue) --debug
 
         if      goalValue == 0 then
             goalTrackerKey = "goal_warden_krieg"
@@ -93,11 +94,27 @@ function onClear(slotData)
         elseif  goalValue == 51 then
             goalTrackerKey = "goal_emblem_hunt"
         end
+        
+        if      goalValue == 0 then
+            goalValueIndex = 0
+        elseif  goalValue == 1 then
+            goalValueIndex = 1
+        elseif  goalValue == 2 then
+            goalValueIndex = 2
+        elseif  goalValue == 3 then
+            goalValueIndex = 3
+        elseif  goalValue == 4 then
+            goalValueIndex = 4
+        elseif  goalValue == 50 then
+            goalValueIndex = 5
+        elseif  goalValue == 51 then
+            goalValueIndex = 6
+        end
 
-        --print("goalTrackerKey: " .. goalTrackerKey) --debug
+        print("goalTrackerKey: " .. goalTrackerKey) --debug
         if goalTrackerKey then
             --local goalTrackerObject = Tracker:FindObjectForCode(goalTrackerKey)
-            Tracker:FindObjectForCode("goal_option").CurrentStage = goalValue
+            Tracker:FindObjectForCode("goal_option").CurrentStage = goalValueIndex
             --goalTrackerObject.Active = true
         end
     end
@@ -110,6 +127,14 @@ function onClear(slotData)
     Tracker:FindObjectForCode("setting_deathlink").Active = false
     Tracker:FindObjectForCode("setting_faction").Active = false
     Tracker:FindObjectForCode("setting_fgdlc").Active = false
+    Tracker:FindObjectForCode("setting_skill_rando").Active = false
+    Tracker:FindObjectForCode("setting_enemy_rando").Active = false
+    Tracker:FindObjectForCode("setting_free_respec").Active = false
+    Tracker:FindObjectForCode("setting_starting_bonus").Active = false
+    Tracker:FindObjectForCode("setting_prog_prog").Active = false
+    Tracker:FindObjectForCode("setting_aomdlc").Active = false
+    Tracker:FindObjectForCode("goal_max_emblems").CurrentStage = 0
+    Tracker:FindObjectForCode("goal_req_emblems").CurrentStage = 0
 
     if slotData['deathlink'] == 1 then
         Tracker:FindObjectForCode("setting_deathlink").Active = true
@@ -134,6 +159,28 @@ function onClear(slotData)
     end
     if slotData['dlc_fg'] == 1 then
         Tracker:FindObjectForCode("setting_fgdlc").Active = true
+    end
+    if slotData['goal'] == 51 then
+        Tracker:FindObjectForCode("goal_max_emblems").AcquiredCount = slotData['max_emblems']
+        Tracker:FindObjectForCode("goal_req_emblems").AcquiredCount = slotData['required_emblems']
+    end
+    if slotData['skill_balance_randomizer'] == 1 then
+        Tracker:FindObjectForCode("setting_skill_rando").Active = true
+    end
+    if slotData['enemy_randomizer'] == 1 then
+        Tracker:FindObjectForCode("setting_enemy_rando").Active = true
+    end
+    if slotData['free_skill_respec'] == 1 then
+        Tracker:FindObjectForCode("setting_free_respec").Active = true
+    end
+    if slotData['starting_skill_points'] == 1 then
+        Tracker:FindObjectForCode("setting_starting_bonus").Active = true
+    end
+    if slotData['progressive_progression'] == 1 then
+        Tracker:FindObjectForCode("setting_prog_prog").Active = true
+    end
+    if slotData['dlc_aom'] == 1 then
+        Tracker:FindObjectForCode("setting_aomdlc").Active = true
     end
 end
 

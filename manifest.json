@@ -1,16 +1,24 @@
 {
     "name": "Grim Dawn",
     "game_name": "Grim Dawn",
-    "package_version": "1.4.3",
+    "package_version": "2.0.0",
     "package_uid": "ap_grim_dawn",
     "author": "DaKennyMan22",
     "variants": {
-      "map": {
-        "display_name": "Tracker",
+      "a_standard": {
+        "display_name": "Tracker (Horizontal)",
+        "flags": ["ap"]
+      },
+      "b_vertical": {
+        "display_name": "Tracker (Vertical)",
+        "flags": ["ap"]
+      },
+      "c_items_only": {
+        "display_name": "Tracker (Items Only)",
         "flags": ["ap"]
       }
     },
-    "min_poptracker_version": "0.18.0",
-    "target_poptracker_version": "0.18.0",
+    "min_poptracker_version": "0.26.0",
+    "target_poptracker_version": "0.26.0",
     "versions_url": "https://raw.githubusercontent.com/routhken/Grim_Dawn_tracker/refs/heads/master/versions.json"
 }

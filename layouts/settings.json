@@ -1,5 +1,5 @@
 {
-    "settings_layout": {
+    "logic_settings_layout": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -28,7 +28,69 @@
                             ],
                             [
                                 "setting_lore_note",
+                                "goal_max_emblems",
+                                "goal_req_emblems"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "other_settings_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
                                 "setting_deathlink",
+                                "setting_skill_rando",
+                                "setting_enemy_rando"
+                            ],
+                            [
+                                "setting_free_respec",
+                                "setting_starting_bonus",
+                                "setting_prog_prog"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "dlc_settings_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "7, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_aomdlc"
+                            ],
+                            [
                                 "setting_fgdlc"
                             ]
                         ]

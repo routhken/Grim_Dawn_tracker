@@ -1,6 +1,20 @@
 {
     "versions": [
         {
+            "package_version": "2.0.0",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v2.0.0/Grim_Dawn_aptracker.zip",
+            "sha256": "50a810c15064b7cae51732eea75d5f186f2577d1fbfb43e6c4cd7df46bc003cb",
+            "changelog": [
+                "Major Update",
+                " - Added every submap in the game",
+                " - Added nodes and location tracking to all submaps",
+                " - Added vertical split and items only tracker variants",
+                " - Added more settings buttons",
+                " - Added more goal options",
+                " - Moved settings buttons to the pop-up tab",
+                " - Fixed typos"
+            ]
+        },{
             "package_version": "1.4.3",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v0.1.4c/Grim_Dawn_aptracker.zip",
             "sha256": "2b41dec31baa2e5ed4cf7d94af8c512fc46699d4bc872fd7acd9a491063d51b2",

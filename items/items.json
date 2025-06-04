@@ -14,7 +14,7 @@
     {
         "name": "Progressive Main Campaign",
         "type": "consumable",
-        "img": "/images/items/Scrap.png",
+        "img": "/images/items/Key Red.png",
         "max_quantity": 7,
         "increment": 1,
         "decrement": 1,
@@ -25,7 +25,7 @@
     {
         "name": "Progressive Forgotten Gods",
         "type": "consumable",
-        "img": "/images/items/Scrap.png",
+        "img": "/images/items/Key Yellow.png",
         "max_quantity": 4,
         "increment": 1,
         "decrement": 1,
@@ -36,7 +36,7 @@
     {
         "name": "Progressive Ashes of Malmouth",
         "type": "consumable",
-        "img": "/images/items/Scrap.png",
+        "img": "/images/items/Key Green.png",
         "max_quantity": 6,
         "increment": 1,
         "decrement": 1,
@@ -392,11 +392,68 @@
         "codes": "setting_deathlink"
     },
     {
-        "name": "Setting: FG DLC",
+        "name": "Setting: Forgotton Gods DLC",
         "type": "toggle",
-        "img": "/images/settings/fgdlc.png",
-        "disabled_img": "images/settings/fgdlc_disabled.png",
+        "img": "/images/settings/GD Logos - Forgotton Gods.jpg",
         "codes": "setting_fgdlc"
+    },
+    {
+        "name": "Setting: Ashes of Malmouth DLC",
+        "type": "toggle",
+        "img": "/images/settings/GD Logos - Ashes of Malmouth.jpg",
+        "codes": "setting_aomdlc"
+    },
+    {
+        "name": "Setting: Max Emblems",
+        "type": "consumable",
+        "img": "/images/settings/Emblem Max.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "goal_max_emblems"
+    },
+    {
+        "name": "Setting: Required Emblems",
+        "type": "consumable",
+        "img": "/images/settings/Emblem Req.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "goal_req_emblems"
+    },
+    {
+        "name": "Setting: Skill Balance Randomizer",
+        "type": "toggle",
+        "img": "/images/settings/Skill Rando.png",
+        "codes": "setting_skill_rando"
+    },
+    {
+        "name": "Setting: Enemy Randomizer",
+        "type": "toggle",
+        "img": "/images/settings/Enemy Rando.png",
+        "codes": "setting_enemy_rando"
+    },
+    {
+        "name": "Setting: Free Respec",
+        "type": "toggle",
+        "img": "/images/settings/Free Respec.png",
+        "codes": "setting_free_respec"
+    },
+    {
+        "name": "Setting: Starting Bonus",
+        "type": "toggle",
+        "img": "/images/settings/Starting Bonus.png",
+        "codes": "setting_starting_bonus"
+    },
+    {
+        "name": "Setting: Progressive Progression",
+        "type": "toggle",
+        "img": "/images/settings/Key Prog.png",
+        "codes": "setting_prog_prog"
     },
     {
         "name": "Goal",

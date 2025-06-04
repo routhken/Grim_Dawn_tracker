@@ -1,0 +1,132 @@
+{
+    "items_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "1, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "5_scrap",
+                                "strange_key",
+                                "warden_boss_door_unlock"
+                            ],
+                            [
+                                "east_marsh_bridge_repair",
+                                "homestead_side_doors_unlock",
+                                "vanguard_of_the_three_door_unlock"
+                            ],
+                            [
+                                "arkovia_bridge_repair",
+                                "homestead_main_doors_unlock",
+                                "valley_of_the_chosen_destroy_barrier"
+                            ],
+                            [
+                                "old_grove_bridge_repair",
+                                "royal_hive_queen_door_unlock",
+                                "eldritch_gate_destroy_barrier"
+                            ],
+                            [
+                                "twin_falls_bridge_repair",
+                                "witch_gods_temple_unlock",
+                                "devils_crossing_revered"
+                            ],
+                            [
+                                "necropolis_bridge_repair",
+                                "fort_ikon_gate_unlock",
+                                "rovers_revered"
+                            ],
+                            [
+                                "gloomwald_destroy_blockade",
+                                "fort_ikon_destroy_blockade",
+                                "homestead_revered"
+                            ],
+                            [
+                                "altar_of_rattosh_portal",
+                                "tomb_of_the_watchers_door_unlock",
+                                "deaths_vigil_kymons_chosen_revered"
+                            ],
+                            [
+                                "crown_hill_destroy_gates",
+                                "loghorrean_seal_unlock",
+                                "black_legion_revered"
+                            ],
+                            [
+                                "crown_hill_open_flesh_barrier",
+                                "candle_district_door_unlock",
+                                "coven_of_ugdenbog_revered"
+                            ],
+                            [
+                                "fleshworks_open_flesh_barrier",
+                                "steelcap_district_door_unlock",
+                                "malmouth_resistance_revered"
+                            ],
+                            [
+                                "progressive_main",
+                                "progressive_fg",
+                                "witch_god_cults_revered"
+                            ],
+                            [
+                                "progressive_aom",
+                                "aetherial_emblem"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "3, 4",
+                        "item_margin": "2, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "lower_crossing_destroy_blockade",
+                                "flooded_passage_destroy_blockade",
+                                "arkovian_foothills_destroy_barricade",
+                                "new_harbor_destroy_barricade"
+                            ],
+                            [
+                                "prospectors_trail_destroy_barricade",
+                                "conflagration_destroy_barricade",
+                                "rotting_croplands_destroy_south_blockade",
+                                "rotting_croplands_destroy_north_blockade"
+                            ],
+                            [
+                                "nanes_hideout_destroy_barricade",
+                                "ugdenbog_destroy_barricade",
+                                "malmouth_sewer_destroy_blockade",
+                                "malmouth_harbor_destroy_barricade"
+                            ],
+                            [
+                                "forlorn_cellar_unlock",
+                                "path_of_ascension_destroy_barrier",
+                                "forbidden_door_unlock"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
