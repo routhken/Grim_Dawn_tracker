@@ -1,13 +1,9 @@
 [
     {
         "name": "5 Scrap",
-        "type": "consumable",
+        "type": "toggle",
         "img": "/images/items/Scrap.png",
         "img_mods": "overlay|images/items/5 Scrap.png",
-        "max_quantity": 5,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
         "overlay_font_size": 20,
         "codes": "5_scrap"
     },
@@ -344,6 +340,12 @@
         "codes": "witch_god_cults_revered"
     },
     {
+        "name": "Slith Necklaces",
+        "type": "toggle",
+        "img": "/images/items/Slith Necklace.png",
+        "codes": "slith_necklaces"
+    },
+    {
         "name": "Setting: Devotion Shrines",
         "type": "toggle",
         "img": "/images/settings/devotion_shrine.png",
@@ -430,6 +432,12 @@
         "type": "toggle",
         "img": "/images/settings/Skill Rando.png",
         "codes": "setting_skill_rando"
+    },
+    {
+        "name": "Setting: Devotion Balance Randomizer",
+        "type": "toggle",
+        "img": "/images/settings/Devotion Rando.png",
+        "codes": "setting_devotion_rando"
     },
     {
         "name": "Setting: Enemy Randomizer",

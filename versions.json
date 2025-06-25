@@ -1,6 +1,21 @@
 {
     "versions": [
         {
+            "package_version": "2.1.0",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v2.1.0/Grim_Dawn_aptracker.zip",
+            "sha256": "bc8cbd3fb0090a0c91452645c495f8d41879b93871a737627fd774c409c84261",
+            "changelog": [
+                "Minor Update",
+                " - Added devotion rando to settings tab",
+                " - Added support for AoM dlc",
+                " - Fixed more typos",
+                " - Added 'The Door Has Opened' lore note missing on submap",
+                " - Moved 'Discord Guardian' enemy in submap to the area where the enemy spawns",
+                " - Added 'Slith Necklaces' item to the item list",
+                " - Added Elsa node to the Homestead submap",
+                " - Fixed The Infestation secret chests being swapped among each other"
+            ]
+        },{
             "package_version": "2.0.0",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v2.0.0/Grim_Dawn_aptracker.zip",
             "sha256": "50a810c15064b7cae51732eea75d5f186f2577d1fbfb43e6c4cd7df46bc003cb",

@@ -1,6 +1,6 @@
 ITEM_MAPPING = {
     [219990] = {"strange_key", "toggle"},
-    [219991] = {"5_scrap", "consumable"},
+    [219991] = {"5_scrap", "toggle"},
     [219992] = {"flooded_passage_destroy_blockade", "toggle"},
     [219993] = {"lower_crossing_destroy_blockade", "toggle"},
     [219994] = {"east_marsh_bridge_repair", "toggle"},
@@ -52,4 +52,5 @@ ITEM_MAPPING = {
     [220076] = {"progressive_main", "consumable"},
     [220077] = {"progressive_fg", "consumable"},
     [220078] = {"progressive_aom", "consumable"},
+    [220100] = {"slith_necklaces", "toggle"},
 }

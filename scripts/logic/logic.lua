@@ -217,6 +217,10 @@ function hasFGDLC()
     return has("setting_fgdlc")
 end
 
+function hasAoMDLC()
+    return has("setting_aomdlc")
+end
+
 function hasGoalOfAtLeastKorvaak()
     return hasFGDLC() and (has("goal_korvaak") or has("goal_swarm_queen_ravna") or has("goal_loghorrean") or has("goal_master_of_flesh") or has("goal_all_bosses") or has("goal_emblem_hunt"))
 end

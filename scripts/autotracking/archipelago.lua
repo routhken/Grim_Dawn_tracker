@@ -128,6 +128,7 @@ function onClear(slotData)
     Tracker:FindObjectForCode("setting_faction").Active = false
     Tracker:FindObjectForCode("setting_fgdlc").Active = false
     Tracker:FindObjectForCode("setting_skill_rando").Active = false
+    Tracker:FindObjectForCode("setting_devotion_rando").Active = false
     Tracker:FindObjectForCode("setting_enemy_rando").Active = false
     Tracker:FindObjectForCode("setting_free_respec").Active = false
     Tracker:FindObjectForCode("setting_starting_bonus").Active = false
@@ -166,6 +167,9 @@ function onClear(slotData)
     end
     if slotData['skill_balance_randomizer'] == 1 then
         Tracker:FindObjectForCode("setting_skill_rando").Active = true
+    end
+    if slotData['devotion_balance_randomizer'] == 1 then
+        Tracker:FindObjectForCode("setting_devotion_rando").Active = true
     end
     if slotData['enemy_randomizer'] == 1 then
         Tracker:FindObjectForCode("setting_enemy_rando").Active = true

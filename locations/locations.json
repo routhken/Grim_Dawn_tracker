@@ -60,7 +60,7 @@
                 "name": "Old Grove Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasGoalOfAtLeastRavna, $hasSecretChests"],
+                "visibility_rules": ["$hasGoalOfAtLeastRavna, $hasSecretChests, $hasFGDLC"],
                 "access_rules": ["$has|old_grove_bridge_repair"]
             },{
                 "name": "Devil's Aquifer Devotion Shrine",
@@ -100,7 +100,7 @@
             { "name": "Crudely Scrawled Note","ref": "Devil's Crossing - Aquifer/Crudely Scrawled Note","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Old Grove",
         "map_locations": [{"map": "Devil's Crossing","x": 85,"y": 334}],"sections": [
-            { "name": "Old Grove Secret Chest","ref": "Devil's Crossing - Aquifer/Old Grove Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasGoalOfAtLeastRavna, $hasSecretChests"],"access_rules": ["$has|old_grove_bridge_repair"]}]
+            { "name": "Old Grove Secret Chest","ref": "Devil's Crossing - Aquifer/Old Grove Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasGoalOfAtLeastRavna, $hasSecretChests, $hasFGDLC"],"access_rules": ["$has|old_grove_bridge_repair"]}]
     },{ "name": "Prison Dungeons Secret Chest",
         "map_locations": [{"map": "Devil's Aquifer","x": 259,"y": 198}],"sections": [
             { "name": "Prison Dungeons Secret Chest","ref": "Devil's Crossing - Aquifer/Prison Dungeons Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"],"access_rules": ["[$hasDevilsAquifer]"]}]
@@ -337,7 +337,8 @@
             },{
                 "name": "That Good Old Slith Charm",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_blue.png"
+                "chest_unopened_img": "images/ui/icon_marker_blue.png",
+                "access_rules": ["[$has|slith_necklaces]"]
             },{
                 "name": "Jillius, the Decayed",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
@@ -781,11 +782,13 @@
             {
                 "name": "Father Abaddoth, Betrayer of Menhir",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFGDLC"]
             },{
                 "name": "Galeslice the Ruthless",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFGDLC"]
             },{
                 "name": "Balegor, the Swamp King",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
@@ -803,7 +806,7 @@
                 "name": "Burrwitch Cathedral Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "East Marsh Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -833,7 +836,7 @@
                 "name": "The Gift of Ch'thon",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
+                "visibility_rules": ["$hasLoreNotes, $hasFGDLC"]
             },{
                 "name": "Muddy Note",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
@@ -843,11 +846,11 @@
         ]
     },{ "name": "Burrwitch Cathedral",
         "map_locations": [{"map": "East Marsh","x": 202,"y": 86}],"access_rules": ["$hasEastMarsh"],"sections": [
-            { "name": "Father Abaddoth, Betrayer of Menhir","ref": "East Marsh/Father Abaddoth, Betrayer of Menhir","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
-            },{ "name": "The Gift of Ch'thon","ref": "East Marsh/The Gift of Ch'thon","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+            { "name": "Father Abaddoth, Betrayer of Menhir","ref": "East Marsh/Father Abaddoth, Betrayer of Menhir","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFGDLC"]
+            },{ "name": "The Gift of Ch'thon","ref": "East Marsh/The Gift of Ch'thon","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes, $hasFGDLC"]}]
     },{ "name": "Galeslice the Ruthless",
         "map_locations": [{"map": "East Marsh","x": 166,"y": 768}],"access_rules": ["$hasEastMarsh"],"sections": [
-            { "name": "Galeslice the Ruthless","ref": "East Marsh/Galeslice the Ruthless","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+            { "name": "Galeslice the Ruthless","ref": "East Marsh/Galeslice the Ruthless","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFGDLC"]}]
     },{ "name": "Balegor, the Swamp King",
         "map_locations": [{"map": "East Marsh","x": 594,"y": 876}],"access_rules": ["$hasEastMarsh"],"sections": [
             { "name": "Balegor, the Swamp King","ref": "East Marsh/Balegor, the Swamp King","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
@@ -861,7 +864,7 @@
             },{ "name": "Uroboruuk's Journal - Page 2","ref": "East Marsh/Uroboruuk's Journal - Page 2","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasFactions, $hasLoreNotes"]}]
     },{ "name": "Burrwitch Cathedral Secret Chest",
         "map_locations": [{"map": "East Marsh","x": 114,"y": 100}],"access_rules": ["$hasEastMarsh"],"sections": [
-            { "name": "Burrwitch Cathedral Secret Chest","ref": "East Marsh/Burrwitch Cathedral Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+            { "name": "Burrwitch Cathedral Secret Chest","ref": "East Marsh/Burrwitch Cathedral Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "East Marsh Secret Chest",
         "map_locations": [{"map": "East Marsh","x": 729,"y": 323}],"access_rules": ["$hasEastMarsh"],"sections": [
             { "name": "East Marsh Secret Chest","ref": "East Marsh/East Marsh Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
@@ -1380,7 +1383,8 @@
             },{
                 "name": "Karnath Chillblood, Coliseum Amalgam",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFGDLC"]
             },{
                 "name": "Ulraprax, the Hive Matriarch",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
@@ -1394,13 +1398,13 @@
                 "name": "Arkovia Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
-                "visibility_rules": ["$hasOneShotChests"],
+                "visibility_rules": ["$hasOneShotChests, $hasFGDLC"],
                 "access_rules": ["[$hasTyrantsHold]"]
             },{
                 "name": "Arkovian Coliseum Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "Twin Falls Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -1410,7 +1414,7 @@
                 "name": "Coliseum Horrors",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
+                "visibility_rules": ["$hasLoreNotes, $hasFGDLC"]
             }
         ]
     },{ "name": "Extortion Crisis",
@@ -1428,19 +1432,19 @@
             { "name": "Swarming Hive Exalted Stash","ref": "Twin Falls - Coliseum/Swarming Hive Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "Karnath Chillblood, Coliseum Amalgam",
         "map_locations": [{"map": "Coliseum","x": 131,"y": 244}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
-            { "name": "Karnath Chillblood, Coliseum Amalgam","ref": "Twin Falls - Coliseum/Karnath Chillblood, Coliseum Amalgam","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+            { "name": "Karnath Chillblood, Coliseum Amalgam","ref": "Twin Falls - Coliseum/Karnath Chillblood, Coliseum Amalgam","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFGDLC"]}]
     },{ "name": "Arkovia Exalted Stash Possible Location",
         "map_locations": [{"map": "Coliseum","x": 65,"y": 302},{"map": "Broken Hills","x": 536,"y": 47},{"map": "Tyrant's Hold Outside","x": 700,"y": 358}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
-            { "name": "Arkovia Exalted Stash","ref": "Twin Falls - Coliseum/Arkovia Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"],"access_rules": ["[$hasTyrantsHold]"]}]
+            { "name": "Arkovia Exalted Stash","ref": "Twin Falls - Coliseum/Arkovia Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests, $hasFGDLC"],"access_rules": ["[$hasTyrantsHold]"]}]
     },{ "name": "Arkovian Coliseum Secret Chest",
         "map_locations": [{"map": "Coliseum","x": 225,"y": 88}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
-            { "name": "Arkovian Coliseum Secret Chest","ref": "Twin Falls - Coliseum/Arkovian Coliseum Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+            { "name": "Arkovian Coliseum Secret Chest","ref": "Twin Falls - Coliseum/Arkovian Coliseum Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Twin Falls Secret Chest",
         "map_locations": [{"map": "Twin Falls","x": 127,"y": 378}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
             { "name": "Twin Falls Secret Chest","ref": "Twin Falls - Coliseum/Twin Falls Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Coliseum Horrors",
         "map_locations": [{"map": "Coliseum","x": 148,"y": 162}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
-            { "name": "Coliseum Horrors","ref": "Twin Falls - Coliseum/Coliseum Horrors","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+            { "name": "Coliseum Horrors","ref": "Twin Falls - Coliseum/Coliseum Horrors","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes, $hasFGDLC"]}]
     },{
         "name": "Arkovian Undercity",
         "map_locations": [
@@ -1542,7 +1546,8 @@
             {
                 "name": "Naren Kur the Ostracized",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFGDLC"]
             },{
                 "name": "Guardian of Solael",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
@@ -1561,7 +1566,7 @@
                 "name": "Corrupted Tomb Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "Broken Hills Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -1587,7 +1592,7 @@
                 "name": "Ravings of Naren Kur",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
+                "visibility_rules": ["$hasLoreNotes, $hasFGDLC"]
             }
         ]
     },{ "name": "Corrupted Tomb",
@@ -1597,11 +1602,11 @@
             },{ "name": "Corrupted Tomb Secret Chest","ref": "Broken Hills/Corrupted Tomb Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Naren Kur",
         "map_locations": [{"map": "Corrupted Tomb 2","x": 563,"y": 97}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
-            { "name": "Naren Kur the Ostracized","ref": "Broken Hills/Naren Kur the Ostracized","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
-            },{ "name": "Ravings of Naren Kur","ref": "Broken Hills/Ravings of Naren Kur","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+            { "name": "Naren Kur the Ostracized","ref": "Broken Hills/Naren Kur the Ostracized","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFGDLC"]
+            },{ "name": "Ravings of Naren Kur","ref": "Broken Hills/Ravings of Naren Kur","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes, $hasFGDLC"]}]
     },{ "name": "Corrupted Tomb Secret Chest",
         "map_locations": [{"map": "Corrupted Tomb 2","x": 228,"y": 302}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
-            { "name": "Corrupted Tomb Secret Chest","ref": "Broken Hills/Corrupted Tomb Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+            { "name": "Corrupted Tomb Secret Chest","ref": "Broken Hills/Corrupted Tomb Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Broken Hills - Hidden Path",
         "map_locations": [{"map": "Broken Hills","x": 426,"y": 495}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
             { "name": "Guardian of Solael","ref": "Broken Hills/Guardian of Solael","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasHiddenPath"]
@@ -1610,7 +1615,7 @@
         "map_locations": [{"map": "Broken Hills","x": 136,"y": 290}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
             { "name": "Lutra the Abandoned","ref": "Broken Hills/Lutra the Abandoned","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Find Elsa",
-        "map_locations": [{"map": "Barren Highlands","x": 318,"y": 578}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
+        "map_locations": [{"map": "Barren Highlands","x": 318,"y": 578},{"map": "Homestead","x": 160,"y": 214}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
             { "name": "Find Elsa","ref": "Broken Hills/Find Elsa","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","access_rules": ["$hasWardensCellar"]}]
     },{ "name": "Broken Hills Secret Chest #1",
         "map_locations": [{"map": "Broken Hills","x": 805,"y": 321}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
@@ -1691,7 +1696,7 @@
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
                 "access_rules": ["$hasForbiddenDoorUnlock"],
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "Anguish Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -1740,7 +1745,7 @@
             { "name": "Suffering Secret Chest #1","ref": "Steps of Torment/Suffering Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Suffering Secret Chest #2",
         "map_locations": [{"map": "Suffering","x": 433,"y": 133}],"access_rules": ["$hasStepsOfTorment, [$hasForbiddenDoorUnlock]"],"visibility_rules": ["{$hasGoalOfAtLeastRavna, $hasForbiddenDungeons}"],"sections": [
-            { "name": "Suffering Secret Chest #2","ref": "Steps of Torment/Suffering Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
+            { "name": "Suffering Secret Chest #2","ref": "Steps of Torment/Suffering Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Anguish Secret Chest",
         "map_locations": [{"map": "Anguish","x": 381,"y": 600}],"access_rules": ["$hasStepsOfTorment, [$hasForbiddenDoorUnlock]"],"visibility_rules": ["{$hasGoalOfAtLeastRavna, $hasForbiddenDungeons}"],"sections": [
             { "name": "Anguish Secret Chest","ref": "Steps of Torment/Anguish Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
@@ -1895,7 +1900,8 @@
             },{
                 "name": "Rutnick the Cruel",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFGDLC"]
             },{
                 "name": "Tyrant's Hold Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
@@ -1905,7 +1911,7 @@
                 "name": "Arkovian Docks Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "Tyrant's Hold Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -1930,12 +1936,12 @@
                 "name": "We're On Our Own",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
+                "visibility_rules": ["$hasLoreNotes, $hasFGDLC"]
             },{
                 "name": "The Scales Strike Balance",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
+                "visibility_rules": ["$hasLoreNotes, $hasFGDLC"]
             },{
                 "name": "Imperial Proclamation",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
@@ -1976,17 +1982,17 @@
             { "name": "The Journal of Duke Cavanil","ref": "Tyrant's Hold - Docks/The Journal of Duke Cavanil","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Rutnick",
         "map_locations": [{"map": "Tyrant's Hold Outside","x": 556,"y": 543}],"access_rules": ["$hasTyrantsHold"],"visibility_rules": ["$hasGoalOfAtLeastRavna"], "sections": [
-            { "name": "Rutnick the Cruel","ref": "Tyrant's Hold - Docks/Rutnick the Cruel","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
-            },{ "name": "We're On Our Own","ref": "Tyrant's Hold - Docks/We're On Our Own","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+            { "name": "Rutnick the Cruel","ref": "Tyrant's Hold - Docks/Rutnick the Cruel","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFGDLC"]
+            },{ "name": "We're On Our Own","ref": "Tyrant's Hold - Docks/We're On Our Own","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes, $hasFGDLC"]}]
     },{ "name": "Arkovian Docks Secret Chest",
         "map_locations": [{"map": "Tyrant's Hold Outside","x": 653,"y": 391}],"access_rules": ["$hasTyrantsHold"],"visibility_rules": ["$hasGoalOfAtLeastRavna"], "sections": [
-            { "name": "Arkovian Docks Secret Chest","ref": "Tyrant's Hold - Docks/Arkovian Docks Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+            { "name": "Arkovian Docks Secret Chest","ref": "Tyrant's Hold - Docks/Arkovian Docks Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Tyrant's Hold Devotion Shrine",
         "map_locations": [{"map": "Tyrant's Hold Outside","x": 221,"y": 235}],"access_rules": ["$hasTyrantsHold"],"visibility_rules": ["$hasGoalOfAtLeastRavna"], "sections": [
             { "name": "Tyrant's Hold Devotion Shrine","ref": "Tyrant's Hold - Docks/Tyrant's Hold Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
     },{ "name": "The Scales Strike Balance",
         "map_locations": [{"map": "Tyrant's Hold Outside","x": 722,"y": 614}],"access_rules": ["$hasTyrantsHold"],"visibility_rules": ["$hasGoalOfAtLeastRavna"], "sections": [
-            { "name": "The Scales Strike Balance","ref": "Tyrant's Hold - Docks/The Scales Strike Balance","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+            { "name": "The Scales Strike Balance","ref": "Tyrant's Hold - Docks/The Scales Strike Balance","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes, $hasFGDLC"]}]
     },{ "name": "Imperial Proclamation",
         "map_locations": [{"map": "Tyrant's Hold Outside","x": 419,"y": 128}],"access_rules": ["$hasTyrantsHold"],"visibility_rules": ["$hasGoalOfAtLeastRavna"], "sections": [
             { "name": "Imperial Proclamation","ref": "Tyrant's Hold - Docks/Imperial Proclamation","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
@@ -2088,7 +2094,7 @@
                 "name": "The Conflagration Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
-                "visibility_rules": ["$hasDevotionShrines"]
+                "visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]
             }
         ]
     },{ "name": "Herald of the Flame",
@@ -2102,7 +2108,7 @@
             { "name": "Conflagration Exalted Stash","ref": "Conflagration/Conflagration Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "The Conflagration Devotion Shrine",
         "map_locations": [{"map": "Conflagration","x": 193,"y": 138}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
-            { "name": "The Conflagration Devotion Shrine","ref": "Conflagration/The Conflagration Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+            { "name": "The Conflagration Devotion Shrine","ref": "Conflagration/The Conflagration Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]}]
     },{
         "name": "Port Valbury Outskirts",
         "map_locations": [
@@ -2141,7 +2147,7 @@
                 "name": "Port Valbury Outskirts Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
-                "visibility_rules": ["$hasDevotionShrines"]
+                "visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]
             },{
                 "name": "The City is Rotting",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
@@ -2161,7 +2167,7 @@
             { "name": "Port Valbury Secret Chest","ref": "Port Valbury Outskirts/Port Valbury Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Port Valbury Outskirts Devotion Shrine",
         "map_locations": [{"map": "PV Outskirts","x": 292,"y": 182}],"access_rules": ["$hasPortValbury, [$hasForbiddenDoorUnlock]"],"visibility_rules": ["{$hasGoalOfAtLeastRavna, $hasForbiddenDungeons}"],"sections": [
-            { "name": "Port Valbury Outskirts Devotion Shrine","ref": "Port Valbury Outskirts/Port Valbury Outskirts Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+            { "name": "Port Valbury Outskirts Devotion Shrine","ref": "Port Valbury Outskirts/Port Valbury Outskirts Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]}]
     },{
         "name": "Port Valbury Old Town",
         "map_locations": [
@@ -2688,7 +2694,7 @@
                 "name": "Shrine of the Forgotten God Secret Chest #2",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "The Blood Grove Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
@@ -2732,7 +2738,7 @@
             },{ "name": "Scribe Osteram's Notes","ref": "Blood Grove/Scribe Osteram's Notes","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Shrine of the Forgotten God Secret Chest #2",
         "map_locations": [{"map": "Blood Grove","x": 176,"y": 1067}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
-            { "name": "Shrine of the Forgotten God Secret Chest #2","ref": "Blood Grove/Shrine of the Forgotten God Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+            { "name": "Shrine of the Forgotten God Secret Chest #2","ref": "Blood Grove/Shrine of the Forgotten God Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "The Blood Grove Devotion Shrine",
         "map_locations": [{"map": "Blood Grove","x": 371,"y": 701}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "The Blood Grove Devotion Shrine","ref": "Blood Grove/The Blood Grove Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
@@ -3238,7 +3244,7 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "access_rules": ["$hasEdgeOfMadness, $hasWardensCellar"],
-                "visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh"]
+                "visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"]
             }
         ]
     },{ "name": "Fort Ikon Riftgate Secured",
@@ -3282,7 +3288,7 @@
     },{ "name": "Scouting Report and Journal",
         "map_locations": [{"map": "Fort Ikon","x": 786,"y": 343}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Black Legion Scouting Report: Necropolis","ref": "Fort Ikon/Black Legion Scouting Report: Necropolis","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]
-            },{ "name": "Journal of Inquisitor Creed - 9th Entry","ref": "Fort Ikon/Journal of Inquisitor Creed - 9th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","access_rules": ["$hasEdgeOfMadness, $hasWardensCellar"],"visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh"]}]
+            },{ "name": "Journal of Inquisitor Creed - 9th Entry","ref": "Fort Ikon/Journal of Inquisitor Creed - 9th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","access_rules": ["$hasEdgeOfMadness, $hasWardensCellar"],"visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"]}]
     },{
         "name": "The Immolation",
         "map_locations": [
@@ -3356,7 +3362,7 @@
                 "name": "Temple of the Three Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
-                "visibility_rules": ["$hasDevotionShrines"]
+                "visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]
             },{
                 "name": "The Runes Fall Silent",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
@@ -3383,7 +3389,7 @@
             { "name": "Temple of the Three Secret Chest #2","ref": "Temple of the Three/Temple of the Three Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Temple of the Three Devotion Shrine",
         "map_locations": [{"map": "Temple of the Three","x": 344,"y": 252}],"access_rules": ["$hasTempleOfTheThree"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
-            { "name": "Temple of the Three Devotion Shrine","ref": "Temple of the Three/Temple of the Three Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+            { "name": "Temple of the Three Devotion Shrine","ref": "Temple of the Three/Temple of the Three Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]}]
     },{ "name": "The Runes Fall Silent",
         "map_locations": [{"map": "Temple of the Three","x": 222,"y": 644}],"access_rules": ["$hasTempleOfTheThree"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "The Runes Fall Silent","ref": "Temple of the Three/The Runes Fall Silent","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
@@ -3629,9 +3635,14 @@
                 "name": "Tomb of the Watchers Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
-                "visibility_rules": ["$hasDevotionShrines"]
+                "visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]
             },{
                 "name": "Clarity of Valor",
+                "chest_opened_img": "images/ui/icon_lore_note_checked.png",
+                "chest_unopened_img": "images/ui/icon_lore_note.png",
+                "visibility_rules": ["$hasLoreNotes"]
+            },{
+                "name": "The Door has Opened",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"]
@@ -3670,20 +3681,23 @@
             { "name": "Bloodlord Thalonis","ref": "Tomb of the Watchers/Bloodlord Thalonis","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "The Final Seal","ref": "Tomb of the Watchers/The Final Seal","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Tomb of the Watchers Secret Chest #1",
-        "map_locations": [{"map": "Tomb of the Watchers","x": 381,"y": 541}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
+        "map_locations": [{"map": "Tomb of the Watchers","x": 143,"y": 607}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Tomb of the Watchers Secret Chest #1","ref": "Tomb of the Watchers/Tomb of the Watchers Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Tomb of the Watchers Secret Chest #2",
-        "map_locations": [{"map": "Tomb of the Watchers","x": 143,"y": 607}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
+        "map_locations": [{"map": "Tomb of the Watchers","x": 381,"y": 541}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Tomb of the Watchers Secret Chest #2","ref": "Tomb of the Watchers/Tomb of the Watchers Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Tomb of the Watchers Secret Chest #3",
         "map_locations": [{"map": "Tomb of the Watchers","x": 126,"y": 308}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Tomb of the Watchers Secret Chest #3","ref": "Tomb of the Watchers/Tomb of the Watchers Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Tomb of the Watchers Devotion Shrine",
         "map_locations": [{"map": "Tomb of the Watchers","x": 76,"y": 348}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
-            { "name": "Tomb of the Watchers Devotion Shrine","ref": "Tomb of the Watchers/Tomb of the Watchers Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+            { "name": "Tomb of the Watchers Devotion Shrine","ref": "Tomb of the Watchers/Tomb of the Watchers Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]}]
     },{ "name": "Clarity of Valor",
         "map_locations": [{"map": "Tomb of the Watchers","x": 245,"y": 641}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Clarity of Valor","ref": "Tomb of the Watchers/Clarity of Valor","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+    },{ "name": "The Door has Opened",
+        "map_locations": [{"map": "Tomb of the Watchers","x": 363,"y": 85}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
+            { "name": "The Door has Opened","ref": "Tomb of the Watchers/The Door has Opened","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Secret Work",
         "map_locations": [{"map": "Seal of the Loghorrean","x": 228,"y": 708}],"access_rules": ["$hasTombOfTheWatchers"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Secret Work","ref": "Tomb of the Watchers/Secret Work","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
@@ -3763,7 +3777,7 @@
         "map_locations": [{"map": "Bastion of Chaos","x": 205,"y": 160}],"access_rules": ["$hasBastionOfChaos, [$hasForbiddenDoorUnlock]"],"visibility_rules": ["{$hasGoalOfAtLeastLoghorrean, $hasForbiddenDungeons}"],"sections": [
             { "name": "Balok'Anatu, Bloodfiend","ref": "Bastion of Chaos/Balok'Anatu, Bloodfiend","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Discord Guardian",
-        "map_locations": [{"map": "Discord","x": 411,"y": 297}],"access_rules": ["$hasBastionOfChaos, [$hasForbiddenDoorUnlock]"],"visibility_rules": ["{$hasGoalOfAtLeastLoghorrean, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Discord","x": 497,"y": 457}],"access_rules": ["$hasBastionOfChaos, [$hasForbiddenDoorUnlock]"],"visibility_rules": ["{$hasGoalOfAtLeastLoghorrean, $hasForbiddenDungeons}"],"sections": [
             { "name": "Discord Guardian","ref": "Bastion of Chaos/Discord Guardian","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasForbiddenDoorUnlock"]}]
     },{ "name": "Fields of Despair Guardian",
         "map_locations": [{"map": "Discord","x": 603,"y": 461}],"access_rules": ["$hasBastionOfChaos, [$hasForbiddenDoorUnlock]"],"visibility_rules": ["{$hasGoalOfAtLeastLoghorrean, $hasForbiddenDungeons}"],"sections": [
@@ -3800,7 +3814,7 @@
             }
         ],
         "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Dralgar, the Keeper of Burrwitch",
@@ -3872,51 +3886,51 @@
             }
         ]
     },{ "name": "Dralgar, the Keeper of Burrwitch",
-        "map_locations": [{"map": "Gloomwald Entrance","x": 63,"y": 567}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald Entrance","x": 63,"y": 567}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Dralgar, the Keeper of Burrwitch","ref": "Gloomwald/Dralgar, the Keeper of Burrwitch","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Rescue Garett Torvan",
-        "map_locations": [{"map": "Gloomwald South","x": 335,"y": 396}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 335,"y": 396}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rescue Garett Torvan","ref": "Gloomwald/Rescue Garett Torvan","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]}]
     },{ "name": "Packla, the Turning Possible Location",
-        "map_locations": [{"map": "Gloomwald South","x": 345,"y": 703},{"map": "Gloomwald South","x": 397,"y": 631},{"map": "Gloomwald South","x": 698,"y": 660},{"map": "Gloomwald South","x": 460,"y": 325},{"map": "Gloomwald North","x": 537,"y": 552},{"map": "Gloomwald North","x": 656,"y": 303}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 345,"y": 703},{"map": "Gloomwald South","x": 397,"y": 631},{"map": "Gloomwald South","x": 698,"y": 660},{"map": "Gloomwald South","x": 460,"y": 325},{"map": "Gloomwald North","x": 537,"y": 552},{"map": "Gloomwald North","x": 656,"y": 303}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Packla, the Turning","ref": "Gloomwald/Packla, the Turning","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Decrepit Cellar",
-        "map_locations": [{"map": "Gloomwald South","x": 428,"y": 850},{"map": "Gloomwald South","x": 609,"y": 616}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 428,"y": 850},{"map": "Gloomwald South","x": 609,"y": 616}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Avris Marrowill","ref": "Gloomwald/Avris Marrowill","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "Decrepit Cellar Secret Chest #1","ref": "Gloomwald/Decrepit Cellar Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]
             },{ "name": "Decrepit Cellar Secret Chest #2","ref": "Gloomwald/Decrepit Cellar Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Decrepit Cellar Secret Chest #1",
-        "map_locations": [{"map": "Decrepit Cellar","x": 148,"y": 217}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Decrepit Cellar","x": 148,"y": 217}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Decrepit Cellar Secret Chest #1","ref": "Gloomwald/Decrepit Cellar Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Decrepit Cellar Secret Chest #2",
-        "map_locations": [{"map": "Decrepit Cellar","x": 247,"y": 121}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Decrepit Cellar","x": 247,"y": 121}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Decrepit Cellar Secret Chest #2","ref": "Gloomwald/Decrepit Cellar Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Avris Marrowill Possible Location",
-        "map_locations": [{"map": "Gloomwald South","x": 180,"y": 194},{"map": "Decrepit Cellar","x": 239,"y": 204},{"map": "Overgrown Cellar","x": 183,"y": 101}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 180,"y": 194},{"map": "Decrepit Cellar","x": 239,"y": 204},{"map": "Overgrown Cellar","x": 183,"y": 101}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Avris Marrowill","ref": "Gloomwald/Avris Marrowill","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Den of Carraxus",
-        "map_locations": [{"map": "Gloomwald North","x": 390,"y": 81},{"map": "Den of Carraxus","x": 135,"y": 53}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald North","x": 390,"y": 81},{"map": "Den of Carraxus","x": 135,"y": 53}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Carraxus Foul","ref": "Gloomwald/Carraxus Foul","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Gloomwald Exalted Stash",
-        "map_locations": [{"map": "Gloomwald South","x": 108,"y": 359}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 108,"y": 359}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Gloomwald Exalted Stash","ref": "Gloomwald/Gloomwald Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"],"access_rules": ["$hasNanesHideout"]}]
     },{ "name": "Gloomwald Secret Chest #1",
-        "map_locations": [{"map": "Gloomwald South","x": 360,"y": 479}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 360,"y": 479}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Gloomwald Secret Chest #1","ref": "Gloomwald/Gloomwald Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Gloomwald Secret Chest #2",
-        "map_locations": [{"map": "Gloomwald North","x": 272,"y": 492}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald North","x": 272,"y": 492}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Gloomwald Secret Chest #2","ref": "Gloomwald/Gloomwald Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Gloomwald Devotion Shrine",
-        "map_locations": [{"map": "Gloomwald South","x": 686,"y": 492}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 686,"y": 492}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Gloomwald Devotion Shrine","ref": "Gloomwald/Gloomwald Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
     },{ "name": "Nane's Stash",
-        "map_locations": [{"map": "Gloomwald South","x": 482,"y": 845}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 482,"y": 845}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Nane's Stash","ref": "Gloomwald/Nane's Stash","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Bloodsoaked Scribblings",
-        "map_locations": [{"map": "Gloomwald South","x": 359,"y": 534}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald South","x": 359,"y": 534}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Bloodsoaked Scribblings","ref": "Gloomwald/Bloodsoaked Scribblings","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Cratch Moore's Order",
-        "map_locations": [{"map": "Gloomwald North","x": 516,"y": 172}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Gloomwald North","x": 516,"y": 172}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Cratch Moore's Order","ref": "Gloomwald/Cratch Moore's Order","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Coven's Refuge",
@@ -3932,7 +3946,7 @@
             }
         ],
         "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "The Coven's Walls",
@@ -4006,32 +4020,32 @@
             }
         ]
     },{ "name": "Garradia's Quests",
-        "map_locations": [{"map": "Coven's Refuge","x": 245,"y": 133}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Coven's Refuge","x": 245,"y": 133}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Coven's Walls","ref": "Coven's Refuge/The Coven's Walls","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]
             },{ "name": "Pruning The Weeds","ref": "Coven's Refuge/Pruning The Weeds","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]}]
     },{ "name": "Malostria's Quests",
-        "map_locations": [{"map": "Coven's Refuge","x": 316,"y": 134}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Coven's Refuge","x": 316,"y": 134}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Allure of the Wendigo","ref": "Coven's Refuge/Allure of the Wendigo","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
             },{ "name": "Power in the Circles","ref": "Coven's Refuge/Power in the Circles","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
             },{ "name": "Stone Basilisk","ref": "Coven's Refuge/Stone Basilisk","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]
             },{ "name": "Final Seal","ref": "Coven's Refuge/Final Seal","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]}]
     },{ "name": "Trapped Wraith 1",
-        "map_locations": [{"map": "Coven's Refuge","x": 98,"y": 125}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Coven's Refuge","x": 98,"y": 125}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Trapped Wraith 1","ref": "Coven's Refuge/Trapped Wraith 1","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]}]
     },{ "name": "Trapped Wraith 2",
-        "map_locations": [{"map": "Ugdenbog South","x": 244,"y": 408}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog South","x": 244,"y": 408}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Trapped Wraith 2","ref": "Coven's Refuge/Trapped Wraith 2","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]}]
     },{ "name": "Trapped Wraith 3",
-        "map_locations": [{"map": "Ugdenbog South","x": 407,"y": 616}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog South","x": 407,"y": 616}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Trapped Wraith 3","ref": "Coven's Refuge/Trapped Wraith 3","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasCovenRevered]"]}]
     },{ "name": "Coven's Refuge Secret Chest",
-        "map_locations": [{"map": "Coven's Refuge","x": 398,"y": 220}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Coven's Refuge","x": 398,"y": 220}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Coven's Refuge Secret Chest","ref": "Coven's Refuge/Coven's Refuge Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Trista's Diary",
-        "map_locations": [{"map": "Coven's Refuge","x": 232,"y": 249}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Coven's Refuge","x": 232,"y": 249}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Trista's Diary","ref": "Coven's Refuge/Trista's Diary","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Whispers from Beyond",
-        "map_locations": [{"map": "Coven's Refuge","x": 369,"y": 213}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Coven's Refuge","x": 369,"y": 213}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Whispers from Beyond","ref": "Coven's Refuge/Whispers from Beyond","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Ugdenbog",
@@ -4047,7 +4061,7 @@
             }
         ],
         "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Janaxia, the Betrayer",
@@ -4148,84 +4162,84 @@
             }
         ]
     },{ "name": "Janaxia's Den",
-        "map_locations": [{"map": "Ugdenbog South","x": 562,"y": 434}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog South","x": 562,"y": 434}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Janaxia, the Betrayer","ref": "Ugdenbog/Janaxia, the Betrayer","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "Janaxia's Den Secret Chest","ref": "Ugdenbog/Janaxia's Den Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Janaxia, the Betrayer",
-        "map_locations": [{"map": "Janaxia's Den","x": 137,"y": 53}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Janaxia's Den","x": 137,"y": 53}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Janaxia, the Betrayer","ref": "Ugdenbog/Janaxia, the Betrayer","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Janaxia's Den Secret Chest",
-        "map_locations": [{"map": "Janaxia's Den","x": 262,"y": 148}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Janaxia's Den","x": 262,"y": 148}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Janaxia's Den Secret Chest","ref": "Ugdenbog/Janaxia's Den Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Kra'vall, Ancient of the Waters",
-        "map_locations": [{"map": "Ugdenbog Center","x": 743,"y": 189}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog Center","x": 743,"y": 189}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Kra'vall, Ancient of the Waters","ref": "Ugdenbog/Kra'vall, Ancient of the Waters","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasDenOfTheAncient"]}]
     },{ "name": "Bargoll, the Mouldering Mound",
-        "map_locations": [{"map": "Ugdenbog Center","x": 486,"y": 146}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog Center","x": 486,"y": 146}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Bargoll, the Mouldering Mound","ref": "Ugdenbog/Bargoll, the Mouldering Mound","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "The Undergrowth Possible Location",
-        "map_locations": [{"map": "Ugdenbog North","x": 633,"y": 744},{"map": "Ugdenbog North","x": 701,"y": 320},{"map": "Ugdenbog North","x": 106,"y": 242}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog North","x": 633,"y": 744},{"map": "Ugdenbog North","x": 701,"y": 320},{"map": "Ugdenbog North","x": 106,"y": 242}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Sylvarria, Queen of the Undergrowth","ref": "Ugdenbog/Sylvarria, Queen of the Undergrowth","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "The Undergrowth Exalted Stash","ref": "Ugdenbog/The Undergrowth Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]
             },{ "name": "The Undergrowth Secret Chest #1","ref": "Ugdenbog/The Undergrowth Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]
             },{ "name": "The Undergrowth Secret Chest #2","ref": "Ugdenbog/The Undergrowth Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Sylvarria, Queen of the Undergrowth",
-        "map_locations": [{"map": "Undergrowth","x": 319,"y": 56}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Undergrowth","x": 319,"y": 56}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Sylvarria, Queen of the Undergrowth","ref": "Ugdenbog/Sylvarria, Queen of the Undergrowth","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "The Undergrowth Exalted Stash",
-        "map_locations": [{"map": "Undergrowth","x": 274,"y": 145}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Undergrowth","x": 274,"y": 145}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Undergrowth Exalted Stash","ref": "Ugdenbog/The Undergrowth Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "The Undergrowth Secret Chest #1",
-        "map_locations": [{"map": "Undergrowth","x": 199,"y": 384}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Undergrowth","x": 199,"y": 384}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Undergrowth Secret Chest #1","ref": "Ugdenbog/The Undergrowth Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "The Undergrowth Secret Chest #2",
-        "map_locations": [{"map": "Undergrowth","x": 442,"y": 129}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Undergrowth","x": 442,"y": 129}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Undergrowth Secret Chest #2","ref": "Ugdenbog/The Undergrowth Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Rescue Leora Karns",
-        "map_locations": [{"map": "Ugdenbog North","x": 331,"y": 312}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog North","x": 331,"y": 312}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rescue Leora Karns","ref": "Ugdenbog/Rescue Leora Karns","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Tomb of Ugdall",
-        "map_locations": [{"map": "Ugdenbog North","x": 458,"y": 93}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog North","x": 458,"y": 93}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ugdall, Wrath of the Ugdenbog","ref": "Ugdenbog/Ugdall, Wrath of the Ugdenbog","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "Tomb of Ugdall Devotion Shrine","ref": "Ugdenbog/Tomb of Ugdall Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]
             },{ "name": "Writings of Yeathleanis","ref": "Ugdenbog/Writings of Yeathleanis","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Ugdall, Wrath of the Ugdenbog",
-        "map_locations": [{"map": "Tomb of Ugdall","x": 132,"y": 86}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Tomb of Ugdall","x": 132,"y": 86}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ugdall, Wrath of the Ugdenbog","ref": "Ugdenbog/Ugdall, Wrath of the Ugdenbog","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Tomb of Ugdall Devotion Shrine",
-        "map_locations": [{"map": "Tomb of Ugdall","x": 117,"y": 155}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Tomb of Ugdall","x": 117,"y": 155}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Tomb of Ugdall Devotion Shrine","ref": "Ugdenbog/Tomb of Ugdall Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
     },{ "name": "Writings of Yeathleanis",
-        "map_locations": [{"map": "Tomb of Ugdall","x": 163,"y": 101}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Tomb of Ugdall","x": 163,"y": 101}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Writings of Yeathleanis","ref": "Ugdenbog/Writings of Yeathleanis","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Barrowholm Mine",
-        "map_locations": [{"map": "Ugdenbog Far North","x": 623,"y": 362}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog Far North","x": 623,"y": 362}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Naxen Shade","ref": "Ugdenbog/Naxen Shade","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "Barrowholm Mine Secret Chest #1","ref": "Ugdenbog/Barrowholm Mine Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]
             },{ "name": "Barrowholm Mine Secret Chest #2","ref": "Ugdenbog/Barrowholm Mine Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Naxen Shade",
-        "map_locations": [{"map": "Barrowholm Mine","x": 99,"y": 98}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Barrowholm Mine","x": 99,"y": 98}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Naxen Shade","ref": "Ugdenbog/Naxen Shade","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Barrowholm Mine Secret Chest #1",
-        "map_locations": [{"map": "Barrowholm Mine","x": 398,"y": 286}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Barrowholm Mine","x": 398,"y": 286}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Barrowholm Mine Secret Chest #1","ref": "Ugdenbog/Barrowholm Mine Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Barrowholm Mine Secret Chest #2",
-        "map_locations": [{"map": "Barrowholm Mine","x": 193,"y": 220}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Barrowholm Mine","x": 193,"y": 220}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Barrowholm Mine Secret Chest #2","ref": "Ugdenbog/Barrowholm Mine Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Den of the Ancient Water-Logged Chest",
-        "map_locations": [{"map": "Ugdenbog Center","x": 728,"y": 230}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog Center","x": 728,"y": 230}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Den of the Ancient Water-Logged Chest","ref": "Ugdenbog/Den of the Ancient Water-Logged Chest","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"],"access_rules": ["$hasDenOfTheAncient"]}]
     },{ "name": "Ugdenbog Secret Chest #1",
-        "map_locations": [{"map": "Ugdenbog South","x": 706,"y": 459}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog South","x": 706,"y": 459}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ugdenbog Secret Chest #1","ref": "Ugdenbog/Ugdenbog Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Ugdenbog Secret Chest #2",
-        "map_locations": [{"map": "Ugdenbog Far North","x": 847,"y": 295}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog Far North","x": 847,"y": 295}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ugdenbog Secret Chest #2","ref": "Ugdenbog/Ugdenbog Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Mysteries of Ugdenbog",
-        "map_locations": [{"map": "Ugdenbog Center","x": 621,"y": 357}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ugdenbog Center","x": 621,"y": 357}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Mysteries of Ugdenbog","ref": "Ugdenbog/Mysteries of Ugdenbog","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasDenOfTheAncient"]}]
     },{ "name": "Gifts of the Gods",
-        "map_locations": [{"map": "Altar of Rattosh","x": 242,"y": 68}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Altar of Rattosh","x": 242,"y": 68}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Gifts of the Gods","ref": "Ugdenbog/Gifts of the Gods","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Ancient Grove",
@@ -4245,7 +4259,7 @@
             }
         ],
         "access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],
-        "visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],
+        "visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],
         "sections": [
             {
                 "name": "Ancient Grove Gauntlet",
@@ -4314,7 +4328,7 @@
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
                 "access_rules": ["$hasForbiddenDoorUnlock"],
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "Tainted Wood Secret Chest #2",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -4341,55 +4355,55 @@
             }
         ]
     },{ "name": "Ancient Grove Gauntlet",
-        "map_locations": [{"map": "Feral Thicket","x": 69,"y": 494}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Feral Thicket","x": 69,"y": 494}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Ancient Grove Gauntlet","ref": "Ancient Grove/Ancient Grove Gauntlet","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasForbiddenDoorUnlock"]}]
     },{ "name": "Gulgazor (randomly roaming)",
-        "map_locations": [{"map": "Feral Thicket","x": 375,"y": 344}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Feral Thicket","x": 375,"y": 344}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Gulgazor","ref": "Ancient Grove/Gulgazor","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasForbiddenDoorUnlock"]}]
     },{ "name": "Slathsarr Aethergaze",
-        "map_locations": [{"map": "Feral Thicket","x": 302,"y": 248}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Feral Thicket","x": 302,"y": 248}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Slathsarr Aethergaze","ref": "Ancient Grove/Slathsarr Aethergaze","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasForbiddenDoorUnlock"]}]
     },{ "name": "Vilgazor (randomly roaming)",
-        "map_locations": [{"map": "Tainted Wood","x": 256,"y": 591}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Tainted Wood","x": 256,"y": 591}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Vilgazor","ref": "Ancient Grove/Vilgazor","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasForbiddenDoorUnlock"]}]
     },{ "name": "Ragarroth the Tormented",
-        "map_locations": [{"map": "Ancient Grove","x": 494,"y": 107}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Ancient Grove","x": 494,"y": 107}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Ragarroth the Tormented","ref": "Ancient Grove/Ragarroth the Tormented","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Gargabol, Heart of the Wild",
-        "map_locations": [{"map": "Tainted Wood","x": 280,"y": 154}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Tainted Wood","x": 280,"y": 154}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Gargabol, Heart of the Wild","ref": "Ancient Grove/Gargabol, Heart of the Wild","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasForbiddenDoorUnlock"]}]
     },{ "name": "Tainted Wood Exalted Stash",
-        "map_locations": [{"map": "Tainted Wood","x": 463,"y": 613}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Tainted Wood","x": 463,"y": 613}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Tainted Wood Exalted Stash","ref": "Ancient Grove/Tainted Wood Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "Ancient Grove Secret Chest #1",
-        "map_locations": [{"map": "Ancient Grove","x": 475,"y": 351}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Ancient Grove","x": 475,"y": 351}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Ancient Grove Secret Chest #1","ref": "Ancient Grove/Ancient Grove Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Ancient Grove Secret Chest #2",
-        "map_locations": [{"map": "Ancient Grove","x": 47,"y": 463}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Ancient Grove","x": 47,"y": 463}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Ancient Grove Secret Chest #2","ref": "Ancient Grove/Ancient Grove Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Ancient Grove Secret Chest #3",
-        "map_locations": [{"map": "Ancient Grove","x": 192,"y": 177}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Ancient Grove","x": 192,"y": 177}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Ancient Grove Secret Chest #3","ref": "Ancient Grove/Ancient Grove Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Feral Thicket Secret Chest #1",
-        "map_locations": [{"map": "Feral Thicket","x": 318,"y": 574}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Feral Thicket","x": 318,"y": 574}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Feral Thicket Secret Chest #1","ref": "Ancient Grove/Feral Thicket Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Feral Thicket Secret Chest #2",
-        "map_locations": [{"map": "Feral Thicket","x": 273,"y": 154}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Feral Thicket","x": 273,"y": 154}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Feral Thicket Secret Chest #2","ref": "Ancient Grove/Feral Thicket Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Tainted Wood Secret Chest #1",
-        "map_locations": [{"map": "Tainted Wood","x": 427,"y": 672}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
-            { "name": "Tainted Wood Secret Chest #1","ref": "Ancient Grove/Tainted Wood Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
+        "map_locations": [{"map": "Tainted Wood","x": 427,"y": 671}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
+            { "name": "Tainted Wood Secret Chest #1","ref": "Ancient Grove/Tainted Wood Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Tainted Wood Secret Chest #2",
-        "map_locations": [{"map": "Tainted Wood","x": 457,"y": 599}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Tainted Wood","x": 463,"y": 626}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Tainted Wood Secret Chest #2","ref": "Ancient Grove/Tainted Wood Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Tainted Wood Secret Chest #3",
-        "map_locations": [{"map": "Tainted Wood","x": 366,"y": 544}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Tainted Wood","x": 366,"y": 544}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Tainted Wood Secret Chest #3","ref": "Ancient Grove/Tainted Wood Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Ancient Grove Devotion Shrine",
-        "map_locations": [{"map": "Ancient Grove","x": 422,"y": 351}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Ancient Grove","x": 422,"y": 351}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Ancient Grove Devotion Shrine","ref": "Ancient Grove/Ancient Grove Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
     },{ "name": "Mogdrogen's Ruminations",
-        "map_locations": [{"map": "Tainted Wood","x": 205,"y": 77}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons}"],"sections": [
+        "map_locations": [{"map": "Tainted Wood","x": 205,"y": 77}],"access_rules": ["$hasAct7, [$hasForbiddenDoorUnlock], [$hasAoMLeveling]"],"visibility_rules": ["{$hasGoalOfAtLeastMasterOfFlesh, $hasForbiddenDungeons, $hasAoMDLC}"],"sections": [
             { "name": "Mogdrogen's Ruminations","ref": "Ancient Grove/Mogdrogen's Ruminations","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","access_rules": ["$hasForbiddenDoorUnlock"],"visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Barrowholm",
@@ -4405,7 +4419,7 @@
             }
         ],
         "access_rules": ["$hasAct7, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Den of the Wendigo Secret Chest #1",
@@ -4444,33 +4458,33 @@
             }
         ]
     },{ "name": "Forlorn Cellar",
-        "map_locations": [{"map": "Barrowholm","x": 313,"y": 331}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Barrowholm","x": 313,"y": 331}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Den of the Wendigo Secret Chest #1","ref": "Barrowholm/Den of the Wendigo Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"],"access_rules": ["$hasForlornCellar"]
             },{ "name": "Den of the Wendigo Secret Chest #2","ref": "Barrowholm/Den of the Wendigo Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"],"access_rules": ["$hasForlornCellar"]
             },{ "name": "Through Flesh We Become His Chosen","ref": "Barrowholm/Through Flesh We Become His Chosen","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasForlornCellar"]
             },{ "name": "The Ravager","ref": "Barrowholm/The Ravager","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasForlornCellar"]}]
     },{ "name": "Through Flesh We Become His Chosen",
-        "map_locations": [{"map": "Forlorn Cellar","x": 71,"y": 63}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Forlorn Cellar","x": 71,"y": 63}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Through Flesh We Become His Chosen","ref": "Barrowholm/Through Flesh We Become His Chosen","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasForlornCellar"]}]
     },{ "name": "Den of the Wendigo",
-        "map_locations": [{"map": "Forlorn Cellar","x": 150,"y": 110}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Forlorn Cellar","x": 150,"y": 110}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Den of the Wendigo Secret Chest #1","ref": "Barrowholm/Den of the Wendigo Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"],"access_rules": ["$hasForlornCellar"]
             },{ "name": "Den of the Wendigo Secret Chest #2","ref": "Barrowholm/Den of the Wendigo Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"],"access_rules": ["$hasForlornCellar"]
             },{ "name": "The Ravager","ref": "Barrowholm/The Ravager","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasForlornCellar"]}]
     },{ "name": "Den of the Wendigo Secret Chest #1",
-        "map_locations": [{"map": "Den of the Wendigo","x": 244,"y": 126}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Den of the Wendigo","x": 244,"y": 126}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Den of the Wendigo Secret Chest #1","ref": "Barrowholm/Den of the Wendigo Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"],"access_rules": ["$hasForlornCellar"]}]
     },{ "name": "Den of the Wendigo Secret Chest #2",
-        "map_locations": [{"map": "Den of the Wendigo","x": 175,"y": 65}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Den of the Wendigo","x": 175,"y": 65}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Den of the Wendigo Secret Chest #2","ref": "Barrowholm/Den of the Wendigo Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"],"access_rules": ["$hasForlornCellar"]}]
     },{ "name": "The Ravager",
-        "map_locations": [{"map": "Den of the Wendigo","x": 82,"y": 76}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Den of the Wendigo","x": 82,"y": 76}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Ravager","ref": "Barrowholm/The Ravager","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasForlornCellar"]}]
     },{ "name": "Aurin's Recipe",
-        "map_locations": [{"map": "Barrowholm","x": 201,"y": 310}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Barrowholm","x": 201,"y": 310}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Aurin's Recipe","ref": "Barrowholm/Aurin's Recipe","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "What does the future hold?",
-        "map_locations": [{"map": "Barrowholm","x": 296,"y": 98}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Barrowholm","x": 296,"y": 98}],"access_rules": ["$hasAct7, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "What does the future hold?","ref": "Barrowholm/What does the future hold?","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Void's Edge",
@@ -4490,7 +4504,7 @@
             }
         ],
         "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Convince Ulgrim",
@@ -4529,25 +4543,25 @@
             }
         ]
     },{ "name": "Convince Ulgrim",
-        "map_locations": [{"map": "Void's Edge","x": 345,"y": 541}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Void's Edge","x": 345,"y": 541}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Convince Ulgrim","ref": "Void's Edge/Convince Ulgrim","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]}]
     },{ "name": "Ekket'Zul, Progenitor of Darkness",
-        "map_locations": [{"map": "Void's Edge","x": 153,"y": 767}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Void's Edge","x": 153,"y": 767}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ekket'Zul, Progenitor of Darkness","ref": "Void's Edge/Ekket'Zul, Progenitor of Darkness","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Desolate Wastes Exalted Stash",
-        "map_locations": [{"map": "Desolate Wastes","x": 139,"y": 460},{"map": "Desolate Wastes","x": 418,"y": 334},{"map": "Desolate Wastes","x": 170,"y": 86}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Desolate Wastes","x": 139,"y": 460},{"map": "Desolate Wastes","x": 418,"y": 334},{"map": "Desolate Wastes","x": 170,"y": 86}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Desolate Wastes Exalted Stash","ref": "Void's Edge/Desolate Wastes Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "Desolate Wastes Secret Chest",
-        "map_locations": [{"map": "Desolate Wastes","x": 272,"y": 191}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Desolate Wastes","x": 272,"y": 191}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Desolate Wastes Secret Chest","ref": "Void's Edge/Desolate Wastes Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Void's Edge Secret Chest #1",
-        "map_locations": [{"map": "Void's Edge","x": 154,"y": 1058}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Void's Edge","x": 154,"y": 1058}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Void's Edge Secret Chest #1","ref": "Void's Edge/Void's Edge Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Void's Edge Secret Chest #2",
-        "map_locations": [{"map": "Void's Edge","x": 265,"y": 859}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Void's Edge","x": 265,"y": 859}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Void's Edge Secret Chest #2","ref": "Void's Edge/Void's Edge Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Void's Edge Secret Chest #3",
-        "map_locations": [{"map": "Void's Edge","x": 470,"y": 99}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Void's Edge","x": 470,"y": 99}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Void's Edge Secret Chest #3","ref": "Void's Edge/Void's Edge Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{
         "name": "Lone Watch",
@@ -4567,7 +4581,7 @@
             }
         ],
         "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Loyalty Through Blood",
@@ -4590,7 +4604,7 @@
             }
         ],
         "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Aimee Brenoch's Journal - 1st Entry",
@@ -4610,13 +4624,13 @@
             }
         ]
     },{ "name": "Aimee Brenoch's Journal - 1st Entry",
-        "map_locations": [{"map": "Mourndale","x": 286,"y": 809}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Mourndale","x": 286,"y": 809}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Aimee Brenoch's Journal - 1st Entry","ref": "Mourndale/Aimee Brenoch's Journal - 1st Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Missive to the Mourndale Bloodbound",
-        "map_locations": [{"map": "Mourndale","x": 370,"y": 367}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Mourndale","x": 370,"y": 367}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Missive to the Mourndale Bloodbound","ref": "Mourndale/Missive to the Mourndale Bloodbound","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "A Calling to Shadows",
-        "map_locations": [{"map": "Mourndale","x": 227,"y": 232}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Mourndale","x": 227,"y": 232}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "A Calling to Shadows","ref": "Mourndale/A Calling to Shadows","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Fringes of Sanity",
@@ -4644,7 +4658,7 @@
             }
         ],
         "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Bandravos, Thrall of Dravis",
@@ -4675,27 +4689,27 @@
             }
         ]
     },{ "name": "Bandravos, Thrall of Dravis",
-        "map_locations": [{"map": "Cinder Wastes","x": 300,"y": 325}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Cinder Wastes","x": 300,"y": 325}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Bandravos, Thrall of Dravis","ref": "Fringes of Sanity/Bandravos, Thrall of Dravis","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Gabal'Thunn, the Visage of Madness",
-        "map_locations": [{"map": "Cinder Wastes","x": 287,"y": 124},{"map": "Cinder Wastes","x": 191,"y": 226},{"map": "Cinder Wastes","x": 314,"y": 213},{"map": "Cinder Wastes","x": 171,"y": 300},{"map": "Cinder Wastes","x": 287,"y": 283},{"map": "Cinder Wastes","x": 184,"y": 389},{"map": "Cinder Wastes","x": 274,"y": 380}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Cinder Wastes","x": 287,"y": 124},{"map": "Cinder Wastes","x": 191,"y": 226},{"map": "Cinder Wastes","x": 314,"y": 213},{"map": "Cinder Wastes","x": 171,"y": 300},{"map": "Cinder Wastes","x": 287,"y": 283},{"map": "Cinder Wastes","x": 184,"y": 389},{"map": "Cinder Wastes","x": 274,"y": 380}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Gabal'Thunn, the Visage of Madness","ref": "Fringes of Sanity/Gabal'Thunn, the Visage of Madness","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Cinder Wastes Secret Chest",
-        "map_locations": [{"map": "Cinder Wastes","x": 219,"y": 42}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Cinder Wastes","x": 219,"y": 42}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Cinder Wastes Secret Chest","ref": "Fringes of Sanity/Cinder Wastes Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Fringes of Sanity ",
-        "map_locations": [{"map": "Cinder Wastes","x": 189,"y": 252}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Cinder Wastes","x": 189,"y": 252}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Lunal'Valgoth, Steward of Darkness","ref": "Fringes of Sanity/Lunal'Valgoth, Steward of Darkness","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "The Bloodsworn Damned","ref": "Fringes of Sanity/The Bloodsworn Damned","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{ "name": "Fringes of Sanity Secret Chest","ref": "Fringes of Sanity/Fringes of Sanity Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Lunal'Valgoth, Steward of Darkness",
-        "map_locations": [{"map": "Fringes of Sanity","x": 80,"y": 52}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fringes of Sanity","x": 80,"y": 52}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Lunal'Valgoth, Steward of Darkness","ref": "Fringes of Sanity/Lunal'Valgoth, Steward of Darkness","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "The Bloodsworn Damned",
-        "map_locations": [{"map": "Fringes of Sanity","x": 64,"y": 45}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fringes of Sanity","x": 64,"y": 45}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Bloodsworn Damned","ref": "Fringes of Sanity/The Bloodsworn Damned","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Fringes of Sanity Secret Chest",
-        "map_locations": [{"map": "Fringes of Sanity","x": 264,"y": 151}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fringes of Sanity","x": 264,"y": 151}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Fringes of Sanity Secret Chest","ref": "Fringes of Sanity/Fringes of Sanity Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{
         "name": "Malmouth Outskirts - Sewer",
@@ -4711,7 +4725,7 @@
             }
         ],
         "access_rules": ["$hasAct8, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Terrnox",
@@ -4765,38 +4779,38 @@
             }
         ]
     },{ "name": "Burning Cellar",
-        "map_locations": [{"map": "Malmouth Outskirts","x": 410,"y": 361},{"map": "Malmouth Outskirts","x": 459,"y": 230}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Outskirts","x": 410,"y": 361},{"map": "Malmouth Outskirts","x": 459,"y": 230}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Terrnox","ref": "Malmouth Outskirts - Sewer/Terrnox","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "Burning Cellar Secret Chest","ref": "Malmouth Outskirts - Sewer/Burning Cellar Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Terrnox",
-        "map_locations": [{"map": "Burning Cellar","x": 200,"y": 331},{"map": "Burning Cellar","x": 348,"y": 217},{"map": "Burning Cellar","x": 284,"y": 179}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Burning Cellar","x": 200,"y": 331},{"map": "Burning Cellar","x": 348,"y": 217},{"map": "Burning Cellar","x": 284,"y": 179}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Terrnox","ref": "Malmouth Outskirts - Sewer/Terrnox","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Burning Cellar Secret Chest",
-        "map_locations": [{"map": "Burning Cellar","x": 434,"y": 133}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Burning Cellar","x": 434,"y": 133}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Burning Cellar Secret Chest","ref": "Malmouth Outskirts - Sewer/Burning Cellar Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Galakros, the Mountain",
-        "map_locations": [{"map": "Malmouth Sewers","x": 555,"y": 455}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Sewers","x": 555,"y": 455}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Galakros, the Mountain","ref": "Malmouth Outskirts - Sewer/Galakros, the Mountain","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasMalmouthSewer"]}]
     },{ "name": "Malmouth Sewers Secret Chest #1",
-        "map_locations": [{"map": "Malmouth Sewers","x": 417,"y": 720}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Sewers","x": 417,"y": 720}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Sewers Secret Chest #1","ref": "Malmouth Outskirts - Sewer/Malmouth Sewers Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Malmouth Sewers Secret Chest #2",
-        "map_locations": [{"map": "Malmouth Sewers","x": 192,"y": 617}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Sewers","x": 192,"y": 617}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Sewers Secret Chest #2","ref": "Malmouth Outskirts - Sewer/Malmouth Sewers Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Journal of Inquisitor Creed - 10th Entry",
-        "map_locations": [{"map": "Malmouth Sewers","x": 425,"y": 257}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Sewers","x": 425,"y": 257}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Journal of Inquisitor Creed - 10th Entry","ref": "Malmouth Outskirts - Sewer/Journal of Inquisitor Creed - 10th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]}]
     },{ "name": "Malmouth Outskirts Riftgate Secured",
-        "map_locations": [{"map": "Malmouth Outskirts","x": 383,"y": 121}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Outskirts","x": 383,"y": 121}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Outskirts Riftgate Secured","ref": "Malmouth Outskirts - Sewer/Malmouth Outskirts Riftgate Secured","chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png","chest_unopened_img": "images/ui/icon_riftgatedown_world.png"}]
     },{ "name": "Malmouth Outskirts Secret Chest",
-        "map_locations": [{"map": "Malmouth Outskirts","x": 46,"y": 274}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Outskirts","x": 46,"y": 274}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Outskirts Secret Chest","ref": "Malmouth Outskirts - Sewer/Malmouth Outskirts Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Malmouth Outskirts Devotion Shrine",
-        "map_locations": [{"map": "Malmouth Outskirts","x": 560,"y": 380}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Outskirts","x": 560,"y": 380}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Outskirts Devotion Shrine","ref": "Malmouth Outskirts - Sewer/Malmouth Outskirts Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
     },{ "name": "Aimee Brenoch's Journal - 2nd Entry",
-        "map_locations": [{"map": "Malmouth Outskirts","x": 471,"y": 381}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Outskirts","x": 471,"y": 381}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Aimee Brenoch's Journal - 2nd Entry","ref": "Malmouth Outskirts - Sewer/Aimee Brenoch's Journal - 2nd Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Candle District",
@@ -4816,7 +4830,7 @@
             }
         ],
         "access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Rescue Nicoh Erin",
@@ -4876,37 +4890,37 @@
             }
         ]
     },{ "name": "Rescue Nicoh Erin",
-        "map_locations": [{"map": "Candle District","x": 110,"y": 223}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 110,"y": 223}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rescue Nicoh Erin","ref": "Candle District/Rescue Nicoh Erin","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Ballog, Keeper of the Gates",
-        "map_locations": [{"map": "Candle District","x": 747,"y": 437}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 747,"y": 437}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ballog, Keeper of the Gates","ref": "Candle District/Ballog, Keeper of the Gates","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Someone on the Inside",
-        "map_locations": [{"map": "Candle District","x": 821,"y": 457}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 821,"y": 457}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Someone on the Inside","ref": "Candle District/Someone on the Inside","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"],"visibility_rules": ["$hasFactions"]}]
     },{ "name": "Bring out Your Dead",
-        "map_locations": [{"map": "Candle District","x": 328,"y": 366},{"map": "Candle District","x": 497,"y": 359},{"map": "Candle District","x": 585,"y": 73}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 328,"y": 366},{"map": "Candle District","x": 497,"y": 359},{"map": "Candle District","x": 585,"y": 73}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Bring out Your Dead","ref": "Candle District/Bring out Your Dead","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"],"visibility_rules": ["$hasFactions"]}]
     },{ "name": "Candle District Secret Chest #1",
-        "map_locations": [{"map": "Candle District","x": 198,"y": 261}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 198,"y": 261}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Candle District Secret Chest #1","ref": "Candle District/Candle District Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Candle District Secret Chest #2",
-        "map_locations": [{"map": "Candle District","x": 785,"y": 291}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 785,"y": 291}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Candle District Secret Chest #2","ref": "Candle District/Candle District Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Candle District Secret Chest #3",
-        "map_locations": [{"map": "Candle District","x": 342,"y": 473}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 342,"y": 473}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Candle District Secret Chest #3","ref": "Candle District/Candle District Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Letter to Councilman Cole",
-        "map_locations": [{"map": "Candle District","x": 693,"y": 176}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 693,"y": 176}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Letter to Councilman Cole","ref": "Candle District/Letter to Councilman Cole","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Rennoch the Rat's Warning",
-        "map_locations": [{"map": "Candle District","x": 740,"y": 365}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 740,"y": 365}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rennoch the Rat's Warning","ref": "Candle District/Rennoch the Rat's Warning","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Ripped Note - First Half",
-        "map_locations": [{"map": "Candle District","x": 593,"y": 294}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 593,"y": 294}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ripped Note - First Half","ref": "Candle District/Ripped Note - First Half","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Ripped Note - Second Half",
-        "map_locations": [{"map": "Candle District","x": 648,"y": 283}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Candle District","x": 648,"y": 283}],"access_rules": ["$hasCandleDistrict, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ripped Note - Second Half","ref": "Candle District/Ripped Note - Second Half","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Steelcap District",
@@ -4926,7 +4940,7 @@
             }
         ],
         "access_rules": ["$hasAct9, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Steelcap District Riftgate Secured",
@@ -4954,12 +4968,13 @@
             },{
                 "name": "Blugrug the Living Plague",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
-                "chest_unopened_img": "images/ui/icon_marker_red.png"
+                "chest_unopened_img": "images/ui/icon_marker_red.png",
+                "visibility_rules": ["$hasFGDLC"]
             },{
                 "name": "Swelling Depths Exalted Stash",
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
-                "visibility_rules": ["$hasOneShotChests"]
+                "visibility_rules": ["$hasOneShotChests, $hasFGDLC"]
             },{
                 "name": "Tomb of Herald Mathis Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -4974,7 +4989,7 @@
                 "name": "Steelcap District Secret Chest #2",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "Ransacked Lighthouse Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -4984,12 +4999,12 @@
                 "name": "Swelling Depths Secret Chest",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest.png",
-                "visibility_rules": ["$hasSecretChests"]
+                "visibility_rules": ["$hasSecretChests, $hasFGDLC"]
             },{
                 "name": "Ransacked Lighthouse Devotion Shrine",
                 "chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png",
                 "chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png",
-                "visibility_rules": ["$hasDevotionShrines"]
+                "visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]
             },{
                 "name": "Note to Aimee Brenoch",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
@@ -4999,64 +5014,64 @@
                 "name": "Redlight Misgivings",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "visibility_rules": ["$hasLoreNotes"]
+                "visibility_rules": ["$hasLoreNotes, $hasFGDLC"]
             }
         ]
     },{ "name": "Steelcap District Riftgate Secured",
-        "map_locations": [{"map": "Steelcap District","x": 630,"y": 402}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 630,"y": 402}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Steelcap District Riftgate Secured","ref": "Steelcap District/Steelcap District Riftgate Secured","chest_opened_img": "images/ui/icon_riftgatedown_world_checked.png","chest_unopened_img": "images/ui/icon_riftgatedown_world.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]}]
     },{ "name": "Rise of the Insurgence",
-        "map_locations": [{"map": "Steelcap District","x": 627,"y": 363}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 627,"y": 363}],"access_rules": ["$hasAct8, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rise of the Insurgence","ref": "Steelcap District/Rise of the Insurgence","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]}]
     },{ "name": "Reclaim Arcane Supplies",
-        "map_locations": [{"map": "Steelcap District","x": 403,"y": 468}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 403,"y": 468}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Reclaim Arcane Supplies","ref": "Steelcap District/Reclaim Arcane Supplies","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Rescue Vivian Neven",
-        "map_locations": [{"map": "Steelcap District","x": 117,"y": 533}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 117,"y": 533}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rescue Vivian Neven","ref": "Steelcap District/Rescue Vivian Neven","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Ransacked Lighthouse",
-        "map_locations": [{"map": "Steelcap District","x": 203,"y": 313},{"map": "Malmouth Harbor","x": 558,"y": 681}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 203,"y": 313},{"map": "Malmouth Harbor","x": 558,"y": 681}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Fleshshaper Hinissius","ref": "Steelcap District/Fleshshaper Hinissius","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "Ransacked Lighthouse Secret Chest","ref": "Steelcap District/Ransacked Lighthouse Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]
-            },{ "name": "Ransacked Lighthouse Devotion Shrine","ref": "Steelcap District/Ransacked Lighthouse Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+            },{ "name": "Ransacked Lighthouse Devotion Shrine","ref": "Steelcap District/Ransacked Lighthouse Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]}]
     },{ "name": "Fleshshaper Hinissius",
-        "map_locations": [{"map": "Ransacked Lighthouse","x": 202,"y": 290},{"map": "Ransacked Lighthouse","x": 228,"y": 162},{"map": "Ransacked Lighthouse","x": 69,"y": 131},{"map": "Ransacked Lighthouse","x": 134,"y": 69}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ransacked Lighthouse","x": 202,"y": 290},{"map": "Ransacked Lighthouse","x": 228,"y": 162},{"map": "Ransacked Lighthouse","x": 69,"y": 131},{"map": "Ransacked Lighthouse","x": 134,"y": 69}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Fleshshaper Hinissius","ref": "Steelcap District/Fleshshaper Hinissius","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Ransacked Lighthouse Secret Chest",
-        "map_locations": [{"map": "Ransacked Lighthouse","x": 247,"y": 221}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Ransacked Lighthouse","x": 247,"y": 221}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Ransacked Lighthouse Secret Chest","ref": "Steelcap District/Ransacked Lighthouse Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Ransacked Lighthouse Devotion Shrine",
-        "map_locations": [{"map": "Ransacked Lighthouse","x": 171,"y": 199}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Ransacked Lighthouse Devotion Shrine","ref": "Steelcap District/Ransacked Lighthouse Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
+        "map_locations": [{"map": "Ransacked Lighthouse","x": 171,"y": 199}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Ransacked Lighthouse Devotion Shrine","ref": "Steelcap District/Ransacked Lighthouse Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines, $hasFGDLC"]}]
     },{ "name": "Swelling Depths",
-        "map_locations": [{"map": "Steelcap District","x": 436,"y": 49},{"map": "Malmouth Harbor","x": 792,"y": 417}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Blugrug the Living Plague","ref": "Steelcap District/Blugrug the Living Plague","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
-            },{ "name": "Swelling Depths Exalted Stash","ref": "Steelcap District/Swelling Depths Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]
-            },{ "name": "Swelling Depths Secret Chest","ref": "Steelcap District/Swelling Depths Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+        "map_locations": [{"map": "Steelcap District","x": 436,"y": 49},{"map": "Malmouth Harbor","x": 792,"y": 417}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Blugrug the Living Plague","ref": "Steelcap District/Blugrug the Living Plague","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFGDLC"]
+            },{ "name": "Swelling Depths Exalted Stash","ref": "Steelcap District/Swelling Depths Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests, $hasFGDLC"]
+            },{ "name": "Swelling Depths Secret Chest","ref": "Steelcap District/Swelling Depths Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Blugrug the Living Plague",
-        "map_locations": [{"map": "Swelling Depths","x": 132,"y": 248}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Blugrug the Living Plague","ref": "Steelcap District/Blugrug the Living Plague","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+        "map_locations": [{"map": "Swelling Depths","x": 132,"y": 248}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Blugrug the Living Plague","ref": "Steelcap District/Blugrug the Living Plague","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","visibility_rules": ["$hasFGDLC"]}]
     },{ "name": "Swelling Depths Exalted Stash Possible Location",
-        "map_locations": [{"map": "Steelcap District","x": 375,"y": 107},{"map": "Swelling Depths","x": 477,"y": 179},{"map": "Swelling Depths","x": 266,"y": 391},{"map": "Malmouth Harbor","x": 730,"y": 476}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Swelling Depths Exalted Stash","ref": "Steelcap District/Swelling Depths Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
+        "map_locations": [{"map": "Steelcap District","x": 375,"y": 107},{"map": "Swelling Depths","x": 477,"y": 179},{"map": "Swelling Depths","x": 266,"y": 391},{"map": "Malmouth Harbor","x": 730,"y": 476}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Swelling Depths Exalted Stash","ref": "Steelcap District/Swelling Depths Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests, $hasFGDLC"]}]
     },{ "name": "Swelling Depths Secret Chest",
-        "map_locations": [{"map": "Swelling Depths","x": 115,"y": 116}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Swelling Depths Secret Chest","ref": "Steelcap District/Swelling Depths Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+        "map_locations": [{"map": "Swelling Depths","x": 115,"y": 116}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Swelling Depths Secret Chest","ref": "Steelcap District/Swelling Depths Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Tomb of Herald Mathis Secret Chest",
-        "map_locations": [{"map": "Steelcap District","x": 343,"y": 569},{"map": "Tomb of Herald Mathis","x": 266,"y": 196}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 343,"y": 569},{"map": "Tomb of Herald Mathis","x": 266,"y": 196}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Tomb of Herald Mathis Secret Chest","ref": "Steelcap District/Tomb of Herald Mathis Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Steelcap District Secret Chest #1",
-        "map_locations": [{"map": "Steelcap District","x": 197,"y": 549}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 197,"y": 549}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Steelcap District Secret Chest #1","ref": "Steelcap District/Steelcap District Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Steelcap District Secret Chest #2",
-        "map_locations": [{"map": "Steelcap District","x": 519,"y": 164},{"map": "Malmouth Harbor","x": 874,"y": 532}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Steelcap District Secret Chest #2","ref": "Steelcap District/Steelcap District Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
+        "map_locations": [{"map": "Steelcap District","x": 519,"y": 164},{"map": "Malmouth Harbor","x": 874,"y": 532}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Steelcap District Secret Chest #2","ref": "Steelcap District/Steelcap District Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests, $hasFGDLC"]}]
     },{ "name": "Note to Aimee Brenoch",
-        "map_locations": [{"map": "Steelcap District","x": 551,"y": 377}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Steelcap District","x": 551,"y": 377}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Note to Aimee Brenoch","ref": "Steelcap District/Note to Aimee Brenoch","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Redlight Misgivings",
-        "map_locations": [{"map": "Steelcap District","x": 425,"y": 60},{"map": "Malmouth Harbor","x": 782,"y": 424}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Redlight Misgivings","ref": "Steelcap District/Redlight Misgivings","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
+        "map_locations": [{"map": "Steelcap District","x": 425,"y": 60},{"map": "Malmouth Harbor","x": 782,"y": 424}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Redlight Misgivings","ref": "Steelcap District/Redlight Misgivings","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes, $hasFGDLC"]}]
     },{
         "name": "Malmouth Harbor",
         "map_locations": [
@@ -5071,7 +5086,7 @@
             }
         ],
         "access_rules": ["$hasAct9, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Claim Resistance Weapons",
@@ -5151,47 +5166,47 @@
             }
         ]
     },{ "name": "Claim Resistance Weapons",
-        "map_locations": [{"map": "Malmouth Harbor","x": 359,"y": 691}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 359,"y": 691}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Claim Resistance Weapons","ref": "Malmouth Harbor/Claim Resistance Weapons","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Fleshweaver Haraxis",
-        "map_locations": [{"map": "Malmouth Harbor","x": 238,"y": 884},{"map": "Malmouth Harbor","x": 298,"y": 524},{"map": "Malmouth Harbor","x": 385,"y": 694}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 238,"y": 884},{"map": "Malmouth Harbor","x": 298,"y": 524},{"map": "Malmouth Harbor","x": 385,"y": 694}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Fleshweaver Haraxis","ref": "Malmouth Harbor/Fleshweaver Haraxis","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Rescue Nadia",
-        "map_locations": [{"map": "Malmouth Harbor","x": 356,"y": 208}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 356,"y": 208}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rescue Nadia","ref": "Malmouth Harbor/Rescue Nadia","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Rescue Hyram",
-        "map_locations": [{"map": "Malmouth Harbor","x": 658,"y": 356}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 658,"y": 356}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rescue Hyram","ref": "Malmouth Harbor/Rescue Hyram","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "Secure the Blackiron Docks",
-        "map_locations": [{"map": "Malmouth Harbor","x": 65,"y": 526}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 65,"y": 526}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Secure the Blackiron Docks","ref": "Malmouth Harbor/Secure the Blackiron Docks","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]
             },{ "name": "Nearan's Work Log","ref": "Malmouth Harbor/Nearan's Work Log","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes, $hasFactions"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"]}]
     },{ "name": "Malmouth Harbor Exalted Stash #1",
-        "map_locations": [{"map": "Malmouth Harbor","x": 244,"y": 534}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 244,"y": 534}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Harbor Exalted Stash #1","ref": "Malmouth Harbor/Malmouth Harbor Exalted Stash #1","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"],"access_rules": ["$hasHarborStash"]}]
     },{ "name": "Malmouth Harbor Exalted Stash #2",
-        "map_locations": [{"map": "Malmouth Harbor","x": 375,"y": 59}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 375,"y": 59}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Harbor Exalted Stash #2","ref": "Malmouth Harbor/Malmouth Harbor Exalted Stash #2","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "Malmouth Harbor Secret Chest #1",
-        "map_locations": [{"map": "Malmouth Harbor","x": 219,"y": 941}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 219,"y": 941}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Harbor Secret Chest #1","ref": "Malmouth Harbor/Malmouth Harbor Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Malmouth Harbor Secret Chest #2",
-        "map_locations": [{"map": "Malmouth Harbor","x": 328,"y": 776}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 328,"y": 776}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Harbor Secret Chest #2","ref": "Malmouth Harbor/Malmouth Harbor Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Malmouth Harbor Secret Chest #3",
-        "map_locations": [{"map": "Malmouth Harbor","x": 528,"y": 585}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 528,"y": 585}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Harbor Secret Chest #3","ref": "Malmouth Harbor/Malmouth Harbor Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Malmouth Harbor Secret Chest #4",
-        "map_locations": [{"map": "Malmouth Harbor","x": 637,"y": 323}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 637,"y": 323}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Malmouth Harbor Secret Chest #4","ref": "Malmouth Harbor/Malmouth Harbor Secret Chest #4","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "City Guard's Log",
-        "map_locations": [{"map": "Malmouth Harbor","x": 301,"y": 694}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 301,"y": 694}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "City Guard's Log","ref": "Malmouth Harbor/City Guard's Log","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "To Shatter a City",
-        "map_locations": [{"map": "Malmouth Harbor","x": 440,"y": 694}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 440,"y": 694}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "To Shatter a City","ref": "Malmouth Harbor/To Shatter a City","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Clippings from Ivonda's Memory",
-        "map_locations": [{"map": "Malmouth Harbor","x": 416,"y": 100}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Malmouth Harbor","x": 416,"y": 100}],"access_rules": ["$hasAct9, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Clippings from Ivonda's Memory","ref": "Malmouth Harbor/Clippings from Ivonda's Memory","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"]}]
     },{
         "name": "Crown Hill",
@@ -5207,7 +5222,7 @@
             }
         ],
         "access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Destroy the Vents",
@@ -5275,43 +5290,43 @@
             }
         ]
     },{ "name": "Destroy the Vents",
-        "map_locations": [{"map": "Crown Hill","x": 269,"y": 620},{"map": "Crown Hill","x": 106,"y": 212},{"map": "Crown Hill","x": 457,"y": 216}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 269,"y": 620},{"map": "Crown Hill","x": 106,"y": 212},{"map": "Crown Hill","x": 457,"y": 216}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Destroy the Vents","ref": "Crown Hill/Destroy the Vents","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Valaxteria",
-        "map_locations": [{"map": "Crown Hill","x": 426,"y": 303}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 426,"y": 303}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Valaxteria","ref": "Crown Hill/Valaxteria","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Chamber of the High Council",
-        "map_locations": [{"map": "Crown Hill","x": 520,"y": 540}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 520,"y": 540}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Alberran Rein","ref": "Crown Hill/Alberran Rein","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]
             },{ "name": "Dreven Cole","ref": "Crown Hill/Dreven Cole","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]
             },{ "name": "Cyrian Marcan","ref": "Crown Hill/Cyrian Marcan","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]
             },{ "name": "Chamber of the High Council Secret Chest","ref": "Crown Hill/Chamber of the High Council Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions, $hasSecretChests"]
             },{ "name": "Council Report to Theodin Marcell","ref": "Crown Hill/Council Report to Theodin Marcell","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasLoreNotes, $hasFactions"]}]
     },{ "name": "High Council",
-        "map_locations": [{"map": "Chamber of the High Council","x": 98,"y": 151}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Chamber of the High Council","x": 98,"y": 151}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Alberran Rein","ref": "Crown Hill/Alberran Rein","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]
             },{ "name": "Dreven Cole","ref": "Crown Hill/Dreven Cole","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]
             },{ "name": "Cyrian Marcan","ref": "Crown Hill/Cyrian Marcan","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions"]}]
     },{ "name": "Chamber of the High Council Secret Chest",
-        "map_locations": [{"map": "Chamber of the High Council","x": 221,"y": 155}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Chamber of the High Council","x": 221,"y": 155}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Chamber of the High Council Secret Chest","ref": "Crown Hill/Chamber of the High Council Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasFactions, $hasSecretChests"]}]
     },{ "name": "Council Report to Theodin Marcell",
-        "map_locations": [{"map": "Chamber of the High Council","x": 117,"y": 125}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Chamber of the High Council","x": 117,"y": 125}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Council Report to Theodin Marcell","ref": "Crown Hill/Council Report to Theodin Marcell","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar, [$hasMalmouthResistanceRevered]"],"visibility_rules": ["$hasLoreNotes, $hasFactions"]}]
     },{ "name": "Crown Hill Secret Chest",
-        "map_locations": [{"map": "Crown Hill","x": 478,"y": 323}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 478,"y": 323}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Crown Hill Secret Chest","ref": "Crown Hill/Crown Hill Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Crown Hill Devotion Shrine",
-        "map_locations": [{"map": "Crown Hill","x": 428,"y": 354}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 428,"y": 354}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Crown Hill Devotion Shrine","ref": "Crown Hill/Crown Hill Devotion Shrine","chest_opened_img": "images/ui/icon_shrine_corrupted_world_checked.png","chest_unopened_img": "images/ui/icon_shrine_corrupted_world.png","visibility_rules": ["$hasDevotionShrines"]}]
     },{ "name": "From the Office of Councilman Cole",
-        "map_locations": [{"map": "Crown Hill","x": 443,"y": 245}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 443,"y": 245}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "From the Office of Councilman Cole","ref": "Crown Hill/From the Office of Councilman Cole","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Letter to Theodin Marcell",
-        "map_locations": [{"map": "Crown Hill","x": 518,"y": 247}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 518,"y": 247}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Letter to Theodin Marcell","ref": "Crown Hill/Letter to Theodin Marcell","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Letter to Ronald Marion",
-        "map_locations": [{"map": "Crown Hill","x": 190,"y": 231}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Crown Hill","x": 190,"y": 231}],"access_rules": ["$hasCrownHill, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Letter to Ronald Marion","ref": "Crown Hill/Letter to Ronald Marion","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Fleshworks",
@@ -5331,13 +5346,13 @@
             }
         ],
         "access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],
-        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],
+        "visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],
         "sections": [
             {
                 "name": "Master of Flesh",
                 "chest_opened_img": "images/ui/icon_boss_checked.png",
                 "chest_unopened_img": "images/ui/icon_boss.png",
-                "access_rules": ["$hasSanctumOfFlesh"]
+                "access_rules": ["$hasSanctumOfFlesh, $hasAoMDLC"]
             },{
                 "name": "Fleshweaver Krieg",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
@@ -5368,7 +5383,7 @@
                 "chest_opened_img": "images/ui/icon_chest_one_shot_checked.png",
                 "chest_unopened_img": "images/ui/icon_chest_one_shot.png",
                 "visibility_rules": ["$hasOneShotChests"],
-                "access_rules": ["$hasSanctumOfFlesh"]
+                "access_rules": ["$hasSanctumOfFlesh, $hasAoMDLC"]
             },{
                 "name": "The Infestation Secret Chest #1",
                 "chest_opened_img": "images/ui/icon_chest_checked.png",
@@ -5404,45 +5419,45 @@
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
                 "visibility_rules": ["$hasLoreNotes"],
-                "access_rules": ["$hasSanctumOfFlesh"]
+                "access_rules": ["$hasSanctumOfFlesh, $hasAoMDLC"]
             }
         ]
     },{ "name": "Sanctum of Flesh",
-        "map_locations": [{"map": "Fleshworks","x": 392,"y": 52},{"map": "Sanctum of Flesh","x": 151,"y": 116}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
-            { "name": "Master of Flesh","ref": "Fleshworks/Master of Flesh","chest_opened_img": "images/ui/icon_boss_checked.png","chest_unopened_img": "images/ui/icon_boss.png","access_rules": ["$hasSanctumOfFlesh"]
-            },{ "name": "The Master's Collection","ref": "Fleshworks/The Master's Collection","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"],"access_rules": ["$hasSanctumOfFlesh"]
-            },{ "name": "Missive to the Master of Flesh","ref": "Fleshworks/Missive to the Master of Flesh","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasSanctumOfFlesh"]}]
+        "map_locations": [{"map": "Fleshworks","x": 392,"y": 52},{"map": "Sanctum of Flesh","x": 151,"y": 116}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+            { "name": "Master of Flesh","ref": "Fleshworks/Master of Flesh","chest_opened_img": "images/ui/icon_boss_checked.png","chest_unopened_img": "images/ui/icon_boss.png","access_rules": ["$hasSanctumOfFlesh, $hasAoMDLC"]
+            },{ "name": "The Master's Collection","ref": "Fleshworks/The Master's Collection","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"],"access_rules": ["$hasSanctumOfFlesh, $hasAoMDLC"]
+            },{ "name": "Missive to the Master of Flesh","ref": "Fleshworks/Missive to the Master of Flesh","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"],"access_rules": ["$hasSanctumOfFlesh, $hasAoMDLC"]}]
     },{ "name": "Fleshweaver Krieg",
-        "map_locations": [{"map": "Fleshworks","x": 80,"y": 178}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fleshworks","x": 80,"y": 178}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Fleshweaver Krieg","ref": "Fleshworks/Fleshweaver Krieg","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "Burn The Womb","ref": "Fleshworks/Burn The Womb","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"
             },{ "name": "Birthing Success","ref": "Fleshworks/Birthing Success","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{ "name": "Hagalvar, the Bone Monger",
-        "map_locations": [{"map": "Fleshworks","x": 297,"y": 298},{"map": "Fleshworks","x": 236,"y": 195},{"map": "Fleshworks","x": 366,"y": 173},{"map": "Fleshworks","x": 416,"y": 103}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fleshworks","x": 297,"y": 298},{"map": "Fleshworks","x": 236,"y": 195},{"map": "Fleshworks","x": 366,"y": 173},{"map": "Fleshworks","x": 416,"y": 103}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Hagalvar, the Bone Monger","ref": "Fleshworks/Hagalvar, the Bone Monger","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Rodalgar, the Flesh Collector",
-        "map_locations": [{"map": "Fleshworks","x": 441,"y": 92},{"map": "Fleshworks","x": 506,"y": 180},{"map": "Fleshworks","x": 466,"y": 313},{"map": "Fleshworks","x": 619,"y": 298}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fleshworks","x": 441,"y": 92},{"map": "Fleshworks","x": 506,"y": 180},{"map": "Fleshworks","x": 466,"y": 313},{"map": "Fleshworks","x": 619,"y": 298}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Rodalgar, the Flesh Collector","ref": "Fleshworks/Rodalgar, the Flesh Collector","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Atherial Traitor",
-        "map_locations": [{"map": "Fleshworks","x": 663,"y": 313}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fleshworks","x": 663,"y": 313}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Atherial Traitor","ref": "Fleshworks/Atherial Traitor","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"}]
     },{ "name": "The Infestation Exalted Stash",
-        "map_locations": [{"map": "Infestation","x": 497,"y": 371}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 497,"y": 371}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Exalted Stash","ref": "Fleshworks/The Infestation Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "The Infestation Secret Chest #1",
-        "map_locations": [{"map": "Infestation","x": 544,"y": 406}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 353,"y": 307}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Secret Chest #1","ref": "Fleshworks/The Infestation Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "The Infestation Secret Chest #2",
-        "map_locations": [{"map": "Infestation","x": 175,"y": 407}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 544,"y": 406}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Secret Chest #2","ref": "Fleshworks/The Infestation Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "The Infestation Secret Chest #3",
-        "map_locations": [{"map": "Infestation","x": 353,"y": 307}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 175,"y": 407}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Secret Chest #3","ref": "Fleshworks/The Infestation Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Fleshworks Secret Chest",
-        "map_locations": [{"map": "Fleshworks","x": 541,"y": 256}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Fleshworks","x": 541,"y": 256}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "Fleshworks Secret Chest","ref": "Fleshworks/Fleshworks Secret Chest","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "A New Consensus",
-        "map_locations": [{"map": "Infestation","x": 190,"y": 770}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 190,"y": 770}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "A New Consensus","ref": "Fleshworks/A New Consensus","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
     },{
         "name": "Conclave of the Three",
@@ -5469,7 +5484,7 @@
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
-                "name": "The Test",
+                "name": "Worthy of Solael",
                 "chest_opened_img": "images/ui/icon_marker_red_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_red.png"
             },{
@@ -5564,9 +5579,9 @@
     },{ "name": "Terrors of the Eldritch Realm",
         "map_locations": [{"map": "Veiled Den","x": 90,"y": 288}],"access_rules": ["$hasAct10"],"visibility_rules": ["$hasGoalOfAtLeastKorvaak"],"sections": [
             { "name": "Terrors of the Eldritch Realm","ref": "Conclave of the Three/Terrors of the Eldritch Realm","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]}]
-    },{ "name": "The Test",
+    },{ "name": "Worthy of Solael",
         "map_locations": [{"map": "Conclave of the Three","x": 201,"y": 111}],"access_rules": ["$hasAct10"],"visibility_rules": ["$hasGoalOfAtLeastKorvaak"],"sections": [
-            { "name": "The Test","ref": "Conclave of the Three/The Test","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+            { "name": "Worthy of Solael","ref": "Conclave of the Three/Worthy of Solael","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Faction Quests",
         "map_locations": [{"map": "Conclave of the Three","x": 127,"y": 92},{"map": "Conclave of the Three","x": 255,"y": 118},{"map": "Conclave of the Three","x": 92,"y": 166}],"access_rules": ["$hasAct10"],"visibility_rules": ["$hasGoalOfAtLeastKorvaak"],"sections": [
             { "name": "Forgotten Gods Story Quest 1","ref": "Conclave of the Three/Forgotten Gods Story Quest 1","chest_opened_img": "images/ui/icon_marker_blue_checked.png","chest_unopened_img": "images/ui/icon_marker_blue.png"

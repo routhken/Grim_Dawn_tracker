@@ -63,6 +63,9 @@
                                 "setting_free_respec",
                                 "setting_starting_bonus",
                                 "setting_prog_prog"
+                            ],
+                            [
+                                "setting_devotion_rando"
                             ]
                         ]
                     }
