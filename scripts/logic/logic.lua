@@ -88,6 +88,14 @@ function hasAct6()
     return (hasAct5() and has("fort_ikon_destroy_blockade")) or has_at_least("progressive_main",5)
 end
 
+function hasFactionQuest6Hard()
+    return hasAct6() and hasEastMarsh()
+end
+
+function hasFactionQuest6Soft()
+    return hasAct6() or hasEastMarsh()
+end
+
 function hasBastionOfChaos()
     return hasAct6() and has("necropolis_bridge_repair")
 end

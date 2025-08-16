@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "2.2.0",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v2.2.0/Grim_Dawn_aptracker.zip",
+            "sha256": "655072987ba0fd6802b1c54f82d526fd63590d873fe1332261abf3801818a8b2",
+            "changelog": [
+                "Minor Update",
+                " - Added Old Scars node to the twin falls arkovia map",
+                " - Fixed Kymon/Vigil faction quest 5&6 logic",
+                " - Fixed Creed's 9th Jounral logic",
+                " - Fixed The Infestation secret chests being swapped among each other again"
+            ]
+        },{
             "package_version": "2.1.0",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v2.1.0/Grim_Dawn_aptracker.zip",
             "sha256": "bc8cbd3fb0090a0c91452645c495f8d41879b93871a737627fd774c409c84261",

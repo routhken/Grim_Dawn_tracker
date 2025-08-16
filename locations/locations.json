@@ -1512,6 +1512,9 @@
     },{ "name": "Rhovena Kur",
         "map_locations": [{"map": "Arkovian Undercity 2","x": 257,"y": 151}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
             { "name": "Rhovena Kur","ref": "Arkovian Undercity/Rhovena Kur","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
+    },{ "name": "Old Scars",
+        "map_locations": [{"map": "Twin Falls","x": 530,"y": 365}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
+            { "name": "Old Scars","ref": "Arkovian Undercity/Old Scars","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Kilrian",
         "map_locations": [{"map": "Arkovian Undercity 3","x": 101,"y": 108}],"access_rules": ["$hasAct3"],"visibility_rules": ["$hasGoalOfAtLeastRavna"],"sections": [
             { "name": "Kilrian","ref": "Arkovian Undercity/Kilrian","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
@@ -2621,12 +2624,12 @@
                 "name": "Death's Vigil - Kymon's Chosen Faction Quest 5",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
-                "access_rules": ["[$hasDeathsVigilKymonsChosenRevered]"]
+                "access_rules": ["[$hasAct6], [$hasDeathsVigilKymonsChosenRevered]"]
             },{
                 "name": "Death's Vigil - Kymon's Chosen Faction Quest 6",
                 "chest_opened_img": "images/ui/icon_marker_blue_checked.png",
                 "chest_unopened_img": "images/ui/icon_marker_blue.png",
-                "access_rules": ["$hasEastMarsh, [$hasDeathsVigilKymonsChosenRevered]"]
+                "access_rules": ["[$hasFactionQuest6Hard], $hasFactionQuest6Soft, [$hasDeathsVigilKymonsChosenRevered]"]
             }
         ]
     },{
@@ -3243,7 +3246,7 @@
                 "name": "Journal of Inquisitor Creed - 9th Entry",
                 "chest_opened_img": "images/ui/icon_lore_note_checked.png",
                 "chest_unopened_img": "images/ui/icon_lore_note.png",
-                "access_rules": ["$hasEdgeOfMadness, $hasWardensCellar"],
+                "access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"],
                 "visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"]
             }
         ]
@@ -3288,7 +3291,7 @@
     },{ "name": "Scouting Report and Journal",
         "map_locations": [{"map": "Fort Ikon","x": 786,"y": 343}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Black Legion Scouting Report: Necropolis","ref": "Fort Ikon/Black Legion Scouting Report: Necropolis","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","visibility_rules": ["$hasLoreNotes"]
-            },{ "name": "Journal of Inquisitor Creed - 9th Entry","ref": "Fort Ikon/Journal of Inquisitor Creed - 9th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","access_rules": ["$hasEdgeOfMadness, $hasWardensCellar"],"visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"]}]
+            },{ "name": "Journal of Inquisitor Creed - 9th Entry","ref": "Fort Ikon/Journal of Inquisitor Creed - 9th Entry","chest_opened_img": "images/ui/icon_lore_note_checked.png","chest_unopened_img": "images/ui/icon_lore_note.png","access_rules": ["$hasEdgeOfMadness, $hasHomesteadSideDoors, $hasWardensCellar"],"visibility_rules": ["$hasLoreNotes, $hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"]}]
     },{
         "name": "The Immolation",
         "map_locations": [
@@ -5445,13 +5448,13 @@
         "map_locations": [{"map": "Infestation","x": 497,"y": 371}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Exalted Stash","ref": "Fleshworks/The Infestation Exalted Stash","chest_opened_img": "images/ui/icon_chest_one_shot_checked.png","chest_unopened_img": "images/ui/icon_chest_one_shot.png","visibility_rules": ["$hasOneShotChests"]}]
     },{ "name": "The Infestation Secret Chest #1",
-        "map_locations": [{"map": "Infestation","x": 353,"y": 307}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 175,"y": 407}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Secret Chest #1","ref": "Fleshworks/The Infestation Secret Chest #1","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "The Infestation Secret Chest #2",
-        "map_locations": [{"map": "Infestation","x": 544,"y": 406}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 353,"y": 307}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Secret Chest #2","ref": "Fleshworks/The Infestation Secret Chest #2","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "The Infestation Secret Chest #3",
-        "map_locations": [{"map": "Infestation","x": 175,"y": 407}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
+        "map_locations": [{"map": "Infestation","x": 544,"y": 406}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
             { "name": "The Infestation Secret Chest #3","ref": "Fleshworks/The Infestation Secret Chest #3","chest_opened_img": "images/ui/icon_chest_checked.png","chest_unopened_img": "images/ui/icon_chest.png","visibility_rules": ["$hasSecretChests"]}]
     },{ "name": "Fleshworks Secret Chest",
         "map_locations": [{"map": "Fleshworks","x": 541,"y": 256}],"access_rules": ["$hasFleshworks, [$hasAoMLeveling]"],"visibility_rules": ["$hasGoalOfAtLeastMasterOfFlesh, $hasAoMDLC"],"sections": [
