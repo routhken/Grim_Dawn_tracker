@@ -2723,8 +2723,8 @@
         "map_locations": [{"map": "Blood Grove","x": 791,"y": 476},{"map": "Bone Pit","x": 143,"y": 70}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Wraith of Sorrows","ref": "Blood Grove/Wraith of Sorrows","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"
             },{ "name": "A Stranger in Need","ref": "Blood Grove/A Stranger in Need","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
-    },{ "name": "Ashen Waste",
-        "map_locations": [{"map": "Blood Grove","x": 217,"y": 763},{"map": "Blood Grove","x": 251,"y": 834},{"map": "Blood Grove","x": 375,"y": 747},{"map": "Blood Grove","x": 354,"y": 660},{"map": "Blood Grove","x": 490,"y": 725},{"map": "Blood Grove","x": 545,"y": 604}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
+    },{ "name": "Ashen Waste - Possible Location",
+        "map_locations": [{"map": "Blood Grove","x": 217,"y": 763},{"map": "Blood Grove","x": 251,"y": 834},{"map": "Blood Grove","x": 375,"y": 747},{"map": "Blood Grove","x": 354,"y": 660},{"map": "Blood Grove","x": 490,"y": 725},{"map": "Blood Grove","x": 545,"y": 604},{"map": "Ashen Waste","x": 201,"y": 370},{"map": "Ashen Waste","x": 313,"y": 389},{"map": "Ashen Waste","x": 388,"y": 441}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
             { "name": "Rag'Nadar, the Great Maw","ref": "Blood Grove/Rag'Nadar, the Great Maw","chest_opened_img": "images/ui/icon_marker_red_checked.png","chest_unopened_img": "images/ui/icon_marker_red.png"}]
     },{ "name": "Venarius, the Backbreaker",
         "map_locations": [{"map": "Stonerend Quarry","x": 192,"y": 104}],"access_rules": ["$hasAct4"],"visibility_rules": ["$hasGoalOfAtLeastLoghorrean"],"sections": [
