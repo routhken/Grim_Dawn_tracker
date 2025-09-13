@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "2.2.2",
+            "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v2.2.2/Grim_Dawn_aptracker.zip",
+            "sha256": "5e5aa7aecc67dc39dac5c34c57cf9429cc28cb5947dcae43325ce031df90cecb",
+            "changelog": [
+                "Minor Update",
+                " - Made Tyrant's Hold and adjacent areas unaccessable with Twin Falls item if FG dlc is disabled"
+            ]
+        },{
             "package_version": "2.2.1",
             "download_url": "https://github.com/routhken/Grim_Dawn_tracker/releases/download/v2.2.1/Grim_Dawn_aptracker.zip",
             "sha256": "684006c3f4076ed83990650ba8db912c5344849df68c1c60f4c6bdc73d40aea5",

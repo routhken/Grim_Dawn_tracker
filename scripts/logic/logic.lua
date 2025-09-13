@@ -57,7 +57,7 @@ function hasFourHillsSecret()
 end
 
 function hasTyrantsHold()
-    return hasAct3() and (has("twin_falls_bridge_repair") or has("prospectors_trail_destroy_barricade"))
+    return hasAct3() and ((has("twin_falls_bridge_repair") and has("setting_fgdlc")) or has("prospectors_trail_destroy_barricade"))
 end
 
 function hasPortValbury()
